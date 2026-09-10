@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GovScheme QA — Deterministic AI for India Welfare Schemes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    :root {
+      --bg-primary: #0a0f1d;
+      --bg-surface: rgba(18, 26, 47, 0.75);
+      --bg-card: rgba(28, 38, 68, 0.55);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-focus: rgba(99, 102, 241, 0.5);
+      --text-primary: #f8fafc;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      --accent-primary: #6366f1;
+      --accent-glow: rgba(99, 102, 241, 0.35);
+      --accent-emerald: #10b981;
+      --accent-cyan: #06b6d4;
+      --accent-amber: #f59e0b;
+      --font-sans: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: radial-gradient(circle at 15% 15%, #151b36 0%, #0a0f1d 75%);
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: rgba(10, 15, 29, 0.85);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border-color);
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .brand-logo {
+      width: 36px;
+      height: 36px;
+      background: linear-gradient(135deg, #6366f1, #06b6d4);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      color: #fff;
+      box-shadow: 0 0 15px var(--accent-glow);
+    }
+
+    .brand h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .brand span {
+      background: linear-gradient(90deg, #6366f1, #06b6d4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .system-badge {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      padding: 0.35rem 0.85rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #34d399;
+    }
+
+    .pulse-dot {
+      width: 7px;
+      height: 7px;
+      background: #10b981;
+      border-radius: 50%;
+      box-shadow: 0 0 8px #10b981;
+    }
+
+    main {
+      max-width: 1100px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem 1.5rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 1.75rem;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero h2 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero p {
+      color: var(--text-secondary);
+      font-size: 1rem;
+      max-width: 650px;
+      margin: 0 auto;
+    }
+
+    .search-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 1.5rem;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .search-row {
+      display: flex;
+      gap: 0.75rem;
+    }
+
+    .input-wrapper {
+      position: relative;
+      flex: 1;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      background: rgba(11, 17, 33, 0.8);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 0.95rem 1.25rem;
+      font-size: 1rem;
+      color: #fff;
+      font-family: var(--font-sans);
+      transition: all 0.2s ease;
+    }
+
+    input[type="text"]:focus {
+      outline: none;
+      border-color: var(--accent-primary);
+      box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+    }
+
+    button.btn-primary {
+      background: linear-gradient(135deg, #6366f1, #4f46e5);
+      border: none;
+      color: #fff;
+      font-weight: 600;
+      font-size: 0.95rem;
+      padding: 0.95rem 1.75rem;
+      border-radius: 12px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+    }
+
+    button.btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5);
+    }
+
+    .controls-row {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    select {
+      background: rgba(11, 17, 33, 0.8);
+      border: 1px solid var(--border-color);
+      color: var(--text-secondary);
+      border-radius: 8px;
+      padding: 0.45rem 0.85rem;
+      font-size: 0.85rem;
+      outline: none;
+    }
+
+    .chips-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-top: 1.25rem;
+      margin-bottom: 0.6rem;
+    }
+
+    .chips-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .chip {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border-color);
+      color: var(--text-secondary);
+      padding: 0.4rem 0.85rem;
+      border-radius: 999px;
+      font-size: 0.825rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .chip:hover {
+      background: rgba(99, 102, 241, 0.15);
+      border-color: rgba(99, 102, 241, 0.4);
+      color: #fff;
+    }
+
+    .result-container {
+      display: none;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 2rem;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .meta-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 1rem;
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border-color);
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .tags {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .tag {
+      background: rgba(99, 102, 241, 0.12);
+      border: 1px solid rgba(99, 102, 241, 0.3);
+      color: #a5b4fc;
+      padding: 0.25rem 0.65rem;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      font-family: var(--font-mono);
+    }
+
+    .tag.latency {
+      background: rgba(16, 185, 129, 0.12);
+      border-color: rgba(16, 185, 129, 0.3);
+      color: #6ee7b7;
+    }
+
+    .tag.retrieval {
+      background: rgba(6, 182, 212, 0.12);
+      border-color: rgba(6, 182, 212, 0.3);
+      color: #67e8f9;
+    }
+
+    .markdown-content {
+      line-height: 1.7;
+      color: #cbd5e1;
+      font-size: 0.95rem;
+    }
+
+    .markdown-content h3 {
+      color: #fff;
+      font-size: 1.35rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .markdown-content strong {
+      color: #f1f5f9;
+    }
+
+    .markdown-content ul, .markdown-content ol {
+      margin-left: 1.5rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .markdown-content li {
+      margin-bottom: 0.4rem;
+    }
+
+    .markdown-content hr {
+      border: none;
+      border-top: 1px solid var(--border-color);
+      margin: 1.5rem 0;
+    }
+
+    .markdown-content blockquote {
+      border-left: 3px solid var(--accent-cyan);
+      padding-left: 1rem;
+      margin: 0.5rem 0;
+      color: #e2e8f0;
+      background: rgba(6, 182, 212, 0.05);
+      padding: 0.75rem 1rem;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .citation-box {
+      margin-top: 1.5rem;
+      background: rgba(11, 17, 33, 0.6);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 1rem;
+    }
+
+    .citation-title {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .citation-item {
+      font-size: 0.825rem;
+      color: var(--text-secondary);
+      font-family: var(--font-mono);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .page-tag {
+      background: #334155;
+      color: #f8fafc;
+      padding: 0.15rem 0.45rem;
+      border-radius: 4px;
+      font-size: 0.7rem;
+    }
+
+    footer {
+      border-top: 1px solid var(--border-color);
+      text-align: center;
+      padding: 1.5rem;
+      color: var(--text-muted);
+      font-size: 0.825rem;
+      background: rgba(10, 15, 29, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="brand-logo">GOV</div>
+      <h1><span>GovScheme</span> QA Engine</h1>
+    </div>
+    <div class="system-badge">
+      <div class="pulse-dot"></div>
+      100% Deterministic • Zero LLM
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Deterministic Scheme Question Answering</h2>
+      <p>Instantaneous, statutory answers for Government of India schemes powered by verified structured rules, FTS5 BM25, and lightweight classification.</p>
+    </section>
+
+    <section class="search-card">
+      <div class="search-row">
+        <div class="input-wrapper">
+          <input type="text" id="queryInput" placeholder="Ask any question about benefits, rules, eligibility, or procedures..." autofocus />
+        </div>
+        <button class="btn-primary" id="searchBtn">
+          Ask System
+        </button>
+      </div>
+
+      <div class="controls-row">
+        <label style="font-size: 0.85rem; color: var(--text-secondary);">Target Scheme (Optional):</label>
+        <select id="schemeFilter">
+          <option value="">Auto-Detect from Query</option>
+        </select>
+      </div>
+
+      <div class="chips-label">Sample Questions</div>
+      <div class="chips-container">
+        <div class="chip" onclick="setQuery('What are the benefits of ONORC?')">Benefits of ONORC</div>
+        <div class="chip" onclick="setQuery('What documents do I need for PM Vishwakarma?')">Documents for PM Vishwakarma</div>
+        <div class="chip" onclick="setQuery('How to apply for PM Surya Ghar?')">How to apply for PM Surya Ghar</div>
+        <div class="chip" onclick="setQuery('Who is excluded from PM-KISAN?')">Exclusions under PM-KISAN</div>
+        <div class="chip" onclick="setQuery('I am 28 years old earning 11000 per month as a daily wager. Am I eligible for PM-SYM?')">Am I eligible for PM-SYM? (Age 28, Rs 11k)</div>
+        <div class="chip" onclick="setQuery('Which ministry administers PM SVANidhi and what is the helpline?')">Helpline & Ministry for PM SVANidhi</div>
+        <div class="chip" onclick="setQuery('List all government schemes')">List all 29 schemes</div>
+      </div>
+    </section>
+
+    <section class="result-container" id="resultContainer">
+      <div class="meta-bar">
+        <div class="tags">
+          <div class="tag" id="intentTag">INTENT: ...</div>
+          <div class="tag retrieval" id="retrievalTag">METHOD: ...</div>
+          <div class="tag latency" id="latencyTag">LATENCY: ...</div>
+        </div>
+      </div>
+
+      <div class="markdown-content" id="markdownOutput"></div>
+
+      <div class="citation-box" id="citationBox">
+        <div class="citation-title">Provable Statutory Sources</div>
+        <div id="citationList"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Government of India Schemes QA System • Engineered with Purely Deterministic NLP & Storage • No Generative Hallucinations
+  </footer>
+
+  <script>
+    async function loadSchemes() {
+      try {
+        const res = await fetch('/api/schemes');
+        const data = await res.json();
+        const select = document.getElementById('schemeFilter');
+        data.schemes.forEach(s => {
+          const opt = document.createElement('option');
+          opt.value = s.scheme_id;
+          opt.textContent = `${s.official_name} (${s.abbreviation || s.scheme_id})`;
+          select.appendChild(opt);
+        });
+      } catch (err) {
+        console.error('Failed to load schemes:', err);
+      }
+    }
+
+    async function executeQuery() {
+      const query = document.getElementById('queryInput').value.trim();
+      if (!query) return;
+
+      const filter = document.getElementById('schemeFilter').value || null;
+      const btn = document.getElementById('searchBtn');
+      btn.disabled = true;
+      btn.textContent = 'Querying...';
+
+      try {
+        const res = await fetch('/api/query', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ query: query, scheme_filter: filter })
+        });
+
+        const data = await res.json();
+
+        // Render tags
+        document.getElementById('intentTag').textContent = `INTENT: ${data.intent} (${Math.round(data.intent_confidence * 100)}%)`;
+        document.getElementById('retrievalTag').textContent = `RETRIEVAL: ${data.retrieval_method}`;
+        document.getElementById('latencyTag').textContent = `LATENCY: ${data.metadata.latency_ms || 3}ms`;
+
+        // Render markdown
+        document.getElementById('markdownOutput').innerHTML = marked.parse(data.answer);
+
+        // Render citations
+        const citList = document.getElementById('citationList');
+        citList.innerHTML = '';
+        if (data.citations && data.citations.length > 0) {
+          data.citations.forEach(c => {
+            const el = document.createElement('div');
+            el.className = 'citation-item';
+            el.innerHTML = `📜 <strong>${c.scheme_name || c.scheme_id}</strong> (${c.section}) &rarr; <span class="page-tag">Page ${c.page_numbers.join(', ')}</span>`;
+            citList.appendChild(el);
+          });
+          document.getElementById('citationBox').style.display = 'block';
+        } else {
+          document.getElementById('citationBox').style.display = 'none';
+        }
+
+        document.getElementById('resultContainer').style.display = 'block';
+        document.getElementById('resultContainer').scrollIntoView({ behavior: 'smooth' });
+
+      } catch (err) {
+        alert('Error querying system: ' + err.message);
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Ask System';
+      }
+    }
+
+    function setQuery(q) {
+      document.getElementById('queryInput').value = q;
+      executeQuery();
+    }
+
+    document.getElementById('searchBtn').addEventListener('click', executeQuery);
+    document.getElementById('queryInput').addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') executeQuery();
+    });
+
+    loadSchemes();
+  </script>
+</body>
+</html>

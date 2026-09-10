@@ -1,0 +1,387 @@
+{
+  "SCH_ONORC": {
+    "pages": [
+      1,
+      2
+    ],
+    "sections": [
+      "Short Description",
+      "Details",
+      "Benefits",
+      "Eligibility",
+      "Application Process",
+      "Documents Required",
+      "FAQs"
+    ],
+    "ministry": "Ministry of Consumer Affairs, Food & Public Distribution"
+  },
+  "SCH_PMSYM": {
+    "pages": [
+      3,
+      4,
+      5
+    ],
+    "sections": [
+      "e-Shram Social Security Welfare Schemes",
+      "PMSYM eligibility and benefits"
+    ],
+    "ministry": "Ministry of Labour & Employment"
+  },
+  "SCH_NPST": {
+    "pages": [
+      3,
+      4
+    ],
+    "sections": [
+      "e-Shram Social Security Welfare Schemes",
+      "NPS eligibility and benefits"
+    ],
+    "ministry": "Ministry of Labour & Employment"
+  },
+  "SCH_PMJJBY": {
+    "pages": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "sections": [
+      "PMJJBY eligibility",
+      "PMJJBY benefits",
+      "PMJJBY FAQs",
+      "Revised Rules PMJJBY"
+    ],
+    "ministry": "Ministry of Finance"
+  },
+  "SCH_PMSBY": {
+    "pages": [
+      5,
+      6
+    ],
+    "sections": [
+      "e-Shram Social Security Welfare Schemes",
+      "PMSBY eligibility"
+    ],
+    "ministry": "Ministry of Finance"
+  },
+  "SCH_APY": {
+    "pages": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "sections": [
+      "APY gazette notification",
+      "APY guidelines",
+      "APY FAQs"
+    ],
+    "ministry": "Ministry of Finance"
+  },
+  "SCH_PMKISAN": {
+    "pages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "sections": [
+      "PM-KISAN FAQs Set 1",
+      "PM-KISAN FAQs Set 2"
+    ],
+    "ministry": "Ministry of Agriculture and Farmers Welfare"
+  },
+  "SCH_PMSURYA": {
+    "pages": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "sections": [
+      "PM Surya Ghar details",
+      "Consumer Application Journey",
+      "Benefits",
+      "FAQs"
+    ],
+    "ministry": "Ministry of New and Renewable Energy"
+  },
+  "SCH_SVANIDHI": {
+    "pages": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "sections": [
+      "PM SVANidhi Scheme FAQs Generic",
+      "FAQs For Beneficiaries"
+    ],
+    "ministry": "Ministry of Housing and Urban Affairs"
+  },
+  "SCH_VISHWA": {
+    "pages": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "sections": [
+      "PM Vishwakarma FAQs"
+    ],
+    "ministry": "Ministry of Micro, Small and Medium Enterprises"
+  },
+  "SCH_PMUY": {
+    "pages": [
+      32,
+      33,
+      34,
+      35
+    ],
+    "sections": [
+      "PMUY description",
+      "Eligibility",
+      "Documents",
+      "Benefits",
+      "PMUY FAQs"
+    ],
+    "ministry": "Ministry of Petroleum and Natural Gas"
+  },
+  "SCH_PMSBY_FULL": {
+    "pages": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "sections": [
+      "PMSBY detailed rules",
+      "PMSBY FAQs"
+    ],
+    "ministry": "Ministry of Finance"
+  },
+  "SCH_PMMY": {
+    "pages": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "sections": [
+      "PMMY description",
+      "MUDRA offerings",
+      "Loan categories"
+    ],
+    "ministry": "Ministry of Finance"
+  },
+  "SCH_PMFBY": {
+    "pages": [
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "sections": [
+      "PMFBY Operational Guidelines",
+      "PMFBY FAQs"
+    ],
+    "ministry": "Ministry of Agriculture and Farmers Welfare"
+  },
+  "SCH_SSY": {
+    "pages": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "sections": [
+      "SSY details",
+      "SSY FAQs"
+    ],
+    "ministry": "Ministry of Finance"
+  },
+  "SCH_PMAYG": {
+    "pages": [
+      55,
+      56,
+      57,
+      58
+    ],
+    "sections": [
+      "PMAY-G Framework 2022",
+      "PMAY-G details"
+    ],
+    "ministry": "Ministry of Rural Development"
+  },
+  "SCH_PMJDY": {
+    "pages": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "sections": [
+      "PMJDY description",
+      "PMJDY benefits",
+      "PMJDY FAQs"
+    ],
+    "ministry": "Ministry of Finance"
+  },
+  "SCH_MGNREGA": {
+    "pages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "sections": [
+      "MGNREGA Act text",
+      "Schedules",
+      "FAQs"
+    ],
+    "ministry": "Ministry of Rural Development"
+  },
+  "SCH_VBG_RAMG": {
+    "pages": [
+      21,
+      22,
+      23
+    ],
+    "sections": [
+      "VB-G RAM G Act details"
+    ],
+    "ministry": "Ministry of Rural Development"
+  },
+  "SCH_PMJKMY": {
+    "pages": [
+      7,
+      8
+    ],
+    "sections": [
+      "Pradhan Mantri Kisan Mandhan Yojana"
+    ],
+    "ministry": "Ministry of Agriculture and Farmers Welfare"
+  },
+  "SCH_DDUGKY": {
+    "pages": [
+      4,
+      5
+    ],
+    "sections": [
+      "e-Shram Social Security Welfare Schemes - DDU-GKY"
+    ],
+    "ministry": "Ministry of Rural Development"
+  },
+  "SCH_GKRY": {
+    "pages": [
+      4
+    ],
+    "sections": [
+      "e-Shram - Garib Kalyan Rozgar Yojana"
+    ],
+    "ministry": "Ministry of Rural Development"
+  },
+  "SCH_DAY": {
+    "pages": [
+      4
+    ],
+    "sections": [
+      "e-Shram - DAY"
+    ],
+    "ministry": "Ministry of Rural Development / Ministry of Housing and Urban Affairs"
+  },
+  "SCH_PMKVY": {
+    "pages": [
+      4,
+      5
+    ],
+    "sections": [
+      "e-Shram - PMKVY"
+    ],
+    "ministry": "Ministry of Skill Development and Entrepreneurship"
+  },
+  "SCH_NSAP": {
+    "pages": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ],
+    "sections": [
+      "NSAP overview",
+      "NSAP Social Audit Guidelines",
+      "NSAP FAQs"
+    ],
+    "ministry": "Ministry of Rural Development"
+  },
+  "SCH_ABPMJAY": {
+    "pages": [
+      68,
+      69,
+      70,
+      71
+    ],
+    "sections": [
+      "AB PM-JAY MMSBY details",
+      "AB PM-JAY MMSBY FAQs"
+    ],
+    "ministry": "Government of Punjab"
+  },
+  "SCH_HIS_WEAVERS": {
+    "pages": [
+      6
+    ],
+    "sections": [
+      "e-Shram Health Insurance Scheme for Weavers"
+    ],
+    "ministry": "Ministry of Textiles"
+  },
+  "SCH_SRMS": {
+    "pages": [
+      7
+    ],
+    "sections": [
+      "e-Shram Social Security Welfare Schemes - SRMS"
+    ],
+    "ministry": "Ministry of Social Justice and Empowerment"
+  },
+  "SCH_BOCW": {
+    "pages": [
+      57,
+      58,
+      59,
+      60
+    ],
+    "sections": [
+      "BOCW description",
+      "BOCW eligibility",
+      "BOCW welfare boards"
+    ],
+    "ministry": "Ministry of Labour & Employment"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "demographic_fields": [
+    "age",
+    "gender",
+    "category",
+    "marital_status",
+    "occupation",
+    "residence_state",
+    "rural_urban"
+  ],
+  "economic_fields": [
+    "annual_turnover",
+    "monthly_income",
+    "annual_family_income",
+    "land_holding_hectares",
+    "is_income_tax_payer"
+  ],
+  "institutional_fields": [
+    "has_ration_card",
+    "is_aadhaar_seeded",
+    "has_bank_account",
+    "is_epfo_or_esic_member",
+    "is_pmjdy_account_holder"
+  ],
+  "benefit_types": [
+    "DIRECT_BENEFIT_TRANSFER",
+    "PENSION",
+    "INSURANCE",
+    "SUBSIDY",
+    "LOAN_WORKING_CAPITAL",
+    "TRAINING_STIPEND",
+    "HOUSING_ASSISTANCE",
+    "FOOD_GRAIN_PORTABILITY"
+  ]
+}

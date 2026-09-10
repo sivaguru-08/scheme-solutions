@@ -1,0 +1,23 @@
+[
+  {
+    "issue_id": "AMB_001",
+    "scheme_id": "SCH_PMSBY_FULL",
+    "severity": "LOW",
+    "description": "PMSBY appears both as a brief summary in early pages and detailed rules later in the document.",
+    "resolution": "Unified into SCH_PMSBY with comprehensive conditions covering both summary and detailed schedules."
+  },
+  {
+    "issue_id": "AMB_002",
+    "scheme_id": "SCH_VBG_RAMG",
+    "severity": "MEDIUM",
+    "description": "VB-G RAM G represents the updated statutory framework alongside MGNREGA 2005.",
+    "resolution": "Retained as distinct statutory scheme with shared operational provisions and link to MGNREGA."
+  },
+  {
+    "issue_id": "AMB_003",
+    "scheme_id": "SCH_APY",
+    "severity": "LOW",
+    "description": "Income tax payers were permitted before Oct 1, 2022 but excluded post Oct 1, 2022.",
+    "resolution": "Implemented temporal condition: for current applications, income tax payers are strictly disqualified."
+  }
+]

@@ -1,0 +1,30 @@
+# Core web framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+
+# Database
+# SQLite3 is part of Python standard library
+
+# ML / NLP
+scikit-learn==1.4.2
+joblib==1.4.2
+spacy==3.7.4
+numpy==1.26.4
+
+# Optional: lightweight sentence embeddings (only for semantic fallback)
+# sentence-transformers==2.7.0  # Uncomment if semantic search needed
+
+# Template engine
+Jinja2==3.1.4
+
+# Data validation
+jsonschema==4.22.0
+
+# Testing
+pytest==8.2.0
+pytest-asyncio==0.23.6
+httpx==0.27.0
+
+# Utilities
+python-multipart==0.0.9

@@ -1,0 +1,378 @@
+[
+  {
+    "scheme_id": "SCH_ONORC",
+    "official_name": "One Nation One Ration Card",
+    "abbreviation": "ONORC",
+    "category": "Food Security",
+    "ministry": "Ministry of Consumer Affairs, Food & Public Distribution",
+    "source_pages": [
+      1,
+      2
+    ]
+  },
+  {
+    "scheme_id": "SCH_PMSYM",
+    "official_name": "Pradhan Mantri Shram Yogi Maan-Dhan Yojana",
+    "abbreviation": "PM-SYM",
+    "category": "Pension & Social Security",
+    "ministry": "Ministry of Labour & Employment",
+    "source_pages": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "scheme_id": "SCH_NPST",
+    "official_name": "National Pension Scheme for Traders and Self-Employed Persons",
+    "abbreviation": "NPS-Traders",
+    "category": "Pension & Social Security",
+    "ministry": "Ministry of Labour & Employment",
+    "source_pages": [
+      3,
+      4
+    ]
+  },
+  {
+    "scheme_id": "SCH_PMJJBY",
+    "official_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+    "abbreviation": "PMJJBY",
+    "category": "Financial Inclusion",
+    "ministry": "Ministry of Finance",
+    "source_pages": [
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "scheme_id": "SCH_PMSBY",
+    "official_name": "Pradhan Mantri Suraksha Bima Yojana",
+    "abbreviation": "PMSBY",
+    "category": "Financial Inclusion",
+    "ministry": "Ministry of Finance",
+    "source_pages": [
+      5,
+      6
+    ]
+  },
+  {
+    "scheme_id": "SCH_APY",
+    "official_name": "Atal Pension Yojana",
+    "abbreviation": "APY",
+    "category": "Pension & Social Security",
+    "ministry": "Ministry of Finance",
+    "source_pages": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "scheme_id": "SCH_PMKISAN",
+    "official_name": "Pradhan Mantri Kisan Samman Nidhi",
+    "abbreviation": "PM-KISAN",
+    "category": "Agriculture",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "source_pages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "scheme_id": "SCH_PMSURYA",
+    "official_name": "PM Surya Ghar: Muft Bijli Yojana",
+    "abbreviation": "PM Surya Ghar",
+    "category": "Renewable Energy",
+    "ministry": "Ministry of New and Renewable Energy",
+    "source_pages": [
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "scheme_id": "SCH_SVANIDHI",
+    "official_name": "PM Street Vendor's AtmaNirbhar Nidhi",
+    "abbreviation": "PM SVANidhi",
+    "category": "Urban Livelihoods",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "source_pages": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "scheme_id": "SCH_VISHWA",
+    "official_name": "PM Vishwakarma Scheme",
+    "abbreviation": "PM Vishwakarma",
+    "category": "MSME",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises",
+    "source_pages": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "scheme_id": "SCH_PMUY",
+    "official_name": "Pradhan Mantri Ujjwala Yojana",
+    "abbreviation": "PMUY",
+    "category": "Petroleum & Natural Gas",
+    "ministry": "Ministry of Petroleum and Natural Gas",
+    "source_pages": [
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "scheme_id": "SCH_PMSBY_FULL",
+    "official_name": "Pradhan Mantri Suraksha Bima Yojana - Full Rules",
+    "abbreviation": "PMSBY",
+    "category": "Financial Inclusion",
+    "ministry": "Ministry of Finance",
+    "source_pages": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "scheme_id": "SCH_PMMY",
+    "official_name": "Pradhan Mantri Mudra Yojana",
+    "abbreviation": "PMMY",
+    "category": "Financial Inclusion",
+    "ministry": "Ministry of Finance",
+    "source_pages": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "scheme_id": "SCH_PMFBY",
+    "official_name": "Pradhan Mantri Fasal Bima Yojana",
+    "abbreviation": "PMFBY",
+    "category": "Agriculture",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "source_pages": [
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "scheme_id": "SCH_SSY",
+    "official_name": "Sukanya Samriddhi Yojana",
+    "abbreviation": "SSY",
+    "category": "Small Savings",
+    "ministry": "Ministry of Finance",
+    "source_pages": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "scheme_id": "SCH_PMAYG",
+    "official_name": "Pradhan Mantri Awaas Yojana \u2013 Gramin",
+    "abbreviation": "PMAY-G",
+    "category": "Rural Housing",
+    "ministry": "Ministry of Rural Development",
+    "source_pages": [
+      55,
+      56,
+      57,
+      58
+    ]
+  },
+  {
+    "scheme_id": "SCH_PMJDY",
+    "official_name": "Pradhan Mantri Jan Dhan Yojana",
+    "abbreviation": "PMJDY",
+    "category": "Financial Inclusion",
+    "ministry": "Ministry of Finance",
+    "source_pages": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "scheme_id": "SCH_MGNREGA",
+    "official_name": "Mahatma Gandhi National Rural Employment Guarantee Act 2005",
+    "abbreviation": "MGNREGA",
+    "category": "Rural Development",
+    "ministry": "Ministry of Rural Development",
+    "source_pages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "scheme_id": "SCH_VBG_RAMG",
+    "official_name": "Viksit Bharat \u2013 Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025",
+    "abbreviation": "VB-G RAM G",
+    "category": "Rural Development",
+    "ministry": "Ministry of Rural Development",
+    "source_pages": [
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "scheme_id": "SCH_PMJKMY",
+    "official_name": "Pradhan Mantri Kisan Mandhan Yojana",
+    "abbreviation": "PM-KMY",
+    "category": "Agriculture",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "source_pages": [
+      7,
+      8
+    ]
+  },
+  {
+    "scheme_id": "SCH_DDUGKY",
+    "official_name": "Deen Dayal Upadhyay Grameen Kaushalya Yojana",
+    "abbreviation": "DDU-GKY",
+    "category": "Skill Development",
+    "ministry": "Ministry of Rural Development",
+    "source_pages": [
+      4,
+      5
+    ]
+  },
+  {
+    "scheme_id": "SCH_GKRY",
+    "official_name": "Garib Kalyan Rozgar Yojana",
+    "abbreviation": "GKRY",
+    "category": "Rural Development",
+    "ministry": "Ministry of Rural Development",
+    "source_pages": [
+      4
+    ]
+  },
+  {
+    "scheme_id": "SCH_DAY",
+    "official_name": "Deen Dayal Upadhyaya Antyodaya Yojana",
+    "abbreviation": "DAY",
+    "category": "Livelihoods",
+    "ministry": "Ministry of Rural Development / Ministry of Housing and Urban Affairs",
+    "source_pages": [
+      4
+    ]
+  },
+  {
+    "scheme_id": "SCH_PMKVY",
+    "official_name": "Pradhan Mantri Kaushal Vikas Yojana",
+    "abbreviation": "PMKVY",
+    "category": "Skill Development",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "source_pages": [
+      4,
+      5
+    ]
+  },
+  {
+    "scheme_id": "SCH_NSAP",
+    "official_name": "National Social Assistance Programme",
+    "abbreviation": "NSAP",
+    "category": "Social Justice",
+    "ministry": "Ministry of Rural Development",
+    "source_pages": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+    ]
+  },
+  {
+    "scheme_id": "SCH_ABPMJAY",
+    "official_name": "Ayushman Bharat PM-JAY Mukhmantri Sehat Bima Yojana",
+    "abbreviation": "AB PM-JAY MMSBY",
+    "category": "Health",
+    "ministry": "Government of Punjab",
+    "source_pages": [
+      68,
+      69,
+      70,
+      71
+    ]
+  },
+  {
+    "scheme_id": "SCH_HIS_WEAVERS",
+    "official_name": "Health Insurance Scheme for Weavers",
+    "abbreviation": "HIS",
+    "category": "Health",
+    "ministry": "Ministry of Textiles",
+    "source_pages": [
+      6
+    ]
+  },
+  {
+    "scheme_id": "SCH_SRMS",
+    "official_name": "Self Employment Scheme for Rehabilitation of Manual Scavengers",
+    "abbreviation": "SRMS",
+    "category": "Social Justice",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "source_pages": [
+      7
+    ]
+  },
+  {
+    "scheme_id": "SCH_BOCW",
+    "official_name": "Building and Other Construction Workers Welfare Framework",
+    "abbreviation": "BOCW",
+    "category": "Labour & Employment",
+    "ministry": "Ministry of Labour & Employment",
+    "source_pages": [
+      57,
+      58,
+      59,
+      60
+    ]
+  }
+]
