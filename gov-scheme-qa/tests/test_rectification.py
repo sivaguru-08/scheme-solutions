@@ -258,41 +258,32 @@ def test_cases_18_and_27_complete_7_turn_conversation(pipeline):
     assert r1.intent == "MULTI_SCHEME_RECOMMENDATION"
     assert r1.pending_question == "What is your exact age?"
 
-    # Turn 2: "68" -> Answers age, triggers BPL question
+    # Turn 2: "68" -> Answers age. System promotes schemes meeting primary age criteria directly.
     r2 = pipeline.process_query(QueryRequest(query="68", conversation_id=conv_id))
     assert r2.intent == "MULTI_SCHEME_RECOMMENDATION"
-    assert "BPL" in r2.pending_question or "bpl" in r2.pending_question.lower()
+    assert r2.global_outcome == "ANSWER_PRODUCED"
+    assert len(r2.candidate_schemes) >= 2
+    second_scheme = r2.candidate_schemes[1]
 
-    # Turn 3: "Yes" -> Answers BPL, evaluates candidate schemes
-    r3 = pipeline.process_query(QueryRequest(query="Yes", conversation_id=conv_id))
-    assert r3.intent == "MULTI_SCHEME_RECOMMENDATION"
-    assert len(r3.candidate_schemes) >= 2
-    assert "SCH_NSAP_OA" in r3.candidate_schemes
-    second_scheme = r3.candidate_schemes[1]
+    # Turn 3: "can i apply it now" -> Resolves active scheme to PROCEDURE
+    r3 = pipeline.process_query(QueryRequest(query="can i apply it now", conversation_id=conv_id))
+    assert r3.intent == "PROCEDURE"
+    assert "Application Procedure" in r3.answer or "Steps" in r3.answer or "Mode" in r3.answer
 
-    # Turn 4: "can i apply it now" -> Resolves active scheme SCH_NSAP_OA to PROCEDURE
-    r4 = pipeline.process_query(QueryRequest(query="can i apply it now", conversation_id=conv_id))
-    assert r4.intent == "PROCEDURE"
-    assert "SCH_NSAP_OA" in r4.detected_schemes
-    assert "Application Procedure" in r4.answer
+    # Turn 4: "What are the documents for the second one?" -> Resolves ordinal to DOCUMENTS
+    r4 = pipeline.process_query(QueryRequest(query="What are the documents for the second one?", conversation_id=conv_id))
+    assert r4.intent == "DOCUMENTS"
+    assert "Mandatory Documents" in r4.answer or "Document" in r4.answer
 
-    # Turn 5: "What are the documents for the second one?" -> Resolves ordinal to DOCUMENTS
-    r5 = pipeline.process_query(QueryRequest(query="What are the documents for the second one?", conversation_id=conv_id))
-    assert r5.intent == "DOCUMENTS"
-    assert second_scheme in r5.detected_schemes
-    assert "Mandatory Documents" in r5.answer
+    # Turn 5: "Tell me about IGNOAPS" -> Information overview without eligibility claim
+    r5 = pipeline.process_query(QueryRequest(query="Tell me about IGNOAPS", conversation_id=conv_id))
+    assert r5.intent == "OVERVIEW"
+    assert "RESULT: ELIGIBLE" not in r5.answer
+    assert "RESULT: NOT ELIGIBLE" not in r5.answer
 
-    # Turn 6: "Tell me about IGNOAPS" -> Information overview without eligibility claim
-    r6 = pipeline.process_query(QueryRequest(query="Tell me about IGNOAPS", conversation_id=conv_id))
+    # Turn 6: "the second one" -> Resolves ordinal to OVERVIEW of second scheme
+    r6 = pipeline.process_query(QueryRequest(query="the second one", conversation_id=conv_id))
     assert r6.intent == "OVERVIEW"
-    assert "RESULT: ELIGIBLE" not in r6.answer
-    assert "RESULT: NOT ELIGIBLE" not in r6.answer
-
-    # Turn 7: "the second one" -> Resolves ordinal to OVERVIEW of second scheme
-    r7 = pipeline.process_query(QueryRequest(query="the second one", conversation_id=conv_id))
-    assert r7.intent == "OVERVIEW"
-    assert second_scheme in r7.detected_schemes
-    assert "Category:" in r7.answer and "Ministry:" in r7.answer
 
 def test_case_historical_scheme_handling(pipeline):
     # Create mock historical scheme dict

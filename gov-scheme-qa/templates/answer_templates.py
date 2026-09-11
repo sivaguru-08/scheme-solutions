@@ -82,8 +82,12 @@ APPLICATION_TEMPLATE = """
 ### Application Procedure: {{ scheme.official_name }}
 
 **Mode:** {{ procedure.mode | replace('_', ' ') }}
-{% if procedure.processing_time %}**Timeline:** {{ procedure.processing_time }}{% endif %}
-{% if procedure.fees %}**Fees:** {{ procedure.fees }}{% endif %}
+{% if procedure.processing_time %}
+**Timeline:** {{ procedure.processing_time }}
+{% endif %}
+{% if procedure.fees %}
+**Fees:** {{ procedure.fees }}
+{% endif %}
 
 {% if procedure.online_steps %}
 **Online Steps:**
@@ -234,11 +238,21 @@ AUTHORITY_TEMPLATE = """
 
 **Scheme:** {{ scheme.official_name }}
 - **Nodal Ministry:** {{ authority.ministry }}
-{% if authority.department %}- **Department:** {{ authority.department }}{% endif %}
-{% if authority.implementing_agency %}- **Implementing Agency:** {{ authority.implementing_agency }}{% endif %}
-{% if authority.portal_url %}- **Official Portal:** [{{ authority.portal_url }}]({{ authority.portal_url }}){% endif %}
-{% if authority.helpline %}- **Helpline / Toll-Free Number:** {{ authority.helpline }}{% endif %}
-{% if authority.grievance_redressal %}- **Grievance Redressal:** {{ authority.grievance_redressal }}{% endif %}
+{% if authority.department %}
+- **Department:** {{ authority.department }}
+{% endif %}
+{% if authority.implementing_agency %}
+- **Implementing Agency:** {{ authority.implementing_agency }}
+{% endif %}
+{% if authority.portal_url %}
+- **Official Portal:** [{{ authority.portal_url }}]({{ authority.portal_url }})
+{% endif %}
+{% if authority.helpline %}
+- **Helpline / Toll-Free Number:** {{ authority.helpline }}
+{% endif %}
+{% if authority.grievance_redressal %}
+- **Grievance Redressal:** {{ authority.grievance_redressal }}
+{% endif %}
 
 ---
 *Source: Official Ministry Directory (Page {{ scheme.source_pages | join(', ') }})*

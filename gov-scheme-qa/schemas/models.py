@@ -100,6 +100,7 @@ class Scheme(BaseModel):
     source_sections: List[str] = []
 
 class UserDemographics(BaseModel):
+    name: Optional[str] = None
     age: Optional[int] = None
     age_category: Optional[str] = None  # ELDERLY, SENIOR, ADULT, YOUTH, CHILD
     gender: Optional[str] = None  # MALE, FEMALE, OTHER
@@ -108,6 +109,9 @@ class UserDemographics(BaseModel):
     land_holding_hectares: Optional[float] = None
     occupation: Optional[str] = None
     trade: Optional[str] = None
+    employment_status: Optional[str] = None  # EMPLOYED, UNEMPLOYED, SELF_EMPLOYED, etc.
+    employment_type: Optional[str] = None    # REGULAR_FULL_TIME_PRIVATE, GOVERNMENT, CONTRACT, etc.
+    location: Optional[str] = None           # City/Town/District e.g. "Bangalore"
     is_unorganised_worker: Optional[bool] = None
     is_income_tax_payer: Optional[bool] = None
     is_epfo_or_esic_member: Optional[bool] = None
@@ -161,11 +165,15 @@ class IntentResult(BaseModel):
 class EntitySlots(BaseModel):
     scheme_ids: List[str] = []
     scheme_names: List[str] = []
+    name: Optional[str] = None
     age: Optional[int] = None
     age_category: Optional[str] = None
     income: Optional[float] = None
     occupation: Optional[str] = None
     trade: Optional[str] = None
+    employment_status: Optional[str] = None
+    employment_type: Optional[str] = None
+    location: Optional[str] = None
     gender: Optional[str] = None
     category: Optional[str] = None
     area_type: Optional[str] = None
@@ -176,6 +184,12 @@ class EntitySlots(BaseModel):
     is_bpl: Optional[bool] = None
     has_smart_ration_card: Optional[bool] = None
     document_keywords: List[str] = []
+    requested_information: List[str] = []
+    is_profile_only: bool = False
+    is_ambiguous_scheme: bool = False
+    ambiguity_prompt: Optional[str] = None
+    is_unknown_scheme: bool = False
+    unknown_scheme_name: Optional[str] = None
 
 class SourceCitation(BaseModel):
     scheme_id: str
@@ -199,6 +213,8 @@ class GlobalOutcome:
     NO_MATCH = "NO_MATCH"
     OUT_OF_SCOPE = "OUT_OF_SCOPE"
     ANSWER_PRODUCED = "ANSWER_PRODUCED"
+    CLARIFICATION = "CLARIFICATION"
+    PROFILE_RECORDED = "PROFILE_RECORDED"
 
 class QueryType:
     SPECIFIC_SCHEME_QUERY = "SPECIFIC_SCHEME_QUERY"
@@ -207,6 +223,8 @@ class QueryType:
     SCHEME_COMPARISON = "SCHEME_COMPARISON"
     UNKNOWN_SCHEME = "UNKNOWN_SCHEME"
     OUT_OF_SCOPE = "OUT_OF_SCOPE"
+    PROFILE_STATEMENT = "PROFILE_STATEMENT"
+    AMBIGUOUS_SCHEME = "AMBIGUOUS_SCHEME"
 
 class ConversationMachineState:
     NEW_QUERY = "NEW_QUERY"
@@ -220,6 +238,7 @@ class ConversationMachineState:
 class MultiIntentResult(BaseModel):
     primary_intent: str
     secondary_intents: List[str] = []
+    requested_information: List[str] = []
     query_type: str = "SPECIFIC_SCHEME_QUERY"
     confidence: float = 1.0
     is_follow_up: bool = False
@@ -234,8 +253,13 @@ class QueryRepresentation(BaseModel):
     query_type: str = "SPECIFIC_SCHEME_QUERY"
     primary_intent: str = "OVERVIEW"
     secondary_intents: List[str] = []
+    requested_information: List[str] = Field(default_factory=list)
     scheme_id: Optional[str] = None
     candidate_scheme_ids: List[str] = []
+    ambiguous_candidates: List[str] = Field(default_factory=list)
+    unknown_scheme_name: Optional[str] = None
+    is_clarification: bool = False
+    is_profile_only: bool = False
     entities: Dict[str, Any] = Field(default_factory=dict)
     user_profile_updates: Dict[str, Any] = Field(default_factory=dict)
     references: List[str] = Field(default_factory=list)
@@ -249,6 +273,7 @@ class ConversationTurn(BaseModel):
     query_type: str = "SPECIFIC_SCHEME_QUERY"
     primary_intent: str = "OVERVIEW"
     secondary_intents: List[str] = []
+    requested_information: List[str] = []
     active_scheme_id: Optional[str] = None
     candidate_schemes: List[str] = []
     recommended_schemes: List[str] = []
@@ -261,9 +286,14 @@ class ConversationState(BaseModel):
     conversation_id: str
     turn_number: int = 0
     active_scheme_id: Optional[str] = None
+    previous_scheme_id: Optional[str] = None
     active_intent: Optional[str] = None
     primary_intent: Optional[str] = None
     secondary_intents: List[str] = Field(default_factory=list)
+    requested_information: List[str] = Field(default_factory=list)
+    last_requested_information: List[str] = Field(default_factory=list)
+    scheme_context_stack: List[str] = Field(default_factory=list)
+    recent_schemes: List[str] = Field(default_factory=list)
     user_profile: Dict[str, Any] = Field(default_factory=dict)
     known_slots: Dict[str, Any] = Field(default_factory=dict)
     missing_slots: List[str] = Field(default_factory=list)
@@ -304,7 +334,11 @@ class QueryResponse(BaseModel):
     conversation_id: Optional[str] = None
     turn_number: Optional[int] = None
     secondary_intents: List[str] = []
+    requested_information: List[str] = []
     pending_question: Optional[str] = None
     candidate_schemes: List[str] = []
+    recommended_schemes: List[str] = []
     global_outcome: Optional[str] = None
+    active_scheme_id: Optional[str] = None
+    user_demographics: Optional[UserDemographics] = None
 

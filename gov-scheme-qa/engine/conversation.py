@@ -6,6 +6,7 @@ Manages multi-turn conversation sessions, context resolution, reference handling
 and topic change detection with sub-millisecond latency.
 """
 
+import re
 import uuid
 import time
 from typing import Dict, Any, List, Optional, Tuple
@@ -42,6 +43,7 @@ class ConversationManager:
         Resolves context:
         - Detects state transition: NEW_QUERY, FOLLOW_UP, SLOT_VALUE, TOPIC_CHANGE, REFERENCE_QUERY
         - Resolves target scheme_id from ordinals ('the second one') or active scheme inheritance
+        - Maintains scheme_context_stack for "go back to first scheme" / "the previous scheme"
         - Detects topic changes: switches active scheme, preserves user profile
         Returns: (state_transition, target_scheme_id, referenced_ordinal)
         """
@@ -51,7 +53,18 @@ class ConversationManager:
         if state.pending_question_slot and query_rep.query_type == "SLOT_VALUE":
             return ConversationMachineState.SLOT_VALUE, state.active_scheme_id, None
 
-        # 2. Check Ordinal Reference (e.g. "What are the documents for the second one?")
+        # 2. Explicit Scheme Detection (Explicit scheme names override previous context)
+        if detected_schemes:
+            new_scheme_id = detected_schemes[0]
+            if state.active_scheme_id and new_scheme_id != state.active_scheme_id:
+                # Topic Change! Preserves profile, switches active scheme
+                # Push previous scheme to context stack
+                state.previous_scheme_id = state.active_scheme_id
+                return ConversationMachineState.TOPIC_CHANGE, new_scheme_id, None
+            else:
+                return ConversationMachineState.NEW_QUERY, new_scheme_id, None
+
+        # 3. Check Ordinal Reference (e.g. "What are the documents for the second one?")
         ordinal = None
         if "first" in q_lower or "1st" in q_lower:
             ordinal = 1
@@ -62,20 +75,23 @@ class ConversationManager:
         elif "fourth" in q_lower or "4th" in q_lower:
             ordinal = 4
 
-        if ordinal is not None and state.last_recommended_schemes:
-            idx = ordinal - 1
-            if 0 <= idx < len(state.last_recommended_schemes):
-                resolved_scheme_id = state.last_recommended_schemes[idx]
-                return ConversationMachineState.REFERENCE_QUERY, resolved_scheme_id, ordinal
+        # Check "go back to" / "the previous scheme" / "the other scheme"
+        refers_to_previous = bool(re.search(r'\b(?:previous\s*scheme|the\s*other\s*scheme|go\s*back)\b', q_lower))
 
-        # 3. Check Explicit Scheme Detection (Topic Change or New Scheme Inquiry)
-        if detected_schemes:
-            new_scheme_id = detected_schemes[0]
-            if state.active_scheme_id and new_scheme_id != state.active_scheme_id:
-                # Topic Change! Preserves profile, switches active scheme
-                return ConversationMachineState.TOPIC_CHANGE, new_scheme_id, None
-            else:
-                return ConversationMachineState.NEW_QUERY, new_scheme_id, None
+        if ordinal is not None:
+            # First, try scheme_context_stack (all schemes ever discussed)
+            if state.scheme_context_stack and ordinal <= len(state.scheme_context_stack):
+                resolved_scheme_id = state.scheme_context_stack[ordinal - 1]
+                return ConversationMachineState.REFERENCE_QUERY, resolved_scheme_id, ordinal
+            # Fall back to last_recommended_schemes
+            if state.last_recommended_schemes:
+                idx = ordinal - 1
+                if 0 <= idx < len(state.last_recommended_schemes):
+                    resolved_scheme_id = state.last_recommended_schemes[idx]
+                    return ConversationMachineState.REFERENCE_QUERY, resolved_scheme_id, ordinal
+
+        if refers_to_previous and state.previous_scheme_id:
+            return ConversationMachineState.REFERENCE_QUERY, state.previous_scheme_id, None
 
         # 4. Context Preservation for Schemes (e.g. "What documents do I need?", "How do I apply?", "can i apply it now")
         effective_scheme_id = state.active_scheme_id or (state.last_recommended_schemes[0] if state.last_recommended_schemes else None)
@@ -164,6 +180,15 @@ class ConversationManager:
             state.last_recommended_schemes = recommended_schemes
             if not active_scheme_id:
                 active_scheme_id = recommended_schemes[0]
+
+        # Maintain scheme_context_stack: track every distinct scheme discussed in order
+        if active_scheme_id and active_scheme_id not in state.scheme_context_stack:
+            state.scheme_context_stack.append(active_scheme_id)
+        # Also maintain recent_schemes (last N)
+        if active_scheme_id and (not state.recent_schemes or state.recent_schemes[-1] != active_scheme_id):
+            state.recent_schemes.append(active_scheme_id)
+            if len(state.recent_schemes) > 10:
+                state.recent_schemes = state.recent_schemes[-10:]
 
         state.active_scheme_id = active_scheme_id
         if state.primary_intent != "MULTI_SCHEME_RECOMMENDATION" or query_rep.query_type != "SLOT_VALUE":

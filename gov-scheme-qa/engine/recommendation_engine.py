@@ -49,6 +49,29 @@ class DeterministicRecommendationEngine:
         # Rank potential schemes by fewest missing slots
         potential.sort(key=lambda x: (len(x.missing_slots), -len(x.matched_conditions)))
 
+        # PROMOTION: If no eligible schemes but potential schemes have strong primary matches
+        # (e.g. age >= 60 matched), promote top candidates to ELIGIBLE to avoid endless questioning.
+        # This prevents the system from blocking on BPL/area_type when the user has already
+        # provided enough information to identify relevant schemes.
+        if not eligible and potential:
+            secondary_slots = {"is_bpl", "area_type", "has_ration_card", "has_bank_account",
+                               "is_income_tax_payer", "is_epfo_or_esic_member",
+                               "is_unorganised_worker", "residence_state", "state"}
+            promoted = []
+            for p in potential:
+                # Only promote if it has at least 1 matched condition and all missing slots are secondary
+                if p.matched_conditions and all(s in secondary_slots for s in p.missing_slots):
+                    p.status = SchemeResultState.ELIGIBLE
+                    p.ranking_reasons.append("Promoted: primary criteria met, only secondary verification pending")
+                    promoted.append(p)
+                    if len(promoted) >= 3:
+                        break
+            if promoted:
+                # Sort promoted by more matched conditions first, fewer missing slots first
+                promoted.sort(key=lambda x: (-len(x.matched_conditions), len(x.missing_slots)))
+                eligible = promoted + eligible
+                potential = [p for p in potential if p.status == SchemeResultState.POTENTIAL]
+
         ordered_results = eligible + potential + ineligible
 
         # Determine Global Outcome
@@ -426,6 +449,19 @@ class DeterministicRecommendationEngine:
                         else:
                             unknown_conditions.append("Requires rooftop solar feasibility and electricity connection")
 
+                    # Condition L: Marital Status
+                    elif "marital_status" in clean_field or "widow" in clean_field:
+                        if profile.marital_status is not None:
+                            if self._eval_op(profile.marital_status, op, val):
+                                matched_conditions.append(f"Marital status satisfied: {profile.marital_status}")
+                            else:
+                                failed_conditions.append(f"Marital status {profile.marital_status} does not match {val}")
+                                ranking_reasons.append(f"Requires {val}")
+                        else:
+                            unknown_conditions.append(f"Requires marital status {op} {val}")
+                            if "marital_status" not in missing_slots:
+                                missing_slots.append("marital_status")
+
                     # Default fallback
                     else:
                         actual = user_dict.get(clean_field)
@@ -436,6 +472,8 @@ class DeterministicRecommendationEngine:
                                 failed_conditions.append(f"Requirement unmet: {desc}")
                         else:
                             unknown_conditions.append(f"Condition requires verification: {desc}")
+                            if clean_field not in missing_slots:
+                                missing_slots.append(clean_field)
 
         # Determine Final Scheme Semantic State
         if failed_conditions:

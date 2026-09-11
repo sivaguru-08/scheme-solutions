@@ -49,6 +49,7 @@ class DeterministicAnswerGenerator:
         extra_data = extra_data or {}
         secondary_intents = extra_data.get("secondary_intents", [])
         known_slots = extra_data.get("known_slots", {})
+        requested_information = extra_data.get("requested_information", [])
 
         # 0. Strict Out of Scope Check
         if intent == "OUT_OF_SCOPE":
@@ -97,6 +98,18 @@ class DeterministicAnswerGenerator:
                 "answer": text,
                 "citations": citations,
                 "retrieval_method": "DATABASE_CATALOG",
+                "global_outcome": GlobalOutcome.ANSWER_PRODUCED
+            }
+
+        # General Helpline / Authority inquiry without specific scheme
+        if not scheme_id and (intent == "AUTHORITY" or "HELPLINE" in requested_information or "helpline" in query.lower()):
+            text = ("For Government of India welfare schemes, the primary National Citizen Helpline number is **1967** (toll-free) and the National Consumer Helpline is **1915**. "
+                    "Public grievances regarding any Central Government welfare scheme can be filed at the centralized portal **CPGRAMS** (pgportal.gov.in). "
+                    "Each specific scheme also has designated departmental helpline numbers.")
+            return {
+                "answer": text,
+                "citations": [],
+                "retrieval_method": "NATIONAL_HELPLINE_DIRECTORY",
                 "global_outcome": GlobalOutcome.ANSWER_PRODUCED
             }
 
@@ -207,6 +220,14 @@ class DeterministicAnswerGenerator:
                 "citations": [],
                 "retrieval_method": "NOT_FOUND"
             }
+
+        # ===== TARGETED CONCISE ANSWER =====
+        # If user asked for specific information (FIRST_LOAN_AMOUNT, LOAN_AMOUNT, AGE_REQUIREMENT, etc.)
+        # produce a single concise paragraph instead of a full template dump.
+        if requested_information and scheme_id:
+            targeted = self._generate_targeted_answer(scheme_id, scheme, requested_information)
+            if targeted:
+                return targeted
 
         # Handle user-specific eligibility evaluation
         if intent == "CHECK_ELIGIBILITY" and user_context is not None:
@@ -351,5 +372,174 @@ class DeterministicAnswerGenerator:
         return {
             "answer": text,
             "citations": citations,
-            "retrieval_method": retrieval_method
+            "retrieval_method": retrieval_method,
+            "global_outcome": GlobalOutcome.ANSWER_PRODUCED
         }
+
+    def _generate_targeted_answer(
+        self,
+        scheme_id: str,
+        scheme: Dict[str, Any],
+        requested_information: List[str]
+    ) -> Optional[Dict[str, Any]]:
+        """
+        Produce a single concise paragraph answer for specific requested information types.
+        Returns None if no targeted answer can be produced (falls through to template-based routing).
+        """
+        scheme_name = scheme["official_name"]
+        scheme_abbrev = scheme.get("abbreviation", "")
+        source_pages = scheme.get("source_pages", [])
+        citation_text = f"[Source: {scheme_name}, Page {', '.join(str(p) for p in source_pages)}]" if source_pages else f"[Source: {scheme_name}]"
+
+        # FIRST_LOAN_AMOUNT or LOAN_AMOUNT
+        if "FIRST_LOAN_AMOUNT" in requested_information or "LOAN_AMOUNT" in requested_information:
+            benefits = self.repo.get_benefits_for_scheme(scheme_id)
+            if benefits:
+                loan_lines = []
+                for b in benefits:
+                    desc_lower = b.get("description", "").lower() if isinstance(b, dict) else b.description.lower()
+                    desc = b.get("description", "") if isinstance(b, dict) else b.description
+                    qv = b.get("quantified_value", "") if isinstance(b, dict) else (b.quantified_value or "")
+                    bt = b.get("benefit_type", "") if isinstance(b, dict) else b.benefit_type
+
+                    if any(kw in desc_lower for kw in ["loan", "credit", "tranche", "lakh", "lend"]):
+                        line = desc
+                        if qv:
+                            line += f" ({qv})"
+                        loan_lines.append(line)
+
+                if loan_lines:
+                    if "FIRST_LOAN_AMOUNT" in requested_information:
+                        # Prefer first tranche line
+                        first_lines = [l for l in loan_lines if "first" in l.lower() or "tranche" in l.lower() or "1" in l.lower()]
+                        if first_lines:
+                            answer_text = f"Under **{scheme_name}**, {first_lines[0].strip()}. {citation_text}"
+                        else:
+                            answer_text = f"Under **{scheme_name}**, {loan_lines[0].strip()}. {citation_text}"
+                    else:
+                        combined = "; ".join(l.strip() for l in loan_lines)
+                        answer_text = f"Under **{scheme_name}**, {combined}. {citation_text}"
+
+                    return {
+                        "answer": answer_text,
+                        "citations": [SourceCitation(
+                            scheme_id=scheme_id, scheme_name=scheme_name,
+                            section="BENEFITS", page_numbers=source_pages
+                        )],
+                        "retrieval_method": "TARGETED_BENEFIT_EXTRACTION",
+                        "global_outcome": GlobalOutcome.ANSWER_PRODUCED
+                    }
+
+        # AGE_REQUIREMENT
+        if "AGE_REQUIREMENT" in requested_information:
+            rules = self.repo.get_rules_for_scheme(scheme_id)
+            if rules:
+                age_lines = []
+                for r in rules:
+                    conds = r.get("conditions", []) if isinstance(r, dict) else r.conditions
+                    for c in conds:
+                        field = c.get("field", "") if isinstance(c, dict) else (c.field or "")
+                        if "age" in field.lower():
+                            desc = c.get("description", "") if isinstance(c, dict) else (c.description or "")
+                            op = c.get("operator", "") if isinstance(c, dict) else c.operator
+                            val = c.get("value", "") if isinstance(c, dict) else c.value
+                            if desc:
+                                age_lines.append(desc)
+                            else:
+                                age_lines.append(f"Age {op} {val}")
+                if age_lines:
+                    combined = "; ".join(age_lines)
+                    return {
+                        "answer": f"For **{scheme_name}**: {combined}. {citation_text}",
+                        "citations": [SourceCitation(
+                            scheme_id=scheme_id, scheme_name=scheme_name,
+                            section="ELIGIBILITY", page_numbers=source_pages
+                        )],
+                        "retrieval_method": "TARGETED_RULE_EXTRACTION",
+                        "global_outcome": GlobalOutcome.ANSWER_PRODUCED
+                    }
+
+        # PENSION_AMOUNT
+        if "PENSION_AMOUNT" in requested_information:
+            benefits = self.repo.get_benefits_for_scheme(scheme_id)
+            if benefits:
+                pension_lines = []
+                for b in benefits:
+                    desc_lower = b.get("description", "").lower() if isinstance(b, dict) else b.description.lower()
+                    desc = b.get("description", "") if isinstance(b, dict) else b.description
+                    if any(kw in desc_lower for kw in ["pension", "monthly"]):
+                        pension_lines.append(desc)
+                if pension_lines:
+                    combined = "; ".join(pension_lines)
+                    return {
+                        "answer": f"Under **{scheme_name}**, {combined}. {citation_text}",
+                        "citations": [SourceCitation(
+                            scheme_id=scheme_id, scheme_name=scheme_name,
+                            section="BENEFITS", page_numbers=source_pages
+                        )],
+                        "retrieval_method": "TARGETED_BENEFIT_EXTRACTION",
+                        "global_outcome": GlobalOutcome.ANSWER_PRODUCED
+                    }
+
+        # SUBSIDY
+        if "SUBSIDY" in requested_information:
+            benefits = self.repo.get_benefits_for_scheme(scheme_id)
+            if benefits:
+                subsidy_lines = []
+                for b in benefits:
+                    desc_lower = b.get("description", "").lower() if isinstance(b, dict) else b.description.lower()
+                    desc = b.get("description", "") if isinstance(b, dict) else b.description
+                    if any(kw in desc_lower for kw in ["subsidy", "interest"]):
+                        subsidy_lines.append(desc)
+                if subsidy_lines:
+                    combined = "; ".join(subsidy_lines)
+                    return {
+                        "answer": f"Under **{scheme_name}**, {combined}. {citation_text}",
+                        "citations": [SourceCitation(
+                            scheme_id=scheme_id, scheme_name=scheme_name,
+                            section="BENEFITS", page_numbers=source_pages
+                        )],
+                        "retrieval_method": "TARGETED_BENEFIT_EXTRACTION",
+                        "global_outcome": GlobalOutcome.ANSWER_PRODUCED
+                    }
+
+        # INSURANCE_COVER
+        if "INSURANCE_COVER" in requested_information:
+            benefits = self.repo.get_benefits_for_scheme(scheme_id)
+            if benefits:
+                cover_lines = []
+                for b in benefits:
+                    desc_lower = b.get("description", "").lower() if isinstance(b, dict) else b.description.lower()
+                    desc = b.get("description", "") if isinstance(b, dict) else b.description
+                    if any(kw in desc_lower for kw in ["insurance", "cover", "sum assured", "accidental"]):
+                        cover_lines.append(desc)
+                if cover_lines:
+                    combined = "; ".join(cover_lines)
+                    return {
+                        "answer": f"Under **{scheme_name}**, {combined}. {citation_text}",
+                        "citations": [SourceCitation(
+                            scheme_id=scheme_id, scheme_name=scheme_name,
+                            section="BENEFITS", page_numbers=source_pages
+                        )],
+                        "retrieval_method": "TARGETED_BENEFIT_EXTRACTION",
+                        "global_outcome": GlobalOutcome.ANSWER_PRODUCED
+                    }
+
+        # HELPLINE
+        if "HELPLINE" in requested_information:
+            auth = self.repo.get_authority_for_scheme(scheme_id)
+            helpline = auth.get("helpline") if auth else "National Citizen Helpline / 1967"
+            grievance = auth.get("grievance_redressal") if auth else "CPGRAMS (pgportal.gov.in)"
+            answer_text = f"The official helpline for **{scheme_name}** is **{helpline}**. Public grievances can be registered via **{grievance}**. {citation_text}"
+            return {
+                "answer": answer_text,
+                "citations": [SourceCitation(
+                    scheme_id=scheme_id, scheme_name=scheme_name,
+                    section="ADMINISTRATIVE_AUTHORITY", page_numbers=source_pages
+                )],
+                "retrieval_method": "TARGETED_AUTHORITY_EXTRACTION",
+                "global_outcome": GlobalOutcome.ANSWER_PRODUCED
+            }
+
+        return None
+

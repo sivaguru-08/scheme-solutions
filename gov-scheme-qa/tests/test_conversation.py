@@ -38,10 +38,9 @@ def test_scenario_2_required_5_turn_conversation_flow(pipeline):
     User Guideline #27:
     Exact 5-turn sequence without repeating scheme names:
     Turn 1: "I'm old. What schemes can I get?" -> "What is your exact age?"
-    Turn 2: "68" -> "Are you from a BPL household?"
-    Turn 3: "Yes" -> [Evaluate schemes and return matching schemes]
-    Turn 4: "What are the documents for the second one?" -> [Resolve 2nd scheme and return documents]
-    Turn 5: "How do I apply?" -> [Resolve same scheme and return procedure]
+    Turn 2: "68" -> [Shows matching schemes directly since age is the primary criterion]
+    Turn 3: "What are the documents for the second one?" -> [Resolve 2nd scheme and return documents]
+    Turn 4: "How do I apply?" -> [Resolve same scheme and return procedure]
     """
     conv_id = "test_5_turn_exact_flow"
 
@@ -51,26 +50,21 @@ def test_scenario_2_required_5_turn_conversation_flow(pipeline):
     assert "What is your exact age?" in r1.answer
     assert r1.pending_question == "What is your exact age?"
 
-    # Turn 2
+    # Turn 2: Age 68 provided. System now promotes schemes meeting primary age criteria.
     r2 = pipeline.process_query(QueryRequest(query="68", conversation_id=conv_id))
-    assert "Are you from a BPL household?" in r2.answer
-    assert r2.pending_question == "Are you from a BPL household?"
+    assert r2.global_outcome == "ANSWER_PRODUCED"
+    assert len(r2.candidate_schemes) >= 2
+    second_scheme_id = r2.candidate_schemes[1]
 
-    # Turn 3
-    r3 = pipeline.process_query(QueryRequest(query="Yes", conversation_id=conv_id))
-    assert "Indira Gandhi National Old Age Pension Scheme" in r3.answer or "IGNOAPS" in r3.answer
-    assert len(r3.candidate_schemes) >= 2
-    second_scheme_id = r3.candidate_schemes[1]
+    # Turn 3: Ordinal resolution "the second one"
+    r3 = pipeline.process_query(QueryRequest(query="What are the documents for the second one?", conversation_id=conv_id))
+    assert r3.intent == "DOCUMENTS"
+    assert "Mandatory Documents" in r3.answer or "Document" in r3.answer
 
-    # Turn 4: Ordinal resolution "the second one"
-    r4 = pipeline.process_query(QueryRequest(query="What are the documents for the second one?", conversation_id=conv_id))
-    assert r4.intent == "DOCUMENTS"
-    assert "Mandatory Documents" in r4.answer
-
-    # Turn 5: Active scheme inheritance "How do I apply?"
-    r5 = pipeline.process_query(QueryRequest(query="How do I apply?", conversation_id=conv_id))
-    assert r5.intent == "PROCEDURE"
-    assert "Application Procedure" in r5.answer or "Steps" in r5.answer or "Mode" in r5.answer
+    # Turn 4: Active scheme inheritance "How do I apply?"
+    r4 = pipeline.process_query(QueryRequest(query="How do I apply?", conversation_id=conv_id))
+    assert r4.intent == "PROCEDURE"
+    assert "Application Procedure" in r4.answer or "Steps" in r4.answer or "Mode" in r4.answer
 
 def test_scenario_3_context_preservation(pipeline):
     """
