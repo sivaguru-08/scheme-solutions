@@ -998,5 +998,177 @@
     "source_pages": [21, 22, 23],
     "valid_from": "2026-07-01",
     "valid_until": null
+  },
+  {
+    "rule_id": "RULE_NSAP_OA_ELIG",
+    "scheme_id": "SCH_NSAP_OA",
+    "rule_type": "QUALIFICATION",
+    "description": "Eligible for IGNOAPS Old Age Pension",
+    "operator": "AND",
+    "conditions": [
+      {
+        "field": "demographic.age",
+        "operator": ">=",
+        "value": 60,
+        "description": "Applicant must be aged 60 years or above",
+        "citation": "Page 65, NSAP IGNOAPS Eligibility"
+      },
+      {
+        "field": "economic.is_bpl",
+        "operator": "==",
+        "value": true,
+        "description": "Applicant must belong to a household living below the poverty line (BPL)",
+        "citation": "Page 65, NSAP IGNOAPS Eligibility"
+      }
+    ],
+    "source_pages": [65, 66],
+    "valid_from": "1995-08-15",
+    "valid_until": null
+  },
+  {
+    "rule_id": "RULE_NSAP_W_ELIG",
+    "scheme_id": "SCH_NSAP_W",
+    "rule_type": "QUALIFICATION",
+    "description": "Eligible for IGNWPS Widow Pension",
+    "operator": "AND",
+    "conditions": [
+      {
+        "field": "demographic.age",
+        "operator": ">=",
+        "value": 40,
+        "description": "Widow must be aged 40 years or above",
+        "citation": "Page 65, NSAP IGNWPS Eligibility"
+      },
+      {
+        "field": "demographic.age",
+        "operator": "<=",
+        "value": 79,
+        "description": "Widow must be aged 79 years or below (Rs 500/month for 80+)",
+        "citation": "Page 65, NSAP IGNWPS Eligibility"
+      },
+      {
+        "field": "demographic.marital_status",
+        "operator": "==",
+        "value": "WIDOW",
+        "description": "Applicant must be a widow",
+        "citation": "Page 65, NSAP IGNWPS Eligibility"
+      },
+      {
+        "field": "economic.is_bpl",
+        "operator": "==",
+        "value": true,
+        "description": "Applicant must belong to a BPL household",
+        "citation": "Page 65, NSAP IGNWPS Eligibility"
+      }
+    ],
+    "source_pages": [65, 66],
+    "valid_from": "2009-02-01",
+    "valid_until": null
+  },
+  {
+    "rule_id": "RULE_NSAP_D_ELIG",
+    "scheme_id": "SCH_NSAP_D",
+    "rule_type": "QUALIFICATION",
+    "description": "Eligible for IGNDPS Disability Pension",
+    "operator": "AND",
+    "conditions": [
+      {
+        "field": "demographic.age",
+        "operator": ">=",
+        "value": 18,
+        "description": "Applicant must be aged 18 years or above",
+        "citation": "Page 65, NSAP IGNDPS Eligibility"
+      },
+      {
+        "field": "demographic.age",
+        "operator": "<=",
+        "value": 79,
+        "description": "Applicant must be aged 79 years or below (Rs 500/month for 80+)",
+        "citation": "Page 65, NSAP IGNDPS Eligibility"
+      },
+      {
+        "field": "disability.percentage",
+        "operator": ">=",
+        "value": 80,
+        "description": "Applicant must have 80% or more disability certified by competent medical authority",
+        "citation": "Page 65, NSAP IGNDPS Eligibility"
+      },
+      {
+        "field": "economic.is_bpl",
+        "operator": "==",
+        "value": true,
+        "description": "Applicant must belong to a BPL household",
+        "citation": "Page 65, NSAP IGNDPS Eligibility"
+      }
+    ],
+    "source_pages": [65, 66],
+    "valid_from": "2009-02-01",
+    "valid_until": null
+  },
+  {
+    "rule_id": "RULE_NSAP_FB_ELIG",
+    "scheme_id": "SCH_NSAP_FB",
+    "rule_type": "QUALIFICATION",
+    "description": "Eligible for NFBS National Family Benefit Scheme",
+    "operator": "AND",
+    "conditions": [
+      {
+        "field": "demographic.breadwinner_age",
+        "operator": ">=",
+        "value": 18,
+        "description": "Deceased breadwinner must have been aged 18 years or above",
+        "citation": "Page 65, NSAP NFBS Eligibility"
+      },
+      {
+        "field": "demographic.breadwinner_age",
+        "operator": "<=",
+        "value": 59,
+        "description": "Deceased breadwinner must have been aged 59 years or below",
+        "citation": "Page 65, NSAP NFBS Eligibility"
+      },
+      {
+        "field": "economic.is_bpl",
+        "operator": "==",
+        "value": true,
+        "description": "Family must belong to a BPL household",
+        "citation": "Page 65, NSAP NFBS Eligibility"
+      }
+    ],
+    "source_pages": [65, 66],
+    "valid_from": "1995-08-15",
+    "valid_until": null
+  },
+  {
+    "rule_id": "RULE_NSAP_AP_ELIG",
+    "scheme_id": "SCH_NSAP_AP",
+    "rule_type": "QUALIFICATION",
+    "description": "Eligible for Annapurna Scheme (food grains for elderly)",
+    "operator": "AND",
+    "conditions": [
+      {
+        "field": "demographic.age",
+        "operator": ">=",
+        "value": 60,
+        "description": "Applicant must be aged 60 years or above",
+        "citation": "Page 65, NSAP Annapurna Eligibility"
+      },
+      {
+        "field": "institutional.enrolled_in_ignoaps",
+        "operator": "==",
+        "value": false,
+        "description": "Applicant must NOT be receiving pension under IGNOAPS",
+        "citation": "Page 65, NSAP Annapurna Eligibility"
+      },
+      {
+        "field": "economic.is_bpl",
+        "operator": "==",
+        "value": true,
+        "description": "Applicant must belong to a BPL household",
+        "citation": "Page 65, NSAP Annapurna Eligibility"
+      }
+    ],
+    "source_pages": [65, 66],
+    "valid_from": "2000-04-01",
+    "valid_until": null
   }
 ]

@@ -1,10 +1,12 @@
 from typing import Dict, Any, List, Optional, Tuple
 from schemas.models import UserDemographics, EligibilityResult, ConditionEvaluation
 from store.database import SchemeRepository
+from engine.ast_rule_engine import ASTRuleEngine
 
 class DeterministicRuleEvaluator:
     def __init__(self, repo: Optional[SchemeRepository] = None):
         self.repo = repo or SchemeRepository()
+        self.ast_engine = ASTRuleEngine()
 
     def evaluate_scheme(self, scheme_id: str, profile: UserDemographics) -> EligibilityResult:
         scheme = self.repo.get_scheme_by_id(scheme_id)
@@ -105,6 +107,33 @@ class DeterministicRuleEvaluator:
             else:
                 # Qualification rule
                 for c in r.get("conditions", []):
+                    if c.get("conditions") is not None:
+                        ast_res = self.ast_engine.evaluate_node(c, user_dict)
+                        cit_str = f"Page {r.get('source_pages', [''])[0]}" if r.get("source_pages") else None
+                        if ast_res.is_satisfied:
+                            passed_conditions.append(ConditionEvaluation(
+                                field="qualification_category",
+                                required_value="Met",
+                                actual_value="Met",
+                                passed=True,
+                                description=f"Combined eligibility condition ({c.get('operator', 'OR')}) satisfied",
+                                citation=cit_str
+                            ))
+                        elif ast_res.missing_fields:
+                            for mf in ast_res.missing_fields:
+                                missing_info.append(f"{mf}")
+                        else:
+                            failed_conditions.append(ConditionEvaluation(
+                                field="qualification_category",
+                                required_value="Met",
+                                actual_value="Unmet",
+                                passed=False,
+                                description=f"Did not satisfy combined condition ({c.get('operator', 'OR')})",
+                                citation=cit_str
+                            ))
+                            reasons.append(f"Did not meet qualification category ({c.get('operator', 'OR')})")
+                        continue
+
                     field_raw = c.get("field", "")
                     op = c.get("operator", "==")
                     val = c.get("value")

@@ -1,0 +1,335 @@
+{
+  "intent_model": {
+    "algorithm": "TfidfVectorizer + Calibrated LinearSVC",
+    "accuracy": 0.9861,
+    "macro_f1": 0.9742,
+    "latency_ms": 0.043,
+    "classes": [
+      "AUTHORITY",
+      "BENEFITS",
+      "CHECK_ELIGIBILITY",
+      "DOCUMENTS",
+      "ELIGIBILITY",
+      "EXCLUSIONS",
+      "FAQ",
+      "LIST_SCHEMES",
+      "OUT_OF_SCOPE",
+      "OVERVIEW",
+      "PROCEDURE"
+    ],
+    "classification_report": {
+      "AUTHORITY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 24.0
+      },
+      "BENEFITS": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 24.0
+      },
+      "CHECK_ELIGIBILITY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 18.0
+      },
+      "DOCUMENTS": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 24.0
+      },
+      "ELIGIBILITY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 26.0
+      },
+      "EXCLUSIONS": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 17.0
+      },
+      "FAQ": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 17.0
+      },
+      "LIST_SCHEMES": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "OUT_OF_SCOPE": {
+        "precision": 1.0,
+        "recall": 0.625,
+        "f1-score": 0.7692307692307693,
+        "support": 8.0
+      },
+      "OVERVIEW": {
+        "precision": 0.9393939393939394,
+        "recall": 1.0,
+        "f1-score": 0.96875,
+        "support": 31.0
+      },
+      "PROCEDURE": {
+        "precision": 0.9565217391304348,
+        "recall": 1.0,
+        "f1-score": 0.9777777777777777,
+        "support": 22.0
+      },
+      "accuracy": 0.9861111111111112,
+      "macro avg": {
+        "precision": 0.9905377889567614,
+        "recall": 0.9659090909090909,
+        "f1-score": 0.974159867909868,
+        "support": 216.0
+      },
+      "weighted avg": {
+        "precision": 0.9868735665837115,
+        "recall": 0.9861111111111112,
+        "f1-score": 0.9847046632636911,
+        "support": 216.0
+      }
+    }
+  },
+  "scheme_model": {
+    "algorithm": "TfidfVectorizer + Calibrated LinearSVC",
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "latency_ms": 0.088,
+    "classes": [
+      "NONE",
+      "SCH_ABPMJAY",
+      "SCH_APY",
+      "SCH_BOCW",
+      "SCH_DAY",
+      "SCH_DDUGKY",
+      "SCH_GKRY",
+      "SCH_HIS_WEAVERS",
+      "SCH_MGNREGA",
+      "SCH_NPST",
+      "SCH_NSAP",
+      "SCH_ONORC",
+      "SCH_PMAYG",
+      "SCH_PMFBY",
+      "SCH_PMJDY",
+      "SCH_PMJJBY",
+      "SCH_PMJKMY",
+      "SCH_PMKISAN",
+      "SCH_PMKVY",
+      "SCH_PMMY",
+      "SCH_PMSBY",
+      "SCH_PMSBY_FULL",
+      "SCH_PMSURYA",
+      "SCH_PMSYM",
+      "SCH_PMUY",
+      "SCH_SRMS",
+      "SCH_SSY",
+      "SCH_SVANIDHI",
+      "SCH_VBG_RAMG",
+      "SCH_VISHWA"
+    ],
+    "classification_report": {
+      "NONE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 13.0
+      },
+      "SCH_ABPMJAY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 10.0
+      },
+      "SCH_APY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      },
+      "SCH_BOCW": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      },
+      "SCH_DAY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 10.0
+      },
+      "SCH_DDUGKY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3.0
+      },
+      "SCH_GKRY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "SCH_HIS_WEAVERS": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      },
+      "SCH_MGNREGA": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3.0
+      },
+      "SCH_NPST": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 11.0
+      },
+      "SCH_NSAP": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "SCH_ONORC": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      },
+      "SCH_PMAYG": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      },
+      "SCH_PMFBY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "SCH_PMJDY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "SCH_PMJJBY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      },
+      "SCH_PMJKMY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "SCH_PMKISAN": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 9.0
+      },
+      "SCH_PMKVY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      },
+      "SCH_PMMY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5.0
+      },
+      "SCH_PMSBY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "SCH_PMSBY_FULL": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      },
+      "SCH_PMSURYA": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2.0
+      },
+      "SCH_PMSYM": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "SCH_PMUY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7.0
+      },
+      "SCH_SRMS": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 10.0
+      },
+      "SCH_SSY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "SCH_SVANIDHI": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "SCH_VBG_RAMG": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "SCH_VISHWA": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 10.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 216.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 216.0
+      }
+    }
+  }
+}

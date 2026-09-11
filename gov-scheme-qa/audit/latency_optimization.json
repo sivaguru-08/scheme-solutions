@@ -1,0 +1,17 @@
+{
+  "baseline_p50_ms": 3.258,
+  "optimized_p50_ms": 1.144,
+  "optimized_p95_ms": 8.195,
+  "optimized_p99_ms": 8.576,
+  "mean_entity_extraction_ms": 0.242,
+  "mean_intent_prediction_ms": 1.276,
+  "optimizations": [
+    "Pre-compiled Jinja2 StrictUndefined template registry at module import time",
+    "Pre-compiled slot extraction regexes and patterns in EntityExtractor",
+    "Cached custom template strings with in-memory dictionary",
+    "Replaced string concatenations with list joins"
+  ],
+  "latency_reduction_pct": 64.89,
+  "regression_tests_passed": 106,
+  "status": "PASSED"
+}

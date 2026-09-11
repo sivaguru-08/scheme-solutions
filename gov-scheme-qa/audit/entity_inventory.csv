@@ -1,0 +1,31 @@
+entity_id,name,abbreviation,entity_type,ministry,target_beneficiary,primary_page_start,primary_page_end
+SCH_ONORC,One Nation One Ration Card,ONORC,WELFARE_SCHEME,"Ministry of Consumer Affairs, Food & Public Distribution",NFSA Ration cardholders / Migrant workers,1,2
+SCH_ESHRAM,e-Shram National Database of Unorganised Workers,e-Shram,PORTAL_AND_REGISTRY,Ministry of Labour and Employment,"Unorganised, construction, migrant, gig and platform workers",3,3
+SCH_PMSYM,Pradhan Mantri Shram Yogi Maan-Dhan Yojana,PM-SYM,PENSION_SCHEME,Ministry of Labour and Employment,"Unorganised workers (18-40 yrs, monthly income <= 15000)",3,4
+SCH_NPST,National Pension Scheme for Traders and Self-Employed Persons,NPS-Traders,PENSION_SCHEME,Ministry of Labour and Employment,"Retail traders, shopkeepers (annual turnover <= 1.5 Cr)",4,4
+SCH_PMJJBY,Pradhan Mantri Jeevan Jyoti Bima Yojana,PMJJBY,INSURANCE_SCHEME,Ministry of Finance,Bank account holders aged 18-50 years,4,4
+SCH_PMSBY,Pradhan Mantri Suraksha Bima Yojana,PMSBY,INSURANCE_SCHEME,Ministry of Finance,Bank account holders aged 18-70 years,4,5
+SCH_APY,Atal Pension Yojana,APY,PENSION_SCHEME,Ministry of Finance / PFRDA,All bank account holders aged 18-40 years,5,5
+SCH_PMKISAN,Pradhan Mantri Kisan Samman Nidhi,PM-KISAN,INCOME_SUPPORT_SCHEME,Ministry of Agriculture and Farmers Welfare,All landholding farmer families,5,6
+SCH_PMSURYA,PM Surya Ghar: Muft Bijli Yojana,PM Surya Ghar,SUBSIDY_SCHEME,Ministry of New and Renewable Energy,Residential electricity consumer households,6,6
+SCH_SVANIDHI,PM Street Vendor's AtmaNirbhar Nidhi,PM SVANidhi,MICRO_CREDIT_SCHEME,Ministry of Housing and Urban Affairs,"Urban street vendors vending on or before March 24, 2020",6,7
+SCH_VISHWA,PM Vishwakarma Scheme,PM Vishwakarma,TRADITIONAL_TRADES_SCHEME,"Ministry of Micro, Small and Medium Enterprises",Artisans and craftspersons across 18 listed traditional trades,7,8
+SCH_PMUY,Pradhan Mantri Ujjwala Yojana,PMUY,SUBSIDY_SCHEME,Ministry of Petroleum and Natural Gas,Adult women from BPL / poor households without LPG,8,9
+SCH_PMSBY_RULES,Pradhan Mantri Suraksha Bima Yojana - Detailed Rules & FAQs,PMSBY Rules,STATUTORY_RULES,Ministry of Finance,Bank account holders aged 18-70,60,75
+SCH_PMMY,Pradhan Mantri Mudra Yojana,PMMY,CREDIT_GUARANTEE_SCHEME,Ministry of Finance,"Non-corporate, non-farm micro and small enterprises",9,10
+SCH_PMFBY,Pradhan Mantri Fasal Bima Yojana,PMFBY,CROP_INSURANCE_SCHEME,Ministry of Agriculture and Farmers Welfare,Farmers growing notified crops in notified areas,160,185
+SCH_SSY,Sukanya Samriddhi Yojana,SSY,SMALL_SAVINGS_SCHEME,Ministry of Finance,Girl child up to age 10 years (max 2 per family),10,10
+SCH_PMAYG,Pradhan Mantri Awaas Yojana – Gramin,PMAY-G,HOUSING_SCHEME,Ministry of Rural Development,Rural homeless or living in kutcha/dilapidated houses,10,11
+SCH_PMJDY,Pradhan Mantri Jan Dhan Yojana,PMJDY,FINANCIAL_INCLUSION_SCHEME,Ministry of Finance,Every unbanked adult citizen,11,11
+SCH_MGNREGA,Mahatma Gandhi National Rural Employment Guarantee Act 2005,MGNREGA,STATUTORY_RIGHT_TO_WORK,Ministry of Rural Development,Every rural household volunteering for unskilled manual labor,14,39
+SCH_VBG_RAMG,Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission Gramin Act 2025,VB-G RAM G,STATUTORY_FRAMEWORK,Ministry of Rural Development,Rural households demanding livelihood assurance,14,39
+SCH_PMJKMY,Pradhan Mantri Kisan Mandhan Yojana,PM-KMY,PENSION_SCHEME,Ministry of Agriculture and Farmers Welfare,Small & Marginal Farmers owning cultivable land up to 2 ha,12,12
+SCH_DDUGKY,Deen Dayal Upadhyay Grameen Kaushalya Yojana,DDU-GKY,SKILL_TRAINING_SCHEME,Ministry of Rural Development,Poor rural youth aged 15-35 years,12,12
+SCH_GKRY,Garib Kalyan Rozgar Yojana,GKRY,EMPLOYMENT_CAMPAIGN,Ministry of Rural Development,Returnee migrant workers in 116 selected districts,9,10
+SCH_DAY,Deen Dayal Upadhyaya Antyodaya Yojana - NRLM,DAY-NRLM,LIVELIHOODS_MISSION,Ministry of Rural Development,Rural poor women organized into Self-Help Groups (SHGs),13,13
+SCH_PMKVY,Pradhan Mantri Kaushal Vikas Yojana,PMKVY,SKILL_TRAINING_SCHEME,Ministry of Skill Development and Entrepreneurship,Indian youth seeking industry-relevant skill training & RPL,13,13
+SCH_NSAP,National Social Assistance Programme,NSAP,SOCIAL_ASSISTANCE_PROGRAMME,Ministry of Rural Development,"Elderly, widows, and persons with disabilities from BPL households",230,245
+SCH_ABPMJAY,Ayushman Bharat PM-JAY Mukhmantri Sehat Bima Yojana,AB PM-JAY MMSBY,HEALTH_INSURANCE_SCHEME,Ministry of Health and Family Welfare / NHA,Bottom 40% vulnerable families identified under SECC,255,261
+SCH_HIS_WEAVERS,Health Insurance Scheme for Handloom Weavers,HIS,SECTORAL_HEALTH_SCHEME,Ministry of Textiles,Handloom weavers and ancillary workers,7,8
+SCH_SRMS,Self Employment Scheme for Rehabilitation of Manual Scavengers,SRMS,REHABILITATION_SCHEME,Ministry of Social Justice and Empowerment,Identified manual scavengers and dependents,8,9
+SCH_BOCW,Building and Other Construction Workers Welfare Framework,BOCW,STATUTORY_WELFARE_BOARD,Ministry of Labour and Employment,Registered building and construction workers,218,229

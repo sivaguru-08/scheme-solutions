@@ -11,14 +11,14 @@ def test_health(client):
     assert res.status_code == 200
     data = res.json()
     assert data["status"] == "HEALTHY"
-    assert data["schemes_loaded"] == 29
+    assert data["schemes_loaded"] == 34
     assert data["llm_used"] is False
 
 def test_list_schemes_api(client):
     res = client.get("/api/schemes")
     assert res.status_code == 200
     data = res.json()
-    assert data["count"] == 29
+    assert data["count"] == 34
 
 def test_scheme_detail_api(client):
     res = client.get("/api/schemes/SCH_ONORC")

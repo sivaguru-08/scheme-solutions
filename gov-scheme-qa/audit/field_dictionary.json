@@ -1,0 +1,126 @@
+{
+  "demographic": {
+    "age": {
+      "data_type": "integer",
+      "unit": "years",
+      "description": "Age in completed years of the applicant",
+      "allowed_range": [
+        0,
+        120
+      ]
+    },
+    "gender": {
+      "data_type": "string",
+      "description": "Biological sex / gender identity",
+      "allowed_values": [
+        "MALE",
+        "FEMALE",
+        "OTHER"
+      ]
+    },
+    "citizenship": {
+      "data_type": "string",
+      "description": "Nationality of the beneficiary",
+      "default": "INDIAN"
+    },
+    "residence_state": {
+      "data_type": "string",
+      "description": "State or Union Territory of residence",
+      "allowed_values": "All 36 States/UTs of India"
+    },
+    "rural_urban": {
+      "data_type": "string",
+      "description": "Geographical domicile type",
+      "allowed_values": [
+        "RURAL",
+        "URBAN"
+      ]
+    }
+  },
+  "economic": {
+    "monthly_income": {
+      "data_type": "float",
+      "unit": "INR",
+      "description": "Monthly personal income of the worker/applicant"
+    },
+    "annual_turnover": {
+      "data_type": "float",
+      "unit": "INR",
+      "description": "Annual business gross turnover (GST/self-declared)"
+    },
+    "land_holding_hectares": {
+      "data_type": "float",
+      "unit": "hectares",
+      "description": "Cultivable land owned in land records by farmer family"
+    },
+    "is_income_tax_payer": {
+      "data_type": "boolean",
+      "description": "True if applicant or spouse paid income tax in last assessment year"
+    }
+  },
+  "occupational": {
+    "occupation_type": {
+      "data_type": "string",
+      "description": "Categorized livelihood trade",
+      "allowed_values": [
+        "UNORGANISED_WORKER",
+        "FARMER",
+        "STREET_VENDOR",
+        "TRADER",
+        "ARTISAN",
+        "CONSTRUCTION_WORKER",
+        "WEAVER",
+        "MANUAL_SCAVENGER",
+        "OTHER"
+      ]
+    },
+    "is_unorganised_worker": {
+      "data_type": "boolean",
+      "description": "True if working in informal economy without statutory social security"
+    },
+    "is_epfo_or_esic_member": {
+      "data_type": "boolean",
+      "description": "True if enrolled under EPFO, ESIC, or government pension funds"
+    }
+  },
+  "institutional": {
+    "has_ration_card": {
+      "data_type": "boolean",
+      "description": "Holds valid National Food Security Act (NFSA) ration card"
+    },
+    "is_aadhaar_seeded": {
+      "data_type": "boolean",
+      "description": "Aadhaar number linked to beneficiary bank account / ration card"
+    },
+    "has_bank_account": {
+      "data_type": "boolean",
+      "description": "Possesses operative savings bank or Jan Dhan account with IFSC"
+    },
+    "has_pucca_house": {
+      "data_type": "boolean",
+      "description": "Owns a pucca/permanent house anywhere in India"
+    }
+  },
+  "benefits_metrics": {
+    "pension_inr_monthly": {
+      "data_type": "float",
+      "unit": "INR/month",
+      "description": "Assured monthly pension payout post age 60"
+    },
+    "dbt_annual_inr": {
+      "data_type": "float",
+      "unit": "INR/year",
+      "description": "Direct financial assistance credited annually"
+    },
+    "insurance_cover_accidental_inr": {
+      "data_type": "float",
+      "unit": "INR",
+      "description": "Sum assured for accidental death or permanent total disability"
+    },
+    "insurance_cover_life_inr": {
+      "data_type": "float",
+      "unit": "INR",
+      "description": "Sum assured for death due to any cause"
+    }
+  }
+}

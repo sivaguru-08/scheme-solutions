@@ -167,5 +167,126 @@
       17,
       18
     ]
+  },
+  {
+    "procedure_id": "PROC_NSAP_001",
+    "scheme_id": "SCH_NSAP",
+    "mode": "OFFLINE_AND_ONLINE",
+    "online_steps": [
+      "Visit the official NSAP portal (nsap.nic.in) or state social welfare department portal.",
+      "Navigate to 'Apply Online' and choose the relevant pension component (IGNOAPS / IGNWPS / IGNDPS).",
+      "Enter Aadhaar number and complete e-KYC authentication.",
+      "Upload scanned copies of Age Proof, BPL ration card, and bank account passbook details.",
+      "Submit the application and note down the generated Application Reference Number for tracking."
+    ],
+    "offline_steps": [
+      "Obtain the physical NSAP application form from the local Gram Panchayat office, Block Development Office (BDO), or Urban Local Body (Municipality/Corporation).",
+      "Fill out the applicant details and attach self-attested copies of Aadhaar, Age Certificate, BPL Proof, and Bank Passbook.",
+      "Submit the completed application form to the designated Social Welfare Officer / BDO office.",
+      "Undergo field verification conducted by the Gram Panchayat or designated local verification officer.",
+      "Upon verification and sanction, receive monthly pension directly disbursed to the linked bank/post office account via DBT."
+    ],
+    "processing_time": "30-45 working days from submission to sanction",
+    "fees": "Free of cost / No application fee",
+    "source_pages": [65, 66]
+  },
+  {
+    "procedure_id": "PROC_NSAP_OA_001",
+    "scheme_id": "SCH_NSAP_OA",
+    "mode": "OFFLINE_AND_ONLINE",
+    "online_steps": [
+      "Visit the official NSAP portal (nsap.nic.in) or your state social welfare department portal.",
+      "Select 'Apply Online' and choose 'Indira Gandhi National Old Age Pension Scheme (IGNOAPS)'.",
+      "Complete Aadhaar e-KYC authentication.",
+      "Upload age proof document (showing age 60+) and BPL ration card/income certificate.",
+      "Enter bank account details linked to Aadhaar for Direct Benefit Transfer.",
+      "Submit application and note down tracking reference number."
+    ],
+    "offline_steps": [
+      "Collect IGNOAPS application form from Gram Panchayat / Block Development Office / Municipality.",
+      "Attach Aadhaar card, age proof certificate, BPL proof, and bank passbook photocopy.",
+      "Submit form to Social Welfare Officer or Block Development Office.",
+      "Verification is conducted by local administration before sanction."
+    ],
+    "processing_time": "30-45 working days",
+    "fees": "Free of cost / No application fee",
+    "source_pages": [65, 66]
+  },
+  {
+    "procedure_id": "PROC_NSAP_W_001",
+    "scheme_id": "SCH_NSAP_W",
+    "mode": "OFFLINE_AND_ONLINE",
+    "online_steps": [
+      "Visit the official NSAP portal (nsap.nic.in) or state social welfare department portal.",
+      "Select 'Apply Online' and choose 'Indira Gandhi National Widow Pension Scheme (IGNWPS)'.",
+      "Upload death certificate of husband, age proof (40+), and BPL proof.",
+      "Provide bank account details for DBT pension transfer."
+    ],
+    "offline_steps": [
+      "Obtain application form from Gram Panchayat / BDO office.",
+      "Attach death certificate of husband, age proof, BPL card, and bank passbook.",
+      "Submit to Social Welfare Officer / BDO office."
+    ],
+    "processing_time": "30-45 working days",
+    "fees": "Free of cost / No application fee",
+    "source_pages": [65, 66]
+  },
+  {
+    "procedure_id": "PROC_NSAP_D_001",
+    "scheme_id": "SCH_NSAP_D",
+    "mode": "OFFLINE_AND_ONLINE",
+    "online_steps": [
+      "Visit the NSAP portal or state social welfare portal.",
+      "Select 'Apply Online' -> 'Indira Gandhi National Disability Pension Scheme (IGNDPS)'.",
+      "Upload disability certificate (80%+ severe/multiple disability or UDID card) and BPL proof.",
+      "Provide Aadhaar and bank account details."
+    ],
+    "offline_steps": [
+      "Obtain application form from BDO / Gram Panchayat / District Social Welfare Office.",
+      "Attach disability certificate / UDID card, BPL ration card, and bank passbook.",
+      "Submit to BDO or District Disability Rehabilitation Centre."
+    ],
+    "processing_time": "30-45 working days",
+    "fees": "Free of cost / No application fee",
+    "source_pages": [65, 66]
+  },
+  {
+    "procedure_id": "PROC_NSAP_FB_001",
+    "scheme_id": "SCH_NSAP_FB",
+    "mode": "OFFLINE_AND_ONLINE",
+    "online_steps": [
+      "Visit the NSAP portal or state social welfare portal.",
+      "Select 'Apply Online' -> 'National Family Benefit Scheme (NFBS)'.",
+      "Upload death certificate of breadwinner (died aged 18-59) and BPL proof.",
+      "Provide head of household bank account details."
+    ],
+    "offline_steps": [
+      "Obtain NFBS application form from Gram Panchayat / BDO office.",
+      "Attach breadwinner's death certificate, age verification, BPL card, and bank details.",
+      "Submit to BDO / District Social Welfare Officer within designated period."
+    ],
+    "processing_time": "30-45 working days",
+    "fees": "Free of cost / No application fee",
+    "source_pages": [65, 66]
+  },
+  {
+    "procedure_id": "PROC_NSAP_AP_001",
+    "scheme_id": "SCH_NSAP_AP",
+    "mode": "OFFLINE_AND_ONLINE",
+    "online_steps": [
+      "Visit state Food and Civil Supplies / Social Welfare portal.",
+      "Select 'Apply for Annapurna Scheme'.",
+      "Upload age proof (60+) and declaration of non-receipt of pension under IGNOAPS.",
+      "Select designated Fair Price Shop (FPS) for food grain collection."
+    ],
+    "offline_steps": [
+      "Obtain Annapurna Scheme form from Gram Panchayat or Taluk Supply Office / Ration Office.",
+      "Attach age proof (60+), BPL ration card, and non-pensioner certificate.",
+      "Submit to local Food & Civil Supplies Inspector or BDO office.",
+      "Upon sanction, an Annapurna special ration card is issued for 10 kg free grains monthly."
+    ],
+    "processing_time": "30 working days",
+    "fees": "Free of cost / No application fee",
+    "source_pages": [65, 66]
   }
 ]

@@ -15,6 +15,18 @@ def load_data():
     conn = get_connection(DB_PATH)
     cur = conn.cursor()
 
+    # Clear previous contents for clean idempotent seeding
+    cur.execute("DELETE FROM relationships;")
+    cur.execute("DELETE FROM authorities;")
+    cur.execute("DELETE FROM faqs;")
+    cur.execute("DELETE FROM procedures;")
+    cur.execute("DELETE FROM documents;")
+    cur.execute("DELETE FROM exclusions;")
+    cur.execute("DELETE FROM rules;")
+    cur.execute("DELETE FROM benefits;")
+    cur.execute("DELETE FROM schemes;")
+    cur.execute("DELETE FROM fts_schemes_content;")
+
     # 1. Load Schemes
     with open(f"{DATA_DIR}/schemes/all_schemes.json") as f:
         schemes = json.load(f)

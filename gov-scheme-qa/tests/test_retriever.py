@@ -7,7 +7,7 @@ def repo():
 
 def test_all_schemes_count(repo):
     schemes = repo.get_all_schemes()
-    assert len(schemes) == 29
+    assert len(schemes) == 34
     ids = [s["scheme_id"] for s in schemes]
     assert "SCH_ONORC" in ids
     assert "SCH_PMSYM" in ids

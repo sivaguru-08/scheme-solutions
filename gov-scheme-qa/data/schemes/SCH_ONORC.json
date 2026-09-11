@@ -2,7 +2,12 @@
   "scheme_id": "SCH_ONORC",
   "official_name": "One Nation One Ration Card",
   "abbreviation": "ONORC",
-  "aliases": ["ONORC", "one nation ration card", "ration portability", "mera ration"],
+  "aliases": [
+    "ONORC",
+    "one nation ration card",
+    "ration portability",
+    "mera ration"
+  ],
   "category": "Food Security",
   "subcategory": "PDS Portability",
   "entity_type": "SCHEME",
@@ -17,8 +22,21 @@
   "effective_from": "2018-01-01",
   "effective_until": null,
   "version": "current",
-  "portals": ["National Food Security Portal"],
+  "portals": [
+    "National Food Security Portal"
+  ],
   "mobile_app": "MERA RATION (13 languages)",
-  "source_pages": [1, 2],
-  "source_sections": ["Short Description", "Details", "Benefits", "Eligibility", "Application Process", "Documents Required", "FAQs"]
+  "source_pages": [
+    1,
+    2
+  ],
+  "source_sections": [
+    "Short Description",
+    "Details",
+    "Benefits",
+    "Eligibility",
+    "Application Process",
+    "Documents Required",
+    "FAQs"
+  ]
 }

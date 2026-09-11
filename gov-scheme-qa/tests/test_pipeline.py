@@ -32,5 +32,5 @@ def test_pipeline_pmkisan_exclusions(pipeline):
 def test_pipeline_catalog_list(pipeline):
     res = pipeline.process_query(QueryRequest(query="List all government schemes"))
     assert res.intent == "LIST_SCHEMES"
-    assert "Available Government Schemes" in res.answer
+    assert "Available Schemes" in res.answer
     assert "29" in res.answer or len(res.answer) > 500

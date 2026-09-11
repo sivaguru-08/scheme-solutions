@@ -1,0 +1,2090 @@
+{
+  "1": {
+    "page_number": 1,
+    "assigned_entity": "SCH_ONORC",
+    "section_type": "OVERVIEW_AND_ELIGIBILITY",
+    "header_text": "One Nation One Ration Card",
+    "char_count": 3001,
+    "is_blank": false
+  },
+  "2": {
+    "page_number": 2,
+    "assigned_entity": "SCH_ONORC",
+    "section_type": "OVERVIEW_AND_ELIGIBILITY",
+    "header_text": "Eligibility",
+    "char_count": 1342,
+    "is_blank": false
+  },
+  "3": {
+    "page_number": 3,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "ESHRAM_AND_PMSYM_ELIGIBILITY",
+    "header_text": "E-shram",
+    "char_count": 1735,
+    "is_blank": false
+  },
+  "4": {
+    "page_number": 4,
+    "assigned_entity": "SCH_PMJJBY",
+    "section_type": "PMJJBY_AND_PMSBY_SUMMARY",
+    "header_text": "\u2022    Monthly contribution ranges from Rs.55 to Rs.200 depending upon the entry a",
+    "char_count": 1349,
+    "is_blank": false
+  },
+  "5": {
+    "page_number": 5,
+    "assigned_entity": "SCH_PMKISAN",
+    "section_type": "APY_AND_PMKISAN_OVERVIEW",
+    "header_text": "\u2022    The risk coverage under the scheme is Rs. 2 lakh for accidental death and f",
+    "char_count": 1477,
+    "is_blank": false
+  },
+  "6": {
+    "page_number": 6,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PMSURYA_AND_SVANIDHI_OVERVIEW",
+    "header_text": "\u2022    Any family including workers, which does not have a member between ages 15 ",
+    "char_count": 1669,
+    "is_blank": false
+  },
+  "7": {
+    "page_number": 7,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "VISHWAKARMA_AND_WEAVERS_OVERVIEW",
+    "header_text": "Benefits",
+    "char_count": 1636,
+    "is_blank": false
+  },
+  "8": {
+    "page_number": 8,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_AND_SRMS_OVERVIEW",
+    "header_text": "\u2022    Identified manual scavengers, one from each family, (as defined in para 2.3",
+    "char_count": 1731,
+    "is_blank": false
+  },
+  "9": {
+    "page_number": 9,
+    "assigned_entity": "SCH_PMMY",
+    "section_type": "PMMY_SSY_PMAYG_OVERVIEW",
+    "header_text": "Garib Kalyan Rozgar Yojana",
+    "char_count": 1375,
+    "is_blank": false
+  },
+  "10": {
+    "page_number": 10,
+    "assigned_entity": "SCH_PMMY",
+    "section_type": "PMMY_SSY_PMAYG_OVERVIEW",
+    "header_text": "\u2022    Applicable for any candidate of Indian nationality who is of age between 18",
+    "char_count": 2187,
+    "is_blank": false
+  },
+  "11": {
+    "page_number": 11,
+    "assigned_entity": "SCH_PMJDY",
+    "section_type": "PMJDY_DAY_PMKVY_SUMMARY",
+    "header_text": "The Inter-State Migrant Workmen (Regulation Of Employment And Conditions Of Serv",
+    "char_count": 2666,
+    "is_blank": false
+  },
+  "12": {
+    "page_number": 12,
+    "assigned_entity": "SCH_PMJDY",
+    "section_type": "PMJDY_DAY_PMKVY_SUMMARY",
+    "header_text": "investigation and settlement of industrial disputes. The bill was formulated acc",
+    "char_count": 2303,
+    "is_blank": false
+  },
+  "13": {
+    "page_number": 13,
+    "assigned_entity": "SCH_PMJDY",
+    "section_type": "PMJDY_DAY_PMKVY_SUMMARY",
+    "header_text": "7. Are gig and platform workers covered?",
+    "char_count": 2144,
+    "is_blank": false
+  },
+  "14": {
+    "page_number": 14,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "Vision of Mahatma Gandhi NREGA",
+    "char_count": 1853,
+    "is_blank": false
+  },
+  "15": {
+    "page_number": 15,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "Act shall be construed as a reference to the coming into force of that provision",
+    "char_count": 2223,
+    "is_blank": false
+  },
+  "16": {
+    "page_number": 16,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "(n) \"project\" means any work taken up under a Scheme for the purpose of providin",
+    "char_count": 2176,
+    "is_blank": false
+  },
+  "17": {
+    "page_number": 17,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "every household whose adult members, by application, subject to the conditions l",
+    "char_count": 2357,
+    "is_blank": false
+  },
+  "18": {
+    "page_number": 18,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "(2) Subject to such terms and conditions of eligibility as may be prescribed by ",
+    "char_count": 2755,
+    "is_blank": false
+  },
+  "19": {
+    "page_number": 19,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "(3) The State Government shall take all measures to make the payment of unemploy",
+    "char_count": 2146,
+    "is_blank": false
+  },
+  "20": {
+    "page_number": 20,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "Provided further that not less than one-third of the non-official members nomina",
+    "char_count": 2215,
+    "is_blank": false
+  },
+  "21": {
+    "page_number": 21,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "non-official members nominated by the State Government from Panchayati Raj insti",
+    "char_count": 2259,
+    "is_blank": false
+  },
+  "22": {
+    "page_number": 22,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "(3) The amount standing to the credit of the National Fund shall be utilised in ",
+    "char_count": 2150,
+    "is_blank": false
+  },
+  "23": {
+    "page_number": 23,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "Whoever contravenes the provisions of this Act shall on conviction be liable to ",
+    "char_count": 2737,
+    "is_blank": false
+  },
+  "24": {
+    "page_number": 24,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "(1) The Central Government may, by notification, and subject to the condition of",
+    "char_count": 2574,
+    "is_blank": false
+  },
+  "25": {
+    "page_number": 25,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "(h) the arrangements required for proper execution of Schemes under sub-section ",
+    "char_count": 2376,
+    "is_blank": false
+  },
+  "26": {
+    "page_number": 26,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "(iv) provision of irrigation facility to land owned by households belonging to t",
+    "char_count": 1963,
+    "is_blank": false
+  },
+  "27": {
+    "page_number": 27,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "10. Type of work",
+    "char_count": 2020,
+    "is_blank": false
+  },
+  "28": {
+    "page_number": 28,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "1. Registration and Job Card",
+    "char_count": 2276,
+    "is_blank": false
+  },
+  "29": {
+    "page_number": 29,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "9. Submission of applications",
+    "char_count": 1974,
+    "is_blank": false
+  },
+  "30": {
+    "page_number": 30,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "The District Programme Coordinator shall, in his Annual Report to the State Coun",
+    "char_count": 2424,
+    "is_blank": false
+  },
+  "31": {
+    "page_number": 31,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "Where hospitalisation of the injured worker is necessary, the State Government s",
+    "char_count": 2359,
+    "is_blank": false
+  },
+  "32": {
+    "page_number": 32,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "In case of every employment under the Scheme, there shall be no discrimination s",
+    "char_count": 1566,
+    "is_blank": false
+  },
+  "33": {
+    "page_number": 33,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "4. Unemployment Allowance",
+    "char_count": 1302,
+    "is_blank": false
+  },
+  "34": {
+    "page_number": 34,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "8. Funding Pattern",
+    "char_count": 1305,
+    "is_blank": false
+  },
+  "35": {
+    "page_number": 35,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "1. What is MGNREGA?",
+    "char_count": 1699,
+    "is_blank": false
+  },
+  "36": {
+    "page_number": 36,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "12. What if work is provided more than 5 kilometres away?",
+    "char_count": 1603,
+    "is_blank": false
+  },
+  "37": {
+    "page_number": 37,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "Atal Pension Yojana (APY)",
+    "char_count": 2038,
+    "is_blank": false
+  },
+  "38": {
+    "page_number": 38,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "Under the APY, guaranteed minimum pension of Rs. 1,000/- or Rs. 2,000/- or Rs. 3",
+    "char_count": 2175,
+    "is_blank": false
+  },
+  "39": {
+    "page_number": 39,
+    "assigned_entity": "SCH_MGNREGA",
+    "section_type": "MGNREGA_ACT_PROVISIONS_AND_RULES",
+    "header_text": "3. Assam Tea Plantation Provident Fund and Miscellaneous Provisions, 1955.",
+    "char_count": 2196,
+    "is_blank": false
+  },
+  "40": {
+    "page_number": 40,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "PMSYM_DETAILED_CONTRIBUTION_SCHEDULES",
+    "header_text": "8. How are the contributions invested in APY?",
+    "char_count": 1736,
+    "is_blank": false
+  },
+  "41": {
+    "page_number": 41,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "PMSYM_DETAILED_CONTRIBUTION_SCHEDULES",
+    "header_text": "\u2022   On any date of the particular month, in case of monthly contributions.",
+    "char_count": 2362,
+    "is_blank": false
+  },
+  "42": {
+    "page_number": 42,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "PMSYM_DETAILED_CONTRIBUTION_SCHEDULES",
+    "header_text": "17. What are the fees and charges involved in maintaining the APY account?",
+    "char_count": 1872,
+    "is_blank": false
+  },
+  "43": {
+    "page_number": 43,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "PMSYM_DETAILED_CONTRIBUTION_SCHEDULES",
+    "header_text": "The subscribers can opt to decrease or increase the pension amount during the co",
+    "char_count": 2282,
+    "is_blank": false
+  },
+  "44": {
+    "page_number": 44,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "PMSYM_DETAILED_CONTRIBUTION_SCHEDULES",
+    "header_text": "The subscriber will also receive a physical Statement of Account once a year.",
+    "char_count": 1979,
+    "is_blank": false
+  },
+  "45": {
+    "page_number": 45,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "PMSYM_DETAILED_CONTRIBUTION_SCHEDULES",
+    "header_text": "The subscribers under the Swavalamban Scheme who are beyond the age of 40 and wh",
+    "char_count": 1636,
+    "is_blank": false
+  },
+  "46": {
+    "page_number": 46,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "PMSYM_DETAILED_CONTRIBUTION_SCHEDULES",
+    "header_text": "After the subscriber's demise, the spouse of the subscriber shall be entitled to",
+    "char_count": 2034,
+    "is_blank": false
+  },
+  "47": {
+    "page_number": 47,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "PMSYM_DETAILED_CONTRIBUTION_SCHEDULES",
+    "header_text": "8. Enrolment agencies under APY",
+    "char_count": 1855,
+    "is_blank": false
+  },
+  "48": {
+    "page_number": 48,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "PMSYM_DETAILED_CONTRIBUTION_SCHEDULES",
+    "header_text": "11. Existing subscribers of Swavalamban Scheme",
+    "char_count": 1640,
+    "is_blank": false
+  },
+  "49": {
+    "page_number": 49,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "PMSYM_DETAILED_CONTRIBUTION_SCHEDULES",
+    "header_text": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+    "char_count": 2607,
+    "is_blank": false
+  },
+  "50": {
+    "page_number": 50,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "PMSYM_DETAILED_CONTRIBUTION_SCHEDULES",
+    "header_text": "Progress under PMJDY (as on 28.02.2025):",
+    "char_count": 1704,
+    "is_blank": false
+  },
+  "51": {
+    "page_number": 51,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "PMSYM_DETAILED_CONTRIBUTION_SCHEDULES",
+    "header_text": "g.                     PMJDY accounts are eligible for Direct Benefit Transfer (",
+    "char_count": 1495,
+    "is_blank": false
+  },
+  "52": {
+    "page_number": 52,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "PMSYM_DETAILED_CONTRIBUTION_SCHEDULES",
+    "header_text": "\u2022   Business Correspondent (Bank Mitra) outlet",
+    "char_count": 1463,
+    "is_blank": false
+  },
+  "53": {
+    "page_number": 53,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "PMSYM_DETAILED_CONTRIBUTION_SCHEDULES",
+    "header_text": "\u2022   Atal Pension Yojana (APY)",
+    "char_count": 421,
+    "is_blank": false
+  },
+  "54": {
+    "page_number": 54,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "PMSYM_DETAILED_CONTRIBUTION_SCHEDULES",
+    "header_text": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+    "char_count": 2655,
+    "is_blank": false
+  },
+  "55": {
+    "page_number": 55,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "PMSYM_DETAILED_CONTRIBUTION_SCHEDULES",
+    "header_text": "participating Banks. Participating banks are free to engage any such general ins",
+    "char_count": 3528,
+    "is_blank": false
+  },
+  "56": {
+    "page_number": 56,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "PMSYM_DETAILED_CONTRIBUTION_SCHEDULES",
+    "header_text": "Q12. How would the premium be appropriated? Appropriation of Premium: 1) Insuran",
+    "char_count": 4153,
+    "is_blank": false
+  },
+  "57": {
+    "page_number": 57,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "PMSYM_DETAILED_CONTRIBUTION_SCHEDULES",
+    "header_text": "foreign insurers is restricted to 74% only. Q.27. Will the PMSBY scheme which is",
+    "char_count": 3714,
+    "is_blank": false
+  },
+  "58": {
+    "page_number": 58,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "PMSYM_DETAILED_CONTRIBUTION_SCHEDULES",
+    "header_text": "Aadhar would be the primary KYC for the bank/ Post office account. Enrolment Mod",
+    "char_count": 3774,
+    "is_blank": false
+  },
+  "59": {
+    "page_number": 59,
+    "assigned_entity": "SCH_PMSYM",
+    "section_type": "PMSYM_DETAILED_CONTRIBUTION_SCHEDULES",
+    "header_text": "recover the appropriate annual premium from the account holders within the presc",
+    "char_count": 1296,
+    "is_blank": false
+  },
+  "60": {
+    "page_number": 60,
+    "assigned_entity": "SCH_PMSBY",
+    "section_type": "PMSBY_FULL_RULES_AND_FAQS",
+    "header_text": "FAQs on PRADHAN MANTRI JEEVAN JYOTI BIMA YOJANA (PMJJBY)",
+    "char_count": 1750,
+    "is_blank": false
+  },
+  "61": {
+    "page_number": 61,
+    "assigned_entity": "SCH_PMSBY",
+    "section_type": "PMSBY_FULL_RULES_AND_FAQS",
+    "header_text": "Q3. How will the premium be paid?",
+    "char_count": 1950,
+    "is_blank": false
+  },
+  "62": {
+    "page_number": 62,
+    "assigned_entity": "SCH_PMSBY",
+    "section_type": "PMSBY_FULL_RULES_AND_FAQS",
+    "header_text": "However, for such subscribers, insurance benefit shall not be available for deat",
+    "char_count": 2003,
+    "is_blank": false
+  },
+  "63": {
+    "page_number": 63,
+    "assigned_entity": "SCH_PMSBY",
+    "section_type": "PMSBY_FULL_RULES_AND_FAQS",
+    "header_text": "b) Role of participating Bank/Post Office",
+    "char_count": 2110,
+    "is_blank": false
+  },
+  "64": {
+    "page_number": 64,
+    "assigned_entity": "SCH_PMSBY",
+    "section_type": "PMSBY_FULL_RULES_AND_FAQS",
+    "header_text": "Q13. Will this cover be in addition to cover under any other insurance scheme th",
+    "char_count": 1826,
+    "is_blank": false
+  },
+  "65": {
+    "page_number": 65,
+    "assigned_entity": "SCH_PMSBY",
+    "section_type": "PMSBY_FULL_RULES_AND_FAQS",
+    "header_text": "The cover under PMJJBY is for death only and hence the benefit will accrue only ",
+    "char_count": 2159,
+    "is_blank": false
+  },
+  "66": {
+    "page_number": 66,
+    "assigned_entity": "SCH_PMSBY",
+    "section_type": "PMSBY_FULL_RULES_AND_FAQS",
+    "header_text": "As permitted by the regulations, there are companies operating as joint ventures",
+    "char_count": 1666,
+    "is_blank": false
+  },
+  "67": {
+    "page_number": 67,
+    "assigned_entity": "SCH_PMSBY",
+    "section_type": "PMSBY_FULL_RULES_AND_FAQS",
+    "header_text": "\u2022   Claim benefit: Payable to nominee/beneficiary",
+    "char_count": 1771,
+    "is_blank": false
+  },
+  "68": {
+    "page_number": 68,
+    "assigned_entity": "SCH_PMSBY",
+    "section_type": "PMSBY_FULL_RULES_AND_FAQS",
+    "header_text": "Enrolment Period                      Premium Payable",
+    "char_count": 1875,
+    "is_blank": false
+  },
+  "69": {
+    "page_number": 69,
+    "assigned_entity": "SCH_PMSBY",
+    "section_type": "PMSBY_FULL_RULES_AND_FAQS",
+    "header_text": "The premium will be deducted from the account holder\u2019s Bank/Post Office account ",
+    "char_count": 1623,
+    "is_blank": false
+  },
+  "70": {
+    "page_number": 70,
+    "assigned_entity": "SCH_PMSBY",
+    "section_type": "PMSBY_FULL_RULES_AND_FAQS",
+    "header_text": "In case a member is covered under PMJJBY with LIC of India/other insurer through",
+    "char_count": 1837,
+    "is_blank": false
+  },
+  "71": {
+    "page_number": 71,
+    "assigned_entity": "SCH_PMSBY",
+    "section_type": "PMSBY_FULL_RULES_AND_FAQS",
+    "header_text": "Discontinuation",
+    "char_count": 1531,
+    "is_blank": false
+  },
+  "72": {
+    "page_number": 72,
+    "assigned_entity": "SCH_PMSBY",
+    "section_type": "PMSBY_FULL_RULES_AND_FAQS",
+    "header_text": "PM-KISAN Scheme",
+    "char_count": 2213,
+    "is_blank": false
+  },
+  "73": {
+    "page_number": 73,
+    "assigned_entity": "SCH_PMSBY",
+    "section_type": "PMSBY_FULL_RULES_AND_FAQS",
+    "header_text": "1. What is Pradhan Mantri Kisan Samman Nidhi?",
+    "char_count": 2175,
+    "is_blank": false
+  },
+  "74": {
+    "page_number": 74,
+    "assigned_entity": "SCH_PMSBY",
+    "section_type": "PMSBY_FULL_RULES_AND_FAQS",
+    "header_text": "present Mayors of Municipal Corporations, and former and present Chairpersons of",
+    "char_count": 2382,
+    "is_blank": false
+  },
+  "75": {
+    "page_number": 75,
+    "assigned_entity": "SCH_PMSBY",
+    "section_type": "PMSBY_FULL_RULES_AND_FAQS",
+    "header_text": "11. What will happen if the beneficiary gives incorrect declaration for the impl",
+    "char_count": 2171,
+    "is_blank": false
+  },
+  "76": {
+    "page_number": 76,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PM_SURYA_GHAR_GUIDELINES_AND_DISCOMS",
+    "header_text": "17. Is any person/farmer who is not having land holding in his/her own name, but",
+    "char_count": 2123,
+    "is_blank": false
+  },
+  "77": {
+    "page_number": 77,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PM_SURYA_GHAR_GUIDELINES_AND_DISCOMS",
+    "header_text": "Though it is not mandatory, it is advised that when available it may be provided",
+    "char_count": 2284,
+    "is_blank": false
+  },
+  "78": {
+    "page_number": 78,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PM_SURYA_GHAR_GUIDELINES_AND_DISCOMS",
+    "header_text": "In such cases, the farmer's family will be entitled to get the benefit at one pl",
+    "char_count": 2341,
+    "is_blank": false
+  },
+  "79": {
+    "page_number": 79,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PM_SURYA_GHAR_GUIDELINES_AND_DISCOMS",
+    "header_text": "States/UTs can provide lists of eligible beneficiaries as and when they are fina",
+    "char_count": 2248,
+    "is_blank": false
+  },
+  "80": {
+    "page_number": 80,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PM_SURYA_GHAR_GUIDELINES_AND_DISCOMS",
+    "header_text": "(f) Based on the verified/validated data, the SNOs sign the Request For Transfer",
+    "char_count": 2637,
+    "is_blank": false
+  },
+  "81": {
+    "page_number": 81,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PM_SURYA_GHAR_GUIDELINES_AND_DISCOMS",
+    "header_text": "This work of Aadhaar seeding of data of beneficiaries had not been completed by ",
+    "char_count": 2198,
+    "is_blank": false
+  },
+  "82": {
+    "page_number": 82,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PM_SURYA_GHAR_GUIDELINES_AND_DISCOMS",
+    "header_text": "(b) Farmer families in which one or more of its members belong to following cate",
+    "char_count": 2332,
+    "is_blank": false
+  },
+  "83": {
+    "page_number": 83,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PM_SURYA_GHAR_GUIDELINES_AND_DISCOMS",
+    "header_text": "7. What will happen if the beneficiary gives incorrect declaration for the imple",
+    "char_count": 2269,
+    "is_blank": false
+  },
+  "84": {
+    "page_number": 84,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PM_SURYA_GHAR_GUIDELINES_AND_DISCOMS",
+    "header_text": "Land holding is the sole criteria to avail financial benefit under Income Suppor",
+    "char_count": 1903,
+    "is_blank": false
+  },
+  "85": {
+    "page_number": 85,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PM_SURYA_GHAR_GUIDELINES_AND_DISCOMS",
+    "header_text": "The beneficiary lists would be displayed at Panchayats to ensure greater transpa",
+    "char_count": 2410,
+    "is_blank": false
+  },
+  "86": {
+    "page_number": 86,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PM_SURYA_GHAR_GUIDELINES_AND_DISCOMS",
+    "header_text": "The beneficiaries are required to provide their bank account details with Aadhaa",
+    "char_count": 1627,
+    "is_blank": false
+  },
+  "87": {
+    "page_number": 87,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PM_SURYA_GHAR_GUIDELINES_AND_DISCOMS",
+    "header_text": "PM Surya Ghar:",
+    "char_count": 1528,
+    "is_blank": false
+  },
+  "88": {
+    "page_number": 88,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PM_SURYA_GHAR_GUIDELINES_AND_DISCOMS",
+    "header_text": "Rs. 18,000",
+    "char_count": 880,
+    "is_blank": false
+  },
+  "89": {
+    "page_number": 89,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PM_SURYA_GHAR_GUIDELINES_AND_DISCOMS",
+    "header_text": "2. Application Submission",
+    "char_count": 766,
+    "is_blank": false
+  },
+  "90": {
+    "page_number": 90,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PM_SURYA_GHAR_GUIDELINES_AND_DISCOMS",
+    "header_text": "Steps to apply for Rooftop Solar",
+    "char_count": 1948,
+    "is_blank": false
+  },
+  "91": {
+    "page_number": 91,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PM_SURYA_GHAR_GUIDELINES_AND_DISCOMS",
+    "header_text": "Then enter the registered consumer mobile number, valid captcha, accept the PM S",
+    "char_count": 1351,
+    "is_blank": false
+  },
+  "92": {
+    "page_number": 92,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PM_SURYA_GHAR_GUIDELINES_AND_DISCOMS",
+    "header_text": "8. What subsidy is available for GHS/RWA?",
+    "char_count": 1340,
+    "is_blank": false
+  },
+  "93": {
+    "page_number": 93,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PM_SURYA_GHAR_GUIDELINES_AND_DISCOMS",
+    "header_text": "PRADHAN MANTRI STREET VENDOR\u2019S ATMANIRBHAR NIDHI (PM SVANIDHI)",
+    "char_count": 2683,
+    "is_blank": false
+  },
+  "94": {
+    "page_number": 94,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PM_SURYA_GHAR_GUIDELINES_AND_DISCOMS",
+    "header_text": "The objective of the scheme is to address the vulnerabilities of the street vend",
+    "char_count": 1562,
+    "is_blank": false
+  },
+  "95": {
+    "page_number": 95,
+    "assigned_entity": "SCH_PMSURYA",
+    "section_type": "PM_SURYA_GHAR_GUIDELINES_AND_DISCOMS",
+    "header_text": "5.1 Working Capital Term Loans",
+    "char_count": 1573,
+    "is_blank": false
+  },
+  "96": {
+    "page_number": 96,
+    "assigned_entity": "SCH_SVANIDHI",
+    "section_type": "PM_SVANIDHI_OPERATIONAL_GUIDELINES",
+    "header_text": "Subsidy will only be considered in respect of accounts of borrowers which are st",
+    "char_count": 1912,
+    "is_blank": false
+  },
+  "97": {
+    "page_number": 97,
+    "assigned_entity": "SCH_SVANIDHI",
+    "section_type": "PM_SVANIDHI_OPERATIONAL_GUIDELINES",
+    "header_text": "The guarantee will be extended up to an NPA level of 20%, i.e., NPAs up to 20% o",
+    "char_count": 1638,
+    "is_blank": false
+  },
+  "98": {
+    "page_number": 98,
+    "assigned_entity": "SCH_SVANIDHI",
+    "section_type": "PM_SVANIDHI_OPERATIONAL_GUIDELINES",
+    "header_text": "b) Wholesale Digital Purchases",
+    "char_count": 1570,
+    "is_blank": false
+  },
+  "99": {
+    "page_number": 99,
+    "assigned_entity": "SCH_SVANIDHI",
+    "section_type": "PM_SVANIDHI_OPERATIONAL_GUIDELINES",
+    "header_text": "In order to improve visibility and provide a sense of identity, \u2018SVANidhi Benefi",
+    "char_count": 1527,
+    "is_blank": false
+  },
+  "100": {
+    "page_number": 100,
+    "assigned_entity": "SCH_SVANIDHI",
+    "section_type": "PM_SVANIDHI_OPERATIONAL_GUIDELINES",
+    "header_text": "\u2022   Street Vendors (SVs) and their families",
+    "char_count": 1383,
+    "is_blank": false
+  },
+  "101": {
+    "page_number": 101,
+    "assigned_entity": "SCH_SVANIDHI",
+    "section_type": "PM_SVANIDHI_OPERATIONAL_GUIDELINES",
+    "header_text": "\u2022   Application submission",
+    "char_count": 1521,
+    "is_blank": false
+  },
+  "102": {
+    "page_number": 102,
+    "assigned_entity": "SCH_SVANIDHI",
+    "section_type": "PM_SVANIDHI_OPERATIONAL_GUIDELINES",
+    "header_text": "\u2022   Digital onboarding",
+    "char_count": 1367,
+    "is_blank": false
+  },
+  "103": {
+    "page_number": 103,
+    "assigned_entity": "SCH_SVANIDHI",
+    "section_type": "PM_SVANIDHI_OPERATIONAL_GUIDELINES",
+    "header_text": "\u2022   PAiSA portal of MoHUA",
+    "char_count": 1345,
+    "is_blank": false
+  },
+  "104": {
+    "page_number": 104,
+    "assigned_entity": "SCH_SVANIDHI",
+    "section_type": "PM_SVANIDHI_OPERATIONAL_GUIDELINES",
+    "header_text": "\u2022   MFIs",
+    "char_count": 1524,
+    "is_blank": false
+  },
+  "105": {
+    "page_number": 105,
+    "assigned_entity": "SCH_SVANIDHI",
+    "section_type": "PM_SVANIDHI_OPERATIONAL_GUIDELINES",
+    "header_text": "The composition of the committee is provided at Annexure-E.",
+    "char_count": 1828,
+    "is_blank": false
+  },
+  "106": {
+    "page_number": 106,
+    "assigned_entity": "SCH_SVANIDHI",
+    "section_type": "PM_SVANIDHI_OPERATIONAL_GUIDELINES",
+    "header_text": "The goods supplied by them include vegetables, fruits, ready-to-eat street food,",
+    "char_count": 2013,
+    "is_blank": false
+  },
+  "107": {
+    "page_number": 107,
+    "assigned_entity": "SCH_SVANIDHI",
+    "section_type": "PM_SVANIDHI_OPERATIONAL_GUIDELINES",
+    "header_text": "If you belong to this category you have to produce one of the following document",
+    "char_count": 1702,
+    "is_blank": false
+  },
+  "108": {
+    "page_number": 108,
+    "assigned_entity": "SCH_SVANIDHI",
+    "section_type": "PM_SVANIDHI_OPERATIONAL_GUIDELINES",
+    "header_text": "Each transaction > \u20b925 will be counted.",
+    "char_count": 1386,
+    "is_blank": false
+  },
+  "109": {
+    "page_number": 109,
+    "assigned_entity": "SCH_SVANIDHI",
+    "section_type": "PM_SVANIDHI_OPERATIONAL_GUIDELINES",
+    "header_text": "Pradhan Mantri Shram Yogi Maandhan Yojana",
+    "char_count": 1580,
+    "is_blank": false
+  },
+  "110": {
+    "page_number": 110,
+    "assigned_entity": "SCH_SVANIDHI",
+    "section_type": "PM_SVANIDHI_OPERATIONAL_GUIDELINES",
+    "header_text": "or workers in similar other occupations. There are approximately 42 crore such U",
+    "char_count": 1886,
+    "is_blank": false
+  },
+  "111": {
+    "page_number": 111,
+    "assigned_entity": "SCH_SVANIDHI",
+    "section_type": "PM_SVANIDHI_OPERATIONAL_GUIDELINES",
+    "header_text": "Any unorganized worker in the age group of 18\u201340 years, whose job is casual in n",
+    "char_count": 2412,
+    "is_blank": false
+  },
+  "112": {
+    "page_number": 112,
+    "assigned_entity": "SCH_SVANIDHI",
+    "section_type": "PM_SVANIDHI_OPERATIONAL_GUIDELINES",
+    "header_text": "Yes. Under the scheme, nomination facility is available. The beneficiary can nom",
+    "char_count": 2075,
+    "is_blank": false
+  },
+  "113": {
+    "page_number": 113,
+    "assigned_entity": "SCH_SVANIDHI",
+    "section_type": "PM_SVANIDHI_OPERATIONAL_GUIDELINES",
+    "header_text": "PM VISHWAKARMA",
+    "char_count": 945,
+    "is_blank": false
+  },
+  "114": {
+    "page_number": 114,
+    "assigned_entity": "SCH_SVANIDHI",
+    "section_type": "PM_SVANIDHI_OPERATIONAL_GUIDELINES",
+    "header_text": "The PM Vishwakarma Scheme covers the following traditional trades:",
+    "char_count": 444,
+    "is_blank": false
+  },
+  "115": {
+    "page_number": 115,
+    "assigned_entity": "SCH_SVANIDHI",
+    "section_type": "PM_SVANIDHI_OPERATIONAL_GUIDELINES",
+    "header_text": "15. Garland Maker",
+    "char_count": 480,
+    "is_blank": false
+  },
+  "116": {
+    "page_number": 116,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "PM_VISHWAKARMA_TRADES_AND_BENEFITS",
+    "header_text": "The scheme provides skill assessment and training support to eligible artisans a",
+    "char_count": 952,
+    "is_blank": false
+  },
+  "117": {
+    "page_number": 117,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "PM_VISHWAKARMA_TRADES_AND_BENEFITS",
+    "header_text": "A toolkit incentive will be provided to the beneficiary through the prescribed m",
+    "char_count": 825,
+    "is_blank": false
+  },
+  "118": {
+    "page_number": 118,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "PM_VISHWAKARMA_TRADES_AND_BENEFITS",
+    "header_text": "The scheme encourages artisans and craftspeople to adopt digital payment methods",
+    "char_count": 724,
+    "is_blank": false
+  },
+  "119": {
+    "page_number": 119,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "PM_VISHWAKARMA_TRADES_AND_BENEFITS",
+    "header_text": "The scheme is intended for traditional artisans and craftspeople who work with t",
+    "char_count": 1232,
+    "is_blank": false
+  },
+  "120": {
+    "page_number": 120,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "PM_VISHWAKARMA_TRADES_AND_BENEFITS",
+    "header_text": "12. PM VISHWAKARMA CERTIFICATE AND ID CARD",
+    "char_count": 1386,
+    "is_blank": false
+  },
+  "121": {
+    "page_number": 121,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "PM_VISHWAKARMA_TRADES_AND_BENEFITS",
+    "header_text": "\u2022   Quality Certification",
+    "char_count": 1427,
+    "is_blank": false
+  },
+  "122": {
+    "page_number": 122,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "PM_VISHWAKARMA_TRADES_AND_BENEFITS",
+    "header_text": "\u2022   Be self-employed in the unorganised or informal sector.",
+    "char_count": 1570,
+    "is_blank": false
+  },
+  "123": {
+    "page_number": 123,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "PM_VISHWAKARMA_TRADES_AND_BENEFITS",
+    "header_text": "The beneficiary is charged a concessional interest rate of 5%. The Government pr",
+    "char_count": 1777,
+    "is_blank": false
+  },
+  "124": {
+    "page_number": 124,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "PM_VISHWAKARMA_TRADES_AND_BENEFITS",
+    "header_text": "\u2022   Other marketing activities to connect artisans with markets. (Champions)",
+    "char_count": 1633,
+    "is_blank": false
+  },
+  "125": {
+    "page_number": 125,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "PM_VISHWAKARMA_TRADES_AND_BENEFITS",
+    "header_text": "Pradhan Mantri PMUY Yojana",
+    "char_count": 2147,
+    "is_blank": false
+  },
+  "126": {
+    "page_number": 126,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "PM_VISHWAKARMA_TRADES_AND_BENEFITS",
+    "header_text": "Documents Required",
+    "char_count": 1637,
+    "is_blank": false
+  },
+  "127": {
+    "page_number": 127,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "PM_VISHWAKARMA_TRADES_AND_BENEFITS",
+    "header_text": "Q1. Who is the eligible beneficiary under the PMUY scheme?",
+    "char_count": 2053,
+    "is_blank": false
+  },
+  "128": {
+    "page_number": 128,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "PM_VISHWAKARMA_TRADES_AND_BENEFITS",
+    "header_text": "Ans: The applicant must provide:",
+    "char_count": 2033,
+    "is_blank": false
+  },
+  "129": {
+    "page_number": 129,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "PM_VISHWAKARMA_TRADES_AND_BENEFITS",
+    "header_text": "Ans: Aadhaar details must be corrected/updated at the nearest Aadhaar Seva Kendr",
+    "char_count": 2061,
+    "is_blank": false
+  },
+  "130": {
+    "page_number": 130,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "PM_VISHWAKARMA_TRADES_AND_BENEFITS",
+    "header_text": "Q20. A family member was a minor when the KYC was seeded in 2024 or earlier but ",
+    "char_count": 2510,
+    "is_blank": false
+  },
+  "131": {
+    "page_number": 131,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "PM_VISHWAKARMA_TRADES_AND_BENEFITS",
+    "header_text": "Ans: If the family composition is not defined in the Ration Card, the applicant ",
+    "char_count": 2203,
+    "is_blank": false
+  },
+  "132": {
+    "page_number": 132,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "PM_VISHWAKARMA_TRADES_AND_BENEFITS",
+    "header_text": "If it is not enabled, Aadhaar can be mapped through the NPCI Aadhaar Seeding/Des",
+    "char_count": 512,
+    "is_blank": false
+  },
+  "133": {
+    "page_number": 133,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "PM_VISHWAKARMA_TRADES_AND_BENEFITS",
+    "header_text": "PRADHAN MANTRI SURAKSHA BIMA YOJANA (PMSBY)",
+    "char_count": 2312,
+    "is_blank": false
+  },
+  "134": {
+    "page_number": 134,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "PM_VISHWAKARMA_TRADES_AND_BENEFITS",
+    "header_text": "b) Total and irrecoverable loss of both eyes, or loss of use of both hands or   ",
+    "char_count": 2007,
+    "is_blank": false
+  },
+  "135": {
+    "page_number": 135,
+    "assigned_entity": "SCH_VISHWA",
+    "section_type": "PM_VISHWAKARMA_TRADES_AND_BENEFITS",
+    "header_text": "4. If the insurance cover ceases due to technical reasons such as insufficient b",
+    "char_count": 2256,
+    "is_blank": false
+  },
+  "136": {
+    "page_number": 136,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "FAQs on PRADHAN MANTRI SURAKSHA BIMA YOJANA (PMSBY)",
+    "char_count": 2417,
+    "is_blank": false
+  },
+  "137": {
+    "page_number": 137,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "The cover shall be for one-year period stretching from 1st June to 31st May.",
+    "char_count": 2152,
+    "is_blank": false
+  },
+  "138": {
+    "page_number": 138,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "1. The scheme will be administered by PSGICs or any other general insurance comp",
+    "char_count": 2418,
+    "is_blank": false
+  },
+  "139": {
+    "page_number": 139,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "Q16. Which Bank Accounts are eligible for subscribing to PMSBY?",
+    "char_count": 2100,
+    "is_blank": false
+  },
+  "140": {
+    "page_number": 140,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "No benefit will be payable.",
+    "char_count": 2308,
+    "is_blank": false
+  },
+  "141": {
+    "page_number": 141,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "As permitted by the regulations there are Companies operating as joint ventures ",
+    "char_count": 872,
+    "is_blank": false
+  },
+  "142": {
+    "page_number": 142,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "Pradhan Mantri MUDRA Yojana (PMMY)",
+    "char_count": 2347,
+    "is_blank": false
+  },
+  "143": {
+    "page_number": 143,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "Formal or institutional architecture has not been able to reach out to them to m",
+    "char_count": 1943,
+    "is_blank": false
+  },
+  "144": {
+    "page_number": 144,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "\u2022   Lack of Market Development / Market Making",
+    "char_count": 1994,
+    "is_blank": false
+  },
+  "145": {
+    "page_number": 145,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "MUDRA has been formed with primary objective of developing the micro enterprise ",
+    "char_count": 1837,
+    "is_blank": false
+  },
+  "146": {
+    "page_number": 146,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "The interventions have been named 'Shishu', 'Kishore', 'Tarun' and 'Tarun Plus' ",
+    "char_count": 2296,
+    "is_blank": false
+  },
+  "147": {
+    "page_number": 147,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "In order to encourage women entrepreneurs, the financing Banks/NBFCs/MFIs may co",
+    "char_count": 2213,
+    "is_blank": false
+  },
+  "148": {
+    "page_number": 148,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "5. Business Loans for Traders and Shopkeepers",
+    "char_count": 2128,
+    "is_blank": false
+  },
+  "149": {
+    "page_number": 149,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "This coupled with Start-up India and Stand-up India campaign, has created a cond",
+    "char_count": 2397,
+    "is_blank": false
+  },
+  "150": {
+    "page_number": 150,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "The NBFC-MFIs/MFIs are presently regulated by Reserve Bank of India.",
+    "char_count": 2079,
+    "is_blank": false
+  },
+  "151": {
+    "page_number": 151,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "Financial Inclusion and Financial/business Literacy are twin pillars.",
+    "char_count": 2186,
+    "is_blank": false
+  },
+  "152": {
+    "page_number": 152,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "MUDRA would work in coordination with Rating Agencies so that appropriate rating",
+    "char_count": 2251,
+    "is_blank": false
+  },
+  "153": {
+    "page_number": 153,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "1. Urban Co-operative Banks",
+    "char_count": 2137,
+    "is_blank": false
+  },
+  "154": {
+    "page_number": 154,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "Parameter          Requirement",
+    "char_count": 2205,
+    "is_blank": false
+  },
+  "155": {
+    "page_number": 155,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "b. MUDRA may provide refinance to bank loans where loans disbursed in credit def",
+    "char_count": 2372,
+    "is_blank": false
+  },
+  "156": {
+    "page_number": 156,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "obtained as security in respect of financial assistance made available to micro/",
+    "char_count": 1909,
+    "is_blank": false
+  },
+  "157": {
+    "page_number": 157,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "The MFI should have operations in aspirational districts/LWE/North east region, ",
+    "char_count": 1859,
+    "is_blank": false
+  },
+  "158": {
+    "page_number": 158,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "Should have suitable systems, processes and procedures such as internal accounti",
+    "char_count": 1550,
+    "is_blank": false
+  },
+  "159": {
+    "page_number": 159,
+    "assigned_entity": "SCH_PMUY",
+    "section_type": "PMUY_UJJWALA_OPERATIONAL_GUIDELINES",
+    "header_text": "\u2022   Two Tier NBFCs extending loan/resource support to MFIs (both NBFC-MFIs and n",
+    "char_count": 1973,
+    "is_blank": false
+  },
+  "160": {
+    "page_number": 160,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "5. Internal Rating Norm",
+    "char_count": 1264,
+    "is_blank": false
+  },
+  "161": {
+    "page_number": 161,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "PRADHAN MANTRI FASAL BIMA YOJANA (PMFBY)",
+    "char_count": 2674,
+    "is_blank": false
+  },
+  "162": {
+    "page_number": 162,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "was reviewed, and the revised OGs were brought into effect from 01st October 201",
+    "char_count": 2782,
+    "is_blank": false
+  },
+  "163": {
+    "page_number": 163,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "\u2022   Providing financial support to farmers suffering crop loss/damage arising ou",
+    "char_count": 2672,
+    "is_blank": false
+  },
+  "164": {
+    "page_number": 164,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "State of Karnataka which is already running its own portal will have to integrat",
+    "char_count": 2896,
+    "is_blank": false
+  },
+  "165": {
+    "page_number": 165,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "The NCIP having details of insured farmers under PMFBY shall be dovetailed with ",
+    "char_count": 2599,
+    "is_blank": false
+  },
+  "166": {
+    "page_number": 166,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "The Department of the State/UT Government responsible for managing the digital l",
+    "char_count": 3000,
+    "is_blank": false
+  },
+  "167": {
+    "page_number": 167,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "The farmers cultivating community owned land especially as is practiced in NER s",
+    "char_count": 2557,
+    "is_blank": false
+  },
+  "168": {
+    "page_number": 168,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "However, other empaneled Insurance Companies which have participated in the bidd",
+    "char_count": 2730,
+    "is_blank": false
+  },
+  "169": {
+    "page_number": 169,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "To achieve this Universal Coverage under PMFBY, States/UTs may adopt following a",
+    "char_count": 1718,
+    "is_blank": false
+  },
+  "170": {
+    "page_number": 170,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "The basic cover under the scheme covers the risk of yield loss to standing crops",
+    "char_count": 1794,
+    "is_blank": false
+  },
+  "171": {
+    "page_number": 171,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "Loss/damage to notified insured crops resulting from occurrence of identified lo",
+    "char_count": 2422,
+    "is_blank": false
+  },
+  "172": {
+    "page_number": 172,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "Risk Management Mechanisms under the Scheme",
+    "char_count": 1920,
+    "is_blank": false
+  },
+  "173": {
+    "page_number": 173,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "Layers of Profit/Loss % Retention by Insurer Return to States Sharing",
+    "char_count": 1783,
+    "is_blank": false
+  },
+  "174": {
+    "page_number": 174,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "Risk Sharing",
+    "char_count": 1475,
+    "is_blank": false
+  },
+  "175": {
+    "page_number": 175,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "a. GoI subsidy sharing will be restricted to cluster level burn cost calculated ",
+    "char_count": 2573,
+    "is_blank": false
+  },
+  "176": {
+    "page_number": 176,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "The burn cost shall also be provided on NCIP itself based on the available histo",
+    "char_count": 2919,
+    "is_blank": false
+  },
+  "177": {
+    "page_number": 177,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "\u2022   Cost Reduction in overall premium for farmers leading to increased coverage ",
+    "char_count": 2943,
+    "is_blank": false
+  },
+  "178": {
+    "page_number": 178,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "6.1 State/UTs",
+    "char_count": 2576,
+    "is_blank": false
+  },
+  "179": {
+    "page_number": 179,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "In order to ensure timely release of subsidy and to maintain strict financial di",
+    "char_count": 2728,
+    "is_blank": false
+  },
+  "180": {
+    "page_number": 180,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "The Escrow Account shall be jointly administered by the State/UT Government and ",
+    "char_count": 2292,
+    "is_blank": false
+  },
+  "181": {
+    "page_number": 181,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "The present composition of the State level Coordination Committee on Crop Insura",
+    "char_count": 2360,
+    "is_blank": false
+  },
+  "182": {
+    "page_number": 182,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "\u2022    Deployment of sufficient manpower to co-observe CCEs and allied activities ",
+    "char_count": 2787,
+    "is_blank": false
+  },
+  "183": {
+    "page_number": 183,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "6.3.2",
+    "char_count": 1937,
+    "is_blank": false
+  },
+  "184": {
+    "page_number": 184,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "Yes. Tenant farmers and sharecroppers can be covered if they have the required i",
+    "char_count": 2062,
+    "is_blank": false
+  },
+  "185": {
+    "page_number": 185,
+    "assigned_entity": "SCH_PMFBY",
+    "section_type": "PMFBY_CROP_INSURANCE_REVISED_GUIDELINES",
+    "header_text": "13. What is Prevented Sowing/Planting/Germination coverage?",
+    "char_count": 2298,
+    "is_blank": false
+  },
+  "186": {
+    "page_number": 186,
+    "assigned_entity": "SCH_SSY",
+    "section_type": "SUKANYA_SAMRIDDHI_RULES_AND_MATURITY",
+    "header_text": "Only farmers whose details are uploaded on NCIP and whose share of the premium h",
+    "char_count": 1062,
+    "is_blank": false
+  },
+  "187": {
+    "page_number": 187,
+    "assigned_entity": "SCH_SSY",
+    "section_type": "SUKANYA_SAMRIDDHI_RULES_AND_MATURITY",
+    "header_text": "Sukanya Samriddhi Yojana (SSY)",
+    "char_count": 2472,
+    "is_blank": false
+  },
+  "188": {
+    "page_number": 188,
+    "assigned_entity": "SCH_SSY",
+    "section_type": "SUKANYA_SAMRIDDHI_RULES_AND_MATURITY",
+    "header_text": "\u2022   Account opening: By a natural or legal guardian.",
+    "char_count": 1694,
+    "is_blank": false
+  },
+  "189": {
+    "page_number": 189,
+    "assigned_entity": "SCH_SSY",
+    "section_type": "SUKANYA_SAMRIDDHI_RULES_AND_MATURITY",
+    "header_text": "Deposits can be made in multiples of \u20b950.",
+    "char_count": 1670,
+    "is_blank": false
+  },
+  "190": {
+    "page_number": 190,
+    "assigned_entity": "SCH_SSY",
+    "section_type": "SUKANYA_SAMRIDDHI_RULES_AND_MATURITY",
+    "header_text": "A natural or legal guardian can open the Sukanya Samriddhi Account in the name o",
+    "char_count": 1525,
+    "is_blank": false
+  },
+  "191": {
+    "page_number": 191,
+    "assigned_entity": "SCH_SSY",
+    "section_type": "SUKANYA_SAMRIDDHI_RULES_AND_MATURITY",
+    "header_text": "2. Fill in the girl's details.",
+    "char_count": 1243,
+    "is_blank": false
+  },
+  "192": {
+    "page_number": 192,
+    "assigned_entity": "SCH_SSY",
+    "section_type": "SUKANYA_SAMRIDDHI_RULES_AND_MATURITY",
+    "header_text": "The official rules provide for operation of the account by the beneficiary after",
+    "char_count": 1971,
+    "is_blank": false
+  },
+  "193": {
+    "page_number": 193,
+    "assigned_entity": "SCH_SSY",
+    "section_type": "SUKANYA_SAMRIDDHI_RULES_AND_MATURITY",
+    "header_text": "18. Closure on Marriage",
+    "char_count": 1523,
+    "is_blank": false
+  },
+  "194": {
+    "page_number": 194,
+    "assigned_entity": "SCH_SSY",
+    "section_type": "SUKANYA_SAMRIDDHI_RULES_AND_MATURITY",
+    "header_text": "SSY provides tax benefits subject to the prevailing income-tax provisions.",
+    "char_count": 1530,
+    "is_blank": false
+  },
+  "195": {
+    "page_number": 195,
+    "assigned_entity": "SCH_SSY",
+    "section_type": "SUKANYA_SAMRIDDHI_RULES_AND_MATURITY",
+    "header_text": "\u2022   Number of years the money remains in the account.",
+    "char_count": 1221,
+    "is_blank": false
+  },
+  "196": {
+    "page_number": 196,
+    "assigned_entity": "SCH_SSY",
+    "section_type": "SUKANYA_SAMRIDDHI_RULES_AND_MATURITY",
+    "header_text": "\u2022   October\u2013December 2020: 7.6%",
+    "char_count": 1165,
+    "is_blank": false
+  },
+  "197": {
+    "page_number": 197,
+    "assigned_entity": "SCH_SSY",
+    "section_type": "SUKANYA_SAMRIDDHI_RULES_AND_MATURITY",
+    "header_text": "\u2022   Interest is compounded according to the scheme rules.",
+    "char_count": 1916,
+    "is_blank": false
+  },
+  "198": {
+    "page_number": 198,
+    "assigned_entity": "SCH_SSY",
+    "section_type": "SUKANYA_SAMRIDDHI_RULES_AND_MATURITY",
+    "header_text": "Q9. How many SSY accounts can a family normally open?",
+    "char_count": 2448,
+    "is_blank": false
+  },
+  "199": {
+    "page_number": 199,
+    "assigned_entity": "SCH_SSY",
+    "section_type": "SUKANYA_SAMRIDDHI_RULES_AND_MATURITY",
+    "header_text": "Answer: Yes. The account can be transferred anywhere in India between eligible p",
+    "char_count": 2206,
+    "is_blank": false
+  },
+  "200": {
+    "page_number": 200,
+    "assigned_entity": "SCH_SSY",
+    "section_type": "SUKANYA_SAMRIDDHI_RULES_AND_MATURITY",
+    "header_text": "Pradhan Mantri Awaas Yojana \u2013 Gramin (PMAY-G)",
+    "char_count": 3119,
+    "is_blank": false
+  },
+  "201": {
+    "page_number": 201,
+    "assigned_entity": "SCH_PMAYG",
+    "section_type": "PMAYG_SELECTION_AWAAS_PLUS_GUIDELINES",
+    "header_text": "selection is objective and verifiable, PMAY-G instead of selecting a the benefic",
+    "char_count": 3434,
+    "is_blank": false
+  },
+  "202": {
+    "page_number": 202,
+    "assigned_entity": "SCH_PMAYG",
+    "section_type": "PMAYG_SELECTION_AWAAS_PLUS_GUIDELINES",
+    "header_text": "\u2022   11.The programme implementation is to be monitored not only electronically, ",
+    "char_count": 1821,
+    "is_blank": false
+  },
+  "203": {
+    "page_number": 203,
+    "assigned_entity": "SCH_PMAYG",
+    "section_type": "PMAYG_SELECTION_AWAAS_PLUS_GUIDELINES",
+    "header_text": "\u2022   Use trained rural masons.",
+    "char_count": 1354,
+    "is_blank": false
+  },
+  "204": {
+    "page_number": 204,
+    "assigned_entity": "SCH_PMAYG",
+    "section_type": "PMAYG_SELECTION_AWAAS_PLUS_GUIDELINES",
+    "header_text": "\u2022   North-Eastern Region, Himachal Pradesh, Uttarakhand and J&K: 90:10",
+    "char_count": 964,
+    "is_blank": false
+  },
+  "205": {
+    "page_number": 205,
+    "assigned_entity": "SCH_PMAYG",
+    "section_type": "PMAYG_SELECTION_AWAAS_PLUS_GUIDELINES",
+    "header_text": "\u2022   Exclusion criteria",
+    "char_count": 1244,
+    "is_blank": false
+  },
+  "206": {
+    "page_number": 206,
+    "assigned_entity": "SCH_PMAYG",
+    "section_type": "PMAYG_SELECTION_AWAAS_PLUS_GUIDELINES",
+    "header_text": "12. Gram Sabha Role",
+    "char_count": 1173,
+    "is_blank": false
+  },
+  "207": {
+    "page_number": 207,
+    "assigned_entity": "SCH_PMAYG",
+    "section_type": "PMAYG_SELECTION_AWAAS_PLUS_GUIDELINES",
+    "header_text": "The Annual Select List starts from the highest-ranked households in the approved",
+    "char_count": 1344,
+    "is_blank": false
+  },
+  "208": {
+    "page_number": 208,
+    "assigned_entity": "SCH_PMAYG",
+    "section_type": "PMAYG_SELECTION_AWAAS_PLUS_GUIDELINES",
+    "header_text": "The framework specifies that the house should normally be completed within:",
+    "char_count": 1028,
+    "is_blank": false
+  },
+  "209": {
+    "page_number": 209,
+    "assigned_entity": "SCH_PMAYG",
+    "section_type": "PMAYG_SELECTION_AWAAS_PLUS_GUIDELINES",
+    "header_text": "The initiative is supported by the National Skill Development Corporation, and t",
+    "char_count": 950,
+    "is_blank": false
+  },
+  "210": {
+    "page_number": 210,
+    "assigned_entity": "SCH_PMAYG",
+    "section_type": "PMAYG_SELECTION_AWAAS_PLUS_GUIDELINES",
+    "header_text": "\u2022   Construction progress",
+    "char_count": 980,
+    "is_blank": false
+  },
+  "211": {
+    "page_number": 211,
+    "assigned_entity": "SCH_PMAYG",
+    "section_type": "PMAYG_SELECTION_AWAAS_PLUS_GUIDELINES",
+    "header_text": "\u2022   Verification of implementation",
+    "char_count": 1057,
+    "is_blank": false
+  },
+  "212": {
+    "page_number": 212,
+    "assigned_entity": "SCH_PMAYG",
+    "section_type": "PMAYG_SELECTION_AWAAS_PLUS_GUIDELINES",
+    "header_text": "12. Grievance Redressal",
+    "char_count": 1806,
+    "is_blank": false
+  },
+  "213": {
+    "page_number": 213,
+    "assigned_entity": "SCH_PMAYG",
+    "section_type": "PMAYG_SELECTION_AWAAS_PLUS_GUIDELINES",
+    "header_text": "Yes. The Gram Sabha verifies the facts used to identify eligible households.",
+    "char_count": 1794,
+    "is_blank": false
+  },
+  "214": {
+    "page_number": 214,
+    "assigned_entity": "SCH_PMAYG",
+    "section_type": "PMAYG_SELECTION_AWAAS_PLUS_GUIDELINES",
+    "header_text": "AwaasApp is the mobile application used for construction monitoring, including g",
+    "char_count": 1569,
+    "is_blank": false
+  },
+  "215": {
+    "page_number": 215,
+    "assigned_entity": "SCH_PMAYG",
+    "section_type": "PMAYG_SELECTION_AWAAS_PLUS_GUIDELINES",
+    "header_text": "Pradhan Mantri Shram Yogi Maandhan Yojana",
+    "char_count": 1684,
+    "is_blank": false
+  },
+  "216": {
+    "page_number": 216,
+    "assigned_entity": "SCH_PMAYG",
+    "section_type": "PMAYG_SELECTION_AWAAS_PLUS_GUIDELINES",
+    "header_text": "It is a voluntary and contributory pension scheme under which the beneficiary wo",
+    "char_count": 2041,
+    "is_blank": false
+  },
+  "217": {
+    "page_number": 217,
+    "assigned_entity": "SCH_PMAYG",
+    "section_type": "PMAYG_SELECTION_AWAAS_PLUS_GUIDELINES",
+    "header_text": "agricultural workers, construction workers, beedi workers, handloom workers, lea",
+    "char_count": 2436,
+    "is_blank": false
+  },
+  "218": {
+    "page_number": 218,
+    "assigned_entity": "SCH_BOCW",
+    "section_type": "BOCW_CONSTRUCTION_WORKERS_WELFARE",
+    "header_text": "regular contribution for the remaining period. On completion of the contribution",
+    "char_count": 1752,
+    "is_blank": false
+  },
+  "219": {
+    "page_number": 219,
+    "assigned_entity": "SCH_BOCW",
+    "section_type": "BOCW_CONSTRUCTION_WORKERS_WELFARE",
+    "header_text": "BOCW \u2013 Building and Other Construction Workers",
+    "char_count": 1748,
+    "is_blank": false
+  },
+  "220": {
+    "page_number": 220,
+    "assigned_entity": "SCH_BOCW",
+    "section_type": "BOCW_CONSTRUCTION_WORKERS_WELFARE",
+    "header_text": "What is a Building and Other Construction Worker?",
+    "char_count": 969,
+    "is_blank": false
+  },
+  "221": {
+    "page_number": 221,
+    "assigned_entity": "SCH_BOCW",
+    "section_type": "BOCW_CONSTRUCTION_WORKERS_WELFARE",
+    "header_text": "\u2022   Bridges and flyovers",
+    "char_count": 973,
+    "is_blank": false
+  },
+  "222": {
+    "page_number": 222,
+    "assigned_entity": "SCH_BOCW",
+    "section_type": "BOCW_CONSTRUCTION_WORKERS_WELFARE",
+    "header_text": "10. Support skill development.",
+    "char_count": 1509,
+    "is_blank": false
+  },
+  "223": {
+    "page_number": 223,
+    "assigned_entity": "SCH_BOCW",
+    "section_type": "BOCW_CONSTRUCTION_WORKERS_WELFARE",
+    "header_text": "Worker Registration",
+    "char_count": 1150,
+    "is_blank": false
+  },
+  "224": {
+    "page_number": 224,
+    "assigned_entity": "SCH_BOCW",
+    "section_type": "BOCW_CONSTRUCTION_WORKERS_WELFARE",
+    "header_text": "3. Maternity Assistance",
+    "char_count": 1349,
+    "is_blank": false
+  },
+  "225": {
+    "page_number": 225,
+    "assigned_entity": "SCH_BOCW",
+    "section_type": "BOCW_CONSTRUCTION_WORKERS_WELFARE",
+    "header_text": "It includes:",
+    "char_count": 1224,
+    "is_blank": false
+  },
+  "226": {
+    "page_number": 226,
+    "assigned_entity": "SCH_BOCW",
+    "section_type": "BOCW_CONSTRUCTION_WORKERS_WELFARE",
+    "header_text": "\u2022   Safety standards",
+    "char_count": 1276,
+    "is_blank": false
+  },
+  "227": {
+    "page_number": 227,
+    "assigned_entity": "SCH_BOCW",
+    "section_type": "BOCW_CONSTRUCTION_WORKERS_WELFARE",
+    "header_text": "\u2022   Tool/equipment assistance",
+    "char_count": 1056,
+    "is_blank": false
+  },
+  "228": {
+    "page_number": 228,
+    "assigned_entity": "SCH_BOCW",
+    "section_type": "BOCW_CONSTRUCTION_WORKERS_WELFARE",
+    "header_text": "BOCW MIS Portal Services",
+    "char_count": 1469,
+    "is_blank": false
+  },
+  "229": {
+    "page_number": 229,
+    "assigned_entity": "SCH_BOCW",
+    "section_type": "BOCW_CONSTRUCTION_WORKERS_WELFARE",
+    "header_text": "Workers involved in building and construction activities such as construction, r",
+    "char_count": 2195,
+    "is_blank": false
+  },
+  "230": {
+    "page_number": 230,
+    "assigned_entity": "SCH_NSAP",
+    "section_type": "NSAP_PENSION_AND_SOCIAL_AUDIT",
+    "header_text": "Yes. BOCW workers may also be connected with eligible Central and State welfare ",
+    "char_count": 1994,
+    "is_blank": false
+  },
+  "231": {
+    "page_number": 231,
+    "assigned_entity": "SCH_NSAP",
+    "section_type": "NSAP_PENSION_AND_SOCIAL_AUDIT",
+    "header_text": "National Social Assistance Programme",
+    "char_count": 1844,
+    "is_blank": false
+  },
+  "232": {
+    "page_number": 232,
+    "assigned_entity": "SCH_NSAP",
+    "section_type": "NSAP_PENSION_AND_SOCIAL_AUDIT",
+    "header_text": "Eligibility: Widows aged 40 years and above",
+    "char_count": 1479,
+    "is_blank": false
+  },
+  "233": {
+    "page_number": 233,
+    "assigned_entity": "SCH_NSAP",
+    "section_type": "NSAP_PENSION_AND_SOCIAL_AUDIT",
+    "header_text": "Yes. The previous version was too short. Since your goal is a proper NSAP knowle",
+    "char_count": 1690,
+    "is_blank": false
+  },
+  "234": {
+    "page_number": 234,
+    "assigned_entity": "SCH_NSAP",
+    "section_type": "NSAP_PENSION_AND_SOCIAL_AUDIT",
+    "header_text": "2. Constitutional Basis",
+    "char_count": 1417,
+    "is_blank": false
+  },
+  "235": {
+    "page_number": 235,
+    "assigned_entity": "SCH_NSAP",
+    "section_type": "NSAP_PENSION_AND_SOCIAL_AUDIT",
+    "header_text": "According to the guideline:",
+    "char_count": 1410,
+    "is_blank": false
+  },
+  "236": {
+    "page_number": 236,
+    "assigned_entity": "SCH_NSAP",
+    "section_type": "NSAP_PENSION_AND_SOCIAL_AUDIT",
+    "header_text": "\u2022   Dependent parents",
+    "char_count": 1223,
+    "is_blank": false
+  },
+  "237": {
+    "page_number": 237,
+    "assigned_entity": "SCH_NSAP",
+    "section_type": "NSAP_PENSION_AND_SOCIAL_AUDIT",
+    "header_text": "\u2022   Poverty ratio determined by the Planning Commission",
+    "char_count": 1507,
+    "is_blank": false
+  },
+  "238": {
+    "page_number": 238,
+    "assigned_entity": "SCH_NSAP",
+    "section_type": "NSAP_PENSION_AND_SOCIAL_AUDIT",
+    "header_text": "10. Objectives of NSAP Social Audit",
+    "char_count": 1402,
+    "is_blank": false
+  },
+  "239": {
+    "page_number": 239,
+    "assigned_entity": "SCH_NSAP",
+    "section_type": "NSAP_PENSION_AND_SOCIAL_AUDIT",
+    "header_text": "11.3 Staffing",
+    "char_count": 1724,
+    "is_blank": false
+  },
+  "240": {
+    "page_number": 240,
+    "assigned_entity": "SCH_NSAP",
+    "section_type": "NSAP_PENSION_AND_SOCIAL_AUDIT",
+    "header_text": "\u2022   State contribution to existing NSAP beneficiaries",
+    "char_count": 1359,
+    "is_blank": false
+  },
+  "241": {
+    "page_number": 241,
+    "assigned_entity": "SCH_NSAP",
+    "section_type": "NSAP_PENSION_AND_SOCIAL_AUDIT",
+    "header_text": "The relevant implementing authority must provide information to the Social Audit",
+    "char_count": 1039,
+    "is_blank": false
+  },
+  "242": {
+    "page_number": 242,
+    "assigned_entity": "SCH_NSAP",
+    "section_type": "NSAP_PENSION_AND_SOCIAL_AUDIT",
+    "header_text": "\u2022   Discuss scheme implementation",
+    "char_count": 1120,
+    "is_blank": false
+  },
+  "243": {
+    "page_number": 243,
+    "assigned_entity": "SCH_NSAP",
+    "section_type": "NSAP_PENSION_AND_SOCIAL_AUDIT",
+    "header_text": "\u2022   Obtain information",
+    "char_count": 1460,
+    "is_blank": false
+  },
+  "244": {
+    "page_number": 244,
+    "assigned_entity": "SCH_NSAP",
+    "section_type": "NSAP_PENSION_AND_SOCIAL_AUDIT",
+    "header_text": "24. Verification of Previous ATR",
+    "char_count": 1229,
+    "is_blank": false
+  },
+  "245": {
+    "page_number": 245,
+    "assigned_entity": "SCH_NSAP",
+    "section_type": "NSAP_PENSION_AND_SOCIAL_AUDIT",
+    "header_text": "27. Scope of NSAP Social Audit",
+    "char_count": 1066,
+    "is_blank": false
+  },
+  "246": {
+    "page_number": 246,
+    "assigned_entity": "SCH_ABPMJAY",
+    "section_type": "AB_PMJAY_BENEFITS_AND_FAQ",
+    "header_text": "27.7 Exclusion Errors",
+    "char_count": 881,
+    "is_blank": false
+  },
+  "247": {
+    "page_number": 247,
+    "assigned_entity": "SCH_ABPMJAY",
+    "section_type": "AB_PMJAY_BENEFITS_AND_FAQ",
+    "header_text": "\u2022   Expenses",
+    "char_count": 1029,
+    "is_blank": false
+  },
+  "248": {
+    "page_number": 248,
+    "assigned_entity": "SCH_ABPMJAY",
+    "section_type": "AB_PMJAY_BENEFITS_AND_FAQ",
+    "header_text": "5. Grievance redressal",
+    "char_count": 905,
+    "is_blank": false
+  },
+  "249": {
+    "page_number": 249,
+    "assigned_entity": "SCH_ABPMJAY",
+    "section_type": "AB_PMJAY_BENEFITS_AND_FAQ",
+    "header_text": "31. Social Audit Workflow",
+    "char_count": 1107,
+    "is_blank": false
+  },
+  "250": {
+    "page_number": 250,
+    "assigned_entity": "SCH_ABPMJAY",
+    "section_type": "AB_PMJAY_BENEFITS_AND_FAQ",
+    "header_text": "32. Beneficiary Verification",
+    "char_count": 1194,
+    "is_blank": false
+  },
+  "251": {
+    "page_number": 251,
+    "assigned_entity": "SCH_ABPMJAY",
+    "section_type": "AB_PMJAY_BENEFITS_AND_FAQ",
+    "header_text": "34. Community Cross-Verification",
+    "char_count": 1191,
+    "is_blank": false
+  },
+  "252": {
+    "page_number": 252,
+    "assigned_entity": "SCH_ABPMJAY",
+    "section_type": "AB_PMJAY_BENEFITS_AND_FAQ",
+    "header_text": "\u2022     Whether applicants have bank/post-office passbooks",
+    "char_count": 1139,
+    "is_blank": false
+  },
+  "253": {
+    "page_number": 253,
+    "assigned_entity": "SCH_ABPMJAY",
+    "section_type": "AB_PMJAY_BENEFITS_AND_FAQ",
+    "header_text": "\u2022   Social Audit process end date",
+    "char_count": 1081,
+    "is_blank": false
+  },
+  "254": {
+    "page_number": 254,
+    "assigned_entity": "SCH_ABPMJAY",
+    "section_type": "AB_PMJAY_BENEFITS_AND_FAQ",
+    "header_text": "\u2022   Money withdrawn from the beneficiary's account by another person",
+    "char_count": 1322,
+    "is_blank": false
+  },
+  "255": {
+    "page_number": 255,
+    "assigned_entity": "SCH_ABPMJAY",
+    "section_type": "AB_PMJAY_BENEFITS_AND_FAQ",
+    "header_text": "The implementing agency must provide a response to the issues raised through Soc",
+    "char_count": 1239,
+    "is_blank": false
+  },
+  "256": {
+    "page_number": 256,
+    "assigned_entity": "SCH_ABPMJAY",
+    "section_type": "AB_PMJAY_BENEFITS_AND_FAQ",
+    "header_text": "IGNOAPS is the Indira Gandhi National Old Age Pension Scheme. According to the g",
+    "char_count": 2244,
+    "is_blank": false
+  },
+  "257": {
+    "page_number": 257,
+    "assigned_entity": "SCH_ABPMJAY",
+    "section_type": "AB_PMJAY_BENEFITS_AND_FAQ",
+    "header_text": "14. What records must be provided for Social Audit?",
+    "char_count": 2313,
+    "is_blank": false
+  },
+  "258": {
+    "page_number": 258,
+    "assigned_entity": "SCH_ABPMJAY",
+    "section_type": "AB_PMJAY_BENEFITS_AND_FAQ",
+    "header_text": "\u2022   Annapurna: 10 kg food grains/month",
+    "char_count": 1008,
+    "is_blank": false
+  },
+  "259": {
+    "page_number": 259,
+    "assigned_entity": "SCH_ABPMJAY",
+    "section_type": "AB_PMJAY_BENEFITS_AND_FAQ",
+    "header_text": "Ayushman Bharat PM-JAY Mukhmantri Sehat Bima Yojana (AB PM-JAY MMSBY)",
+    "char_count": 1714,
+    "is_blank": false
+  },
+  "260": {
+    "page_number": 260,
+    "assigned_entity": "SCH_ABPMJAY",
+    "section_type": "AB_PMJAY_BENEFITS_AND_FAQ",
+    "header_text": "Documents Required",
+    "char_count": 1248,
+    "is_blank": false
+  },
+  "261": {
+    "page_number": 261,
+    "assigned_entity": "SCH_ABPMJAY",
+    "section_type": "AB_PMJAY_BENEFITS_AND_FAQ",
+    "header_text": "Can those families whose names are not on the list avail the benefits under AB P",
+    "char_count": 1040,
+    "is_blank": false
+  }
+}

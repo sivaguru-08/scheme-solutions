@@ -1,0 +1,215 @@
+{"query": "Frequently asked questions about Pradhan Mantri Kisan Samman Nidhi", "intent": "FAQ", "scheme_id": "SCH_PMKISAN", "entities": {}}
+{"query": "What are the qualification rules for Pradhan Mantri Suraksha Bima Yojana - Full Rules?", "intent": "ELIGIBILITY", "scheme_id": "SCH_PMSBY_FULL", "entities": {}}
+{"query": "Explain VB-G RAM G", "intent": "OVERVIEW", "scheme_id": "SCH_VBG_RAMG", "entities": {}}
+{"query": "Official website portal for Deen Dayal Upadhyay Grameen Kaushalya Yojana?", "intent": "AUTHORITY", "scheme_id": "SCH_DDUGKY", "entities": {}}
+{"query": "Which KYC proofs are mandatory for Sukanya Samriddhi Yojana?", "intent": "DOCUMENTS", "scheme_id": "SCH_SSY", "entities": {}}
+{"query": "Who can join PM SVANidhi?", "intent": "ELIGIBILITY", "scheme_id": "SCH_SVANIDHI", "entities": {}}
+{"query": "What is the application process for PMUY?", "intent": "PROCEDURE", "scheme_id": "SCH_PMUY", "entities": {}}
+{"query": "Who is ineligible for Pradhan Mantri Fasal Bima Yojana?", "intent": "EXCLUSIONS", "scheme_id": "SCH_PMFBY", "entities": {}}
+{"query": "What are the age limits for PM Surya Ghar: Muft Bijli Yojana?", "intent": "ELIGIBILITY", "scheme_id": "SCH_PMSURYA", "entities": {}}
+{"query": "What financial assistance does Garib Kalyan Rozgar Yojana offer?", "intent": "BENEFITS", "scheme_id": "SCH_GKRY", "entities": {}}
+{"query": "Required documents checklist for Pradhan Mantri Jan Dhan Yojana", "intent": "DOCUMENTS", "scheme_id": "SCH_PMJDY", "entities": {}}
+{"query": "How to apply for Deen Dayal Upadhyay Grameen Kaushalya Yojana?", "intent": "PROCEDURE", "scheme_id": "SCH_DDUGKY", "entities": {}}
+{"query": "Do I qualify for Pradhan Mantri Shram Yogi Maan-Dhan Yojana if my age is 50 and monthly income is 10000?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_PMSYM", "entities": {"age": 50, "income": 10000}}
+{"query": "Am I eligible for VB-G RAM G as a artisan?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_VBG_RAMG", "entities": {"occupation": "artisan"}}
+{"query": "Do I qualify for Self Employment Scheme for Rehabilitation of Manual Scavengers if my age is 55 and monthly income is 14000?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_SRMS", "entities": {"age": 55, "income": 14000}}
+{"query": "Helpline number for Pradhan Mantri Kisan Samman Nidhi", "intent": "AUTHORITY", "scheme_id": "SCH_PMKISAN", "entities": {}}
+{"query": "Where do I submit the application form for Pradhan Mantri Kaushal Vikas Yojana?", "intent": "PROCEDURE", "scheme_id": "SCH_PMKVY", "entities": {}}
+{"query": "Explain PMSBY", "intent": "OVERVIEW", "scheme_id": "SCH_PMSBY", "entities": {}}
+{"query": "What financial assistance does Sukanya Samriddhi Yojana offer?", "intent": "BENEFITS", "scheme_id": "SCH_SSY", "entities": {}}
+{"query": "Common questions and answers on ONORC", "intent": "FAQ", "scheme_id": "SCH_ONORC", "entities": {}}
+{"query": "Who is eligible for PM Vishwakarma?", "intent": "ELIGIBILITY", "scheme_id": "SCH_VISHWA", "entities": {}}
+{"query": "I am 28 years old earning 10000 per month. Am I eligible for Building and Other Construction Workers Welfare Framework?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_BOCW", "entities": {"age": 28, "income": 10000}}
+{"query": "How much money do I get under PMFBY?", "intent": "BENEFITS", "scheme_id": "SCH_PMFBY", "entities": {}}
+{"query": "Explain PMAY-G", "intent": "OVERVIEW", "scheme_id": "SCH_PMAYG", "entities": {}}
+{"query": "What is the application process for PM-KMY?", "intent": "PROCEDURE", "scheme_id": "SCH_PMJKMY", "entities": {}}
+{"query": "What are the age limits for PM Street Vendor's AtmaNirbhar Nidhi?", "intent": "ELIGIBILITY", "scheme_id": "SCH_SVANIDHI", "entities": {}}
+{"query": "What is the eligibility criteria for PM Vishwakarma Scheme?", "intent": "ELIGIBILITY", "scheme_id": "SCH_VISHWA", "entities": {}}
+{"query": "What is the objective of DDU-GKY?", "intent": "OVERVIEW", "scheme_id": "SCH_DDUGKY", "entities": {}}
+{"query": "How to apply for Pradhan Mantri Shram Yogi Maan-Dhan Yojana?", "intent": "PROCEDURE", "scheme_id": "SCH_PMSYM", "entities": {}}
+{"query": "What income limits apply to PMJDY?", "intent": "ELIGIBILITY", "scheme_id": "SCH_PMJDY", "entities": {}}
+{"query": "What documents are required for Pradhan Mantri Suraksha Bima Yojana?", "intent": "DOCUMENTS", "scheme_id": "SCH_PMSBY", "entities": {}}
+{"query": "What welfare schemes are available?", "intent": "LIST_SCHEMES", "scheme_id": null, "entities": {}}
+{"query": "Are income tax payers excluded from HIS?", "intent": "EXCLUSIONS", "scheme_id": "SCH_HIS_WEAVERS", "entities": {}}
+{"query": "What are the qualification rules for Pradhan Mantri Ujjwala Yojana?", "intent": "ELIGIBILITY", "scheme_id": "SCH_PMUY", "entities": {}}
+{"query": "How to apply for Mahatma Gandhi National Rural Employment Guarantee Act 2005?", "intent": "PROCEDURE", "scheme_id": "SCH_MGNREGA", "entities": {}}
+{"query": "What is the eligibility criteria for Sukanya Samriddhi Yojana?", "intent": "ELIGIBILITY", "scheme_id": "SCH_SSY", "entities": {}}
+{"query": "Check my eligibility for PM Surya Ghar: Muft Bijli Yojana with age 23.", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_PMSURYA", "entities": {"age": 23}}
+{"query": "Explain PM-SYM", "intent": "OVERVIEW", "scheme_id": "SCH_PMSYM", "entities": {}}
+{"query": "What is the application process for MGNREGA?", "intent": "PROCEDURE", "scheme_id": "SCH_MGNREGA", "entities": {}}
+{"query": "What income limits apply to PM Surya Ghar?", "intent": "ELIGIBILITY", "scheme_id": "SCH_PMSURYA", "entities": {}}
+{"query": "Are income tax payers excluded from PM-KISAN?", "intent": "EXCLUSIONS", "scheme_id": "SCH_PMKISAN", "entities": {}}
+{"query": "What is the eligibility criteria for National Social Assistance Programme?", "intent": "ELIGIBILITY", "scheme_id": "SCH_NSAP", "entities": {}}
+{"query": "Do I qualify for Pradhan Mantri Kisan Samman Nidhi if my age is 46 and monthly income is 8000?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_PMKISAN", "entities": {"age": 46, "income": 8000}}
+{"query": "What do beneficiaries receive under NSAP?", "intent": "BENEFITS", "scheme_id": "SCH_NSAP", "entities": {}}
+{"query": "What financial assistance does Pradhan Mantri Awaas Yojana – Gramin offer?", "intent": "BENEFITS", "scheme_id": "SCH_PMAYG", "entities": {}}
+{"query": "What is the eligibility criteria for Pradhan Mantri Suraksha Bima Yojana?", "intent": "ELIGIBILITY", "scheme_id": "SCH_PMSBY", "entities": {}}
+{"query": "Am I eligible for NSAP as a farmer?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_NSAP", "entities": {"occupation": "farmer"}}
+{"query": "Are income tax payers excluded from PM SVANidhi?", "intent": "EXCLUSIONS", "scheme_id": "SCH_SVANIDHI", "entities": {}}
+{"query": "Who can join PMAY-G?", "intent": "ELIGIBILITY", "scheme_id": "SCH_PMAYG", "entities": {}}
+{"query": "Can a tailor aged 27 apply for PMKVY?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_PMKVY", "entities": {"age": 27, "occupation": "tailor"}}
+{"query": "What is the application process for PMAY-G?", "intent": "PROCEDURE", "scheme_id": "SCH_PMAYG", "entities": {}}
+{"query": "What is the eligibility criteria for Pradhan Mantri Fasal Bima Yojana?", "intent": "ELIGIBILITY", "scheme_id": "SCH_PMFBY", "entities": {}}
+{"query": "Who cannot apply for PM-SYM?", "intent": "EXCLUSIONS", "scheme_id": "SCH_PMSYM", "entities": {}}
+{"query": "What are the age limits for Atal Pension Yojana?", "intent": "ELIGIBILITY", "scheme_id": "SCH_APY", "entities": {}}
+{"query": "What are the qualification rules for Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025?", "intent": "ELIGIBILITY", "scheme_id": "SCH_VBG_RAMG", "entities": {}}
+{"query": "What financial assistance does Pradhan Mantri Kisan Samman Nidhi offer?", "intent": "BENEFITS", "scheme_id": "SCH_PMKISAN", "entities": {}}
+{"query": "Helpline number for Deen Dayal Upadhyaya Antyodaya Yojana", "intent": "AUTHORITY", "scheme_id": "SCH_DAY", "entities": {}}
+{"query": "Check my eligibility for Pradhan Mantri Shram Yogi Maan-Dhan Yojana with age 49.", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_PMSYM", "entities": {"age": 49}}
+{"query": "What is the coverage under Pradhan Mantri Kisan Samman Nidhi?", "intent": "BENEFITS", "scheme_id": "SCH_PMKISAN", "entities": {}}
+{"query": "Do I qualify for National Social Assistance Programme if my age is 26 and monthly income is 16000?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_NSAP", "entities": {"age": 26, "income": 16000}}
+{"query": "What is the coverage under Health Insurance Scheme for Weavers?", "intent": "BENEFITS", "scheme_id": "SCH_HIS_WEAVERS", "entities": {}}
+{"query": "Can you provide details on PMKVY?", "intent": "OVERVIEW", "scheme_id": "SCH_PMKVY", "entities": {}}
+{"query": "What are the financial payouts in Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025?", "intent": "BENEFITS", "scheme_id": "SCH_VBG_RAMG", "entities": {}}
+{"query": "Helpline number for Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025", "intent": "AUTHORITY", "scheme_id": "SCH_VBG_RAMG", "entities": {}}
+{"query": "What income limits apply to HIS?", "intent": "ELIGIBILITY", "scheme_id": "SCH_HIS_WEAVERS", "entities": {}}
+{"query": "Can my family claim benefits in another state under PMUY?", "intent": "FAQ", "scheme_id": "SCH_PMUY", "entities": {}}
+{"query": "Do I qualify for Atal Pension Yojana if my age is 24 and monthly income is 12000?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_APY", "entities": {"age": 24, "income": 12000}}
+{"query": "Who can join SSY?", "intent": "ELIGIBILITY", "scheme_id": "SCH_SSY", "entities": {}}
+{"query": "What are the benefits of One Nation One Ration Card?", "intent": "BENEFITS", "scheme_id": "SCH_ONORC", "entities": {}}
+{"query": "Who is the implementing agency for PM-SYM?", "intent": "AUTHORITY", "scheme_id": "SCH_PMSYM", "entities": {}}
+{"query": "Frequently asked questions about Pradhan Mantri Suraksha Bima Yojana - Full Rules", "intent": "FAQ", "scheme_id": "SCH_PMSBY_FULL", "entities": {}}
+{"query": "Helpline number for National Social Assistance Programme", "intent": "AUTHORITY", "scheme_id": "SCH_NSAP", "entities": {}}
+{"query": "Toll-free customer care number for BOCW", "intent": "AUTHORITY", "scheme_id": "SCH_BOCW", "entities": {}}
+{"query": "Summary of National Pension Scheme for Traders and Self-Employed Persons", "intent": "OVERVIEW", "scheme_id": "SCH_NPST", "entities": {}}
+{"query": "Toll-free customer care number for HIS", "intent": "AUTHORITY", "scheme_id": "SCH_HIS_WEAVERS", "entities": {}}
+{"query": "What are the financial payouts in Health Insurance Scheme for Weavers?", "intent": "BENEFITS", "scheme_id": "SCH_HIS_WEAVERS", "entities": {}}
+{"query": "What papers do I need to apply for GKRY?", "intent": "DOCUMENTS", "scheme_id": "SCH_GKRY", "entities": {}}
+{"query": "Tell me about Pradhan Mantri Suraksha Bima Yojana - Full Rules", "intent": "OVERVIEW", "scheme_id": "SCH_PMSBY_FULL", "entities": {}}
+{"query": "Check my eligibility for PM Street Vendor's AtmaNirbhar Nidhi with age 48.", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_SVANIDHI", "entities": {"age": 48}}
+{"query": "Who cannot apply for SSY?", "intent": "EXCLUSIONS", "scheme_id": "SCH_SSY", "entities": {}}
+{"query": "Who is ineligible for PM Street Vendor's AtmaNirbhar Nidhi?", "intent": "EXCLUSIONS", "scheme_id": "SCH_SVANIDHI", "entities": {}}
+{"query": "What financial assistance does Pradhan Mantri Mudra Yojana offer?", "intent": "BENEFITS", "scheme_id": "SCH_PMMY", "entities": {}}
+{"query": "How to apply for Pradhan Mantri Suraksha Bima Yojana - Full Rules?", "intent": "PROCEDURE", "scheme_id": "SCH_PMSBY_FULL", "entities": {}}
+{"query": "Is eKYC mandatory for Building and Other Construction Workers Welfare Framework?", "intent": "FAQ", "scheme_id": "SCH_BOCW", "entities": {}}
+{"query": "Am I eligible for PMSBY as a carpenter?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_PMSBY", "entities": {"occupation": "carpenter"}}
+{"query": "Which ministry administers Pradhan Mantri Suraksha Bima Yojana?", "intent": "AUTHORITY", "scheme_id": "SCH_PMSBY", "entities": {}}
+{"query": "What are the disqualifications for Building and Other Construction Workers Welfare Framework?", "intent": "EXCLUSIONS", "scheme_id": "SCH_BOCW", "entities": {}}
+{"query": "How to apply for Atal Pension Yojana?", "intent": "PROCEDURE", "scheme_id": "SCH_APY", "entities": {}}
+{"query": "What are the age limits for Pradhan Mantri Suraksha Bima Yojana?", "intent": "ELIGIBILITY", "scheme_id": "SCH_PMSBY", "entities": {}}
+{"query": "Frequently asked questions about Pradhan Mantri Mudra Yojana", "intent": "FAQ", "scheme_id": "SCH_PMMY", "entities": {}}
+{"query": "What are the age limits for One Nation One Ration Card?", "intent": "ELIGIBILITY", "scheme_id": "SCH_ONORC", "entities": {}}
+{"query": "Official website portal for Health Insurance Scheme for Weavers?", "intent": "AUTHORITY", "scheme_id": "SCH_HIS_WEAVERS", "entities": {}}
+{"query": "Tell me about Pradhan Mantri Fasal Bima Yojana", "intent": "OVERVIEW", "scheme_id": "SCH_PMFBY", "entities": {}}
+{"query": "Can I register online for AB PM-JAY MMSBY?", "intent": "PROCEDURE", "scheme_id": "SCH_ABPMJAY", "entities": {}}
+{"query": "Do I need an Aadhaar card for BOCW?", "intent": "DOCUMENTS", "scheme_id": "SCH_BOCW", "entities": {}}
+{"query": "Who is eligible for PMMY?", "intent": "ELIGIBILITY", "scheme_id": "SCH_PMMY", "entities": {}}
+{"query": "Who is the implementing agency for PMAY-G?", "intent": "AUTHORITY", "scheme_id": "SCH_PMAYG", "entities": {}}
+{"query": "Tell me the benefits provided by PMUY", "intent": "BENEFITS", "scheme_id": "SCH_PMUY", "entities": {}}
+{"query": "Am I eligible for AB PM-JAY MMSBY as a unorganised worker?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_ABPMJAY", "entities": {"occupation": "unorganised worker"}}
+{"query": "Common questions and answers on SSY", "intent": "FAQ", "scheme_id": "SCH_SSY", "entities": {}}
+{"query": "What papers do I need to apply for APY?", "intent": "DOCUMENTS", "scheme_id": "SCH_APY", "entities": {}}
+{"query": "What do beneficiaries receive under PMKVY?", "intent": "BENEFITS", "scheme_id": "SCH_PMKVY", "entities": {}}
+{"query": "Required documents checklist for Garib Kalyan Rozgar Yojana", "intent": "DOCUMENTS", "scheme_id": "SCH_GKRY", "entities": {}}
+{"query": "Official website portal for PM Street Vendor's AtmaNirbhar Nidhi?", "intent": "AUTHORITY", "scheme_id": "SCH_SVANIDHI", "entities": {}}
+{"query": "Toll-free customer care number for DAY", "intent": "AUTHORITY", "scheme_id": "SCH_DAY", "entities": {}}
+{"query": "What is the objective of PMJJBY?", "intent": "OVERVIEW", "scheme_id": "SCH_PMJJBY", "entities": {}}
+{"query": "How much money do I get under PMSBY?", "intent": "BENEFITS", "scheme_id": "SCH_PMSBY", "entities": {}}
+{"query": "Required documents checklist for Pradhan Mantri Kisan Mandhan Yojana", "intent": "DOCUMENTS", "scheme_id": "SCH_PMJKMY", "entities": {}}
+{"query": "What income limits apply to ONORC?", "intent": "ELIGIBILITY", "scheme_id": "SCH_ONORC", "entities": {}}
+{"query": "Explain PMJJBY", "intent": "OVERVIEW", "scheme_id": "SCH_PMJJBY", "entities": {}}
+{"query": "Who can join PMKVY?", "intent": "ELIGIBILITY", "scheme_id": "SCH_PMKVY", "entities": {}}
+{"query": "What documents are required for Pradhan Mantri Kisan Mandhan Yojana?", "intent": "DOCUMENTS", "scheme_id": "SCH_PMJKMY", "entities": {}}
+{"query": "Can my family claim benefits in another state under PMMY?", "intent": "FAQ", "scheme_id": "SCH_PMMY", "entities": {}}
+{"query": "Am I eligible for APY as a construction worker?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_APY", "entities": {"occupation": "construction worker"}}
+{"query": "Give me a list of all 29 schemes", "intent": "LIST_SCHEMES", "scheme_id": null, "entities": {}}
+{"query": "Tell me about National Social Assistance Programme", "intent": "OVERVIEW", "scheme_id": "SCH_NSAP", "entities": {}}
+{"query": "Is eKYC mandatory for PM Vishwakarma Scheme?", "intent": "FAQ", "scheme_id": "SCH_VISHWA", "entities": {}}
+{"query": "What papers do I need to apply for PMFBY?", "intent": "DOCUMENTS", "scheme_id": "SCH_PMFBY", "entities": {}}
+{"query": "What papers do I need to apply for PM SVANidhi?", "intent": "DOCUMENTS", "scheme_id": "SCH_SVANIDHI", "entities": {}}
+{"query": "Official website portal for Pradhan Mantri Ujjwala Yojana?", "intent": "AUTHORITY", "scheme_id": "SCH_PMUY", "entities": {}}
+{"query": "How to apply for Pradhan Mantri Fasal Bima Yojana?", "intent": "PROCEDURE", "scheme_id": "SCH_PMFBY", "entities": {}}
+{"query": "What do beneficiaries receive under DAY?", "intent": "BENEFITS", "scheme_id": "SCH_DAY", "entities": {}}
+{"query": "Frequently asked questions about Mahatma Gandhi National Rural Employment Guarantee Act 2005", "intent": "FAQ", "scheme_id": "SCH_MGNREGA", "entities": {}}
+{"query": "I am 25 years old earning 14000 per month. Am I eligible for Pradhan Mantri Jeevan Jyoti Bima Yojana?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_PMJJBY", "entities": {"age": 25, "income": 14000}}
+{"query": "Step by step registration procedure for Pradhan Mantri Shram Yogi Maan-Dhan Yojana", "intent": "PROCEDURE", "scheme_id": "SCH_PMSYM", "entities": {}}
+{"query": "What is the eligibility criteria for Pradhan Mantri Ujjwala Yojana?", "intent": "ELIGIBILITY", "scheme_id": "SCH_PMUY", "entities": {}}
+{"query": "What is Atal Pension Yojana?", "intent": "OVERVIEW", "scheme_id": "SCH_APY", "entities": {}}
+{"query": "What are the financial payouts in Mahatma Gandhi National Rural Employment Guarantee Act 2005?", "intent": "BENEFITS", "scheme_id": "SCH_MGNREGA", "entities": {}}
+{"query": "Which ministry administers PM Vishwakarma Scheme?", "intent": "AUTHORITY", "scheme_id": "SCH_VISHWA", "entities": {}}
+{"query": "Who is the implementing agency for NPS-Traders?", "intent": "AUTHORITY", "scheme_id": "SCH_NPST", "entities": {}}
+{"query": "Helpline number for National Pension Scheme for Traders and Self-Employed Persons", "intent": "AUTHORITY", "scheme_id": "SCH_NPST", "entities": {}}
+{"query": "What are the disqualifications for PM Surya Ghar: Muft Bijli Yojana?", "intent": "EXCLUSIONS", "scheme_id": "SCH_PMSURYA", "entities": {}}
+{"query": "Who can join PMJJBY?", "intent": "ELIGIBILITY", "scheme_id": "SCH_PMJJBY", "entities": {}}
+{"query": "What is the application process for GKRY?", "intent": "PROCEDURE", "scheme_id": "SCH_GKRY", "entities": {}}
+{"query": "What are the qualification rules for National Pension Scheme for Traders and Self-Employed Persons?", "intent": "ELIGIBILITY", "scheme_id": "SCH_NPST", "entities": {}}
+{"query": "Do I need an Aadhaar card for PM-KISAN?", "intent": "DOCUMENTS", "scheme_id": "SCH_PMKISAN", "entities": {}}
+{"query": "Which KYC proofs are mandatory for Deen Dayal Upadhyaya Antyodaya Yojana?", "intent": "DOCUMENTS", "scheme_id": "SCH_DAY", "entities": {}}
+{"query": "I am 36 years old earning 10000 per month. Am I eligible for Garib Kalyan Rozgar Yojana?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_GKRY", "entities": {"age": 36, "income": 10000}}
+{"query": "What are the age limits for Deen Dayal Upadhyay Grameen Kaushalya Yojana?", "intent": "ELIGIBILITY", "scheme_id": "SCH_DDUGKY", "entities": {}}
+{"query": "Overview of National Pension Scheme for Traders and Self-Employed Persons", "intent": "OVERVIEW", "scheme_id": "SCH_NPST", "entities": {}}
+{"query": "What income limits apply to NPS-Traders?", "intent": "ELIGIBILITY", "scheme_id": "SCH_NPST", "entities": {}}
+{"query": "What documents are required for Pradhan Mantri Fasal Bima Yojana?", "intent": "DOCUMENTS", "scheme_id": "SCH_PMFBY", "entities": {}}
+{"query": "What are the disqualifications for National Social Assistance Programme?", "intent": "EXCLUSIONS", "scheme_id": "SCH_NSAP", "entities": {}}
+{"query": "What is the objective of PMKVY?", "intent": "OVERVIEW", "scheme_id": "SCH_PMKVY", "entities": {}}
+{"query": "Can a weaver aged 22 apply for NPS-Traders?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_NPST", "entities": {"age": 22, "occupation": "weaver"}}
+{"query": "Overview of PM Vishwakarma Scheme", "intent": "OVERVIEW", "scheme_id": "SCH_VISHWA", "entities": {}}
+{"query": "Who is ineligible for Pradhan Mantri Mudra Yojana?", "intent": "EXCLUSIONS", "scheme_id": "SCH_PMMY", "entities": {}}
+{"query": "Frequently asked questions about PM Surya Ghar: Muft Bijli Yojana", "intent": "FAQ", "scheme_id": "SCH_PMSURYA", "entities": {}}
+{"query": "Am I eligible for PM-KISAN as a unorganised worker?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_PMKISAN", "entities": {"occupation": "unorganised worker"}}
+{"query": "Who cannot apply for DDU-GKY?", "intent": "EXCLUSIONS", "scheme_id": "SCH_DDUGKY", "entities": {}}
+{"query": "What is the application process for PMKVY?", "intent": "PROCEDURE", "scheme_id": "SCH_PMKVY", "entities": {}}
+{"query": "Which ministry administers Ayushman Bharat PM-JAY Mukhmantri Sehat Bima Yojana?", "intent": "AUTHORITY", "scheme_id": "SCH_ABPMJAY", "entities": {}}
+{"query": "What are the age limits for Pradhan Mantri Mudra Yojana?", "intent": "ELIGIBILITY", "scheme_id": "SCH_PMMY", "entities": {}}
+{"query": "I am 30 years old earning 14000 per month. Am I eligible for Pradhan Mantri Kisan Mandhan Yojana?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_PMJKMY", "entities": {"age": 30, "income": 14000}}
+{"query": "What are the benefits of Pradhan Mantri Suraksha Bima Yojana - Full Rules?", "intent": "BENEFITS", "scheme_id": "SCH_PMSBY_FULL", "entities": {}}
+{"query": "Who is excluded from Pradhan Mantri Jan Dhan Yojana?", "intent": "EXCLUSIONS", "scheme_id": "SCH_PMJDY", "entities": {}}
+{"query": "Overview of One Nation One Ration Card", "intent": "OVERVIEW", "scheme_id": "SCH_ONORC", "entities": {}}
+{"query": "What do beneficiaries receive under PMJDY?", "intent": "BENEFITS", "scheme_id": "SCH_PMJDY", "entities": {}}
+{"query": "Toll-free customer care number for PM-KISAN", "intent": "AUTHORITY", "scheme_id": "SCH_PMKISAN", "entities": {}}
+{"query": "Who can join AB PM-JAY MMSBY?", "intent": "ELIGIBILITY", "scheme_id": "SCH_ABPMJAY", "entities": {}}
+{"query": "Who is excluded from Self Employment Scheme for Rehabilitation of Manual Scavengers?", "intent": "EXCLUSIONS", "scheme_id": "SCH_SRMS", "entities": {}}
+{"query": "Frequently asked questions about PM Street Vendor's AtmaNirbhar Nidhi", "intent": "FAQ", "scheme_id": "SCH_SVANIDHI", "entities": {}}
+{"query": "What documents are required for Deen Dayal Upadhyay Grameen Kaushalya Yojana?", "intent": "DOCUMENTS", "scheme_id": "SCH_DDUGKY", "entities": {}}
+{"query": "How much money do I get under AB PM-JAY MMSBY?", "intent": "BENEFITS", "scheme_id": "SCH_ABPMJAY", "entities": {}}
+{"query": "What income limits apply to MGNREGA?", "intent": "ELIGIBILITY", "scheme_id": "SCH_MGNREGA", "entities": {}}
+{"query": "Can my family claim benefits in another state under PM-KISAN?", "intent": "FAQ", "scheme_id": "SCH_PMKISAN", "entities": {}}
+{"query": "Toll-free customer care number for PM Vishwakarma", "intent": "AUTHORITY", "scheme_id": "SCH_VISHWA", "entities": {}}
+{"query": "Who won the 2024 cricket world cup?", "intent": "OUT_OF_SCOPE", "scheme_id": null, "entities": {}}
+{"query": "How to apply for One Nation One Ration Card?", "intent": "PROCEDURE", "scheme_id": "SCH_ONORC", "entities": {}}
+{"query": "What is Pradhan Mantri Kaushal Vikas Yojana?", "intent": "OVERVIEW", "scheme_id": "SCH_PMKVY", "entities": {}}
+{"query": "Can you provide details on NPS-Traders?", "intent": "OVERVIEW", "scheme_id": "SCH_NPST", "entities": {}}
+{"query": "Overview of Pradhan Mantri Suraksha Bima Yojana", "intent": "OVERVIEW", "scheme_id": "SCH_PMSBY", "entities": {}}
+{"query": "I am 37 years old earning 8000 per month. Am I eligible for Pradhan Mantri Kaushal Vikas Yojana?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_PMKVY", "entities": {"age": 37, "income": 8000}}
+{"query": "Frequently asked questions about Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025", "intent": "FAQ", "scheme_id": "SCH_VBG_RAMG", "entities": {}}
+{"query": "What are the benefits of Pradhan Mantri Jeevan Jyoti Bima Yojana?", "intent": "BENEFITS", "scheme_id": "SCH_PMJJBY", "entities": {}}
+{"query": "Can a farmer aged 36 apply for PMUY?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_PMUY", "entities": {"age": 36, "occupation": "farmer"}}
+{"query": "Who cannot apply for PM-KMY?", "intent": "EXCLUSIONS", "scheme_id": "SCH_PMJKMY", "entities": {}}
+{"query": "What financial assistance does Ayushman Bharat PM-JAY Mukhmantri Sehat Bima Yojana offer?", "intent": "BENEFITS", "scheme_id": "SCH_ABPMJAY", "entities": {}}
+{"query": "Step by step registration procedure for PM Surya Ghar: Muft Bijli Yojana", "intent": "PROCEDURE", "scheme_id": "SCH_PMSURYA", "entities": {}}
+{"query": "Tell me about Self Employment Scheme for Rehabilitation of Manual Scavengers", "intent": "OVERVIEW", "scheme_id": "SCH_SRMS", "entities": {}}
+{"query": "Helpline number for Atal Pension Yojana", "intent": "AUTHORITY", "scheme_id": "SCH_APY", "entities": {}}
+{"query": "What are the benefits of Pradhan Mantri Kisan Mandhan Yojana?", "intent": "BENEFITS", "scheme_id": "SCH_PMJKMY", "entities": {}}
+{"query": "Where do I submit the application form for Building and Other Construction Workers Welfare Framework?", "intent": "PROCEDURE", "scheme_id": "SCH_BOCW", "entities": {}}
+{"query": "Is eKYC mandatory for National Social Assistance Programme?", "intent": "FAQ", "scheme_id": "SCH_NSAP", "entities": {}}
+{"query": "What is PM Street Vendor's AtmaNirbhar Nidhi?", "intent": "OVERVIEW", "scheme_id": "SCH_SVANIDHI", "entities": {}}
+{"query": "What income limits apply to PMUY?", "intent": "ELIGIBILITY", "scheme_id": "SCH_PMUY", "entities": {}}
+{"query": "Required documents checklist for Pradhan Mantri Suraksha Bima Yojana", "intent": "DOCUMENTS", "scheme_id": "SCH_PMSBY", "entities": {}}
+{"query": "Do I need an Aadhaar card for SSY?", "intent": "DOCUMENTS", "scheme_id": "SCH_SSY", "entities": {}}
+{"query": "What is the coverage under Mahatma Gandhi National Rural Employment Guarantee Act 2005?", "intent": "BENEFITS", "scheme_id": "SCH_MGNREGA", "entities": {}}
+{"query": "What papers do I need to apply for NPS-Traders?", "intent": "DOCUMENTS", "scheme_id": "SCH_NPST", "entities": {}}
+{"query": "Can you provide details on PMSBY?", "intent": "OVERVIEW", "scheme_id": "SCH_PMSBY", "entities": {}}
+{"query": "What do beneficiaries receive under NPS-Traders?", "intent": "BENEFITS", "scheme_id": "SCH_NPST", "entities": {}}
+{"query": "Frequently asked questions about Pradhan Mantri Kisan Mandhan Yojana", "intent": "FAQ", "scheme_id": "SCH_PMJKMY", "entities": {}}
+{"query": "Do I need an Aadhaar card for MGNREGA?", "intent": "DOCUMENTS", "scheme_id": "SCH_MGNREGA", "entities": {}}
+{"query": "Can you provide details on VB-G RAM G?", "intent": "OVERVIEW", "scheme_id": "SCH_VBG_RAMG", "entities": {}}
+{"query": "Tell me the benefits provided by PMAY-G", "intent": "BENEFITS", "scheme_id": "SCH_PMAYG", "entities": {}}
+{"query": "I am 44 years old earning 10000 per month. Am I eligible for Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_VBG_RAMG", "entities": {"age": 44, "income": 10000}}
+{"query": "Who is the implementing agency for BOCW?", "intent": "AUTHORITY", "scheme_id": "SCH_BOCW", "entities": {}}
+{"query": "Can my family claim benefits in another state under PMJJBY?", "intent": "FAQ", "scheme_id": "SCH_PMJJBY", "entities": {}}
+{"query": "Can my family claim benefits in another state under PM Surya Ghar?", "intent": "FAQ", "scheme_id": "SCH_PMSURYA", "entities": {}}
+{"query": "I am 24 years old earning 12000 per month. Am I eligible for Mahatma Gandhi National Rural Employment Guarantee Act 2005?", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_MGNREGA", "entities": {"age": 24, "income": 12000}}
+{"query": "Tell me about Ayushman Bharat PM-JAY Mukhmantri Sehat Bima Yojana", "intent": "OVERVIEW", "scheme_id": "SCH_ABPMJAY", "entities": {}}
+{"query": "What are the benefits of Pradhan Mantri Ujjwala Yojana?", "intent": "BENEFITS", "scheme_id": "SCH_PMUY", "entities": {}}
+{"query": "How much money do I get under DDU-GKY?", "intent": "BENEFITS", "scheme_id": "SCH_DDUGKY", "entities": {}}
+{"query": "Check my eligibility for National Social Assistance Programme with age 38.", "intent": "CHECK_ELIGIBILITY", "scheme_id": "SCH_NSAP", "entities": {"age": 38}}
+{"query": "What are the financial payouts in National Social Assistance Programme?", "intent": "BENEFITS", "scheme_id": "SCH_NSAP", "entities": {}}
+{"query": "What documents are required for Atal Pension Yojana?", "intent": "DOCUMENTS", "scheme_id": "SCH_APY", "entities": {}}
+{"query": "Are income tax payers excluded from AB PM-JAY MMSBY?", "intent": "EXCLUSIONS", "scheme_id": "SCH_ABPMJAY", "entities": {}}
+{"query": "Can my family claim benefits in another state under PM SVANidhi?", "intent": "FAQ", "scheme_id": "SCH_SVANIDHI", "entities": {}}
+{"query": "Where do I submit the application form for Deen Dayal Upadhyay Grameen Kaushalya Yojana?", "intent": "PROCEDURE", "scheme_id": "SCH_DDUGKY", "entities": {}}
+{"query": "Tell me about Pradhan Mantri Mudra Yojana", "intent": "OVERVIEW", "scheme_id": "SCH_PMMY", "entities": {}}
+{"query": "Can my family claim benefits in another state under PM Vishwakarma?", "intent": "FAQ", "scheme_id": "SCH_VISHWA", "entities": {}}
+{"query": "Toll-free customer care number for GKRY", "intent": "AUTHORITY", "scheme_id": "SCH_GKRY", "entities": {}}
+{"query": "What are the qualification rules for Ayushman Bharat PM-JAY Mukhmantri Sehat Bima Yojana?", "intent": "ELIGIBILITY", "scheme_id": "SCH_ABPMJAY", "entities": {}}
+{"query": "Tell me the benefits provided by SSY", "intent": "BENEFITS", "scheme_id": "SCH_SSY", "entities": {}}

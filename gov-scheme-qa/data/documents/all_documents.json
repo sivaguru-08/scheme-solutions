@@ -402,5 +402,185 @@
       14,
       17
     ]
+  },
+  {
+    "document_id": "DOC_NSAP_OA_001",
+    "scheme_id": "SCH_NSAP_OA",
+    "mandatory": [
+      {
+        "name": "Aadhaar Card",
+        "description": "Aadhaar number or enrollment slip for identity verification",
+        "purpose": "Identity and DBT Aadhaar-based disbursement"
+      },
+      {
+        "name": "Proof of Age (60+ years)",
+        "description": "Birth certificate, school certificate, electoral photo identity card (EPIC), or medical officer age certificate",
+        "purpose": "Verification of age threshold (60+ years for IGNOAPS)"
+      },
+      {
+        "name": "BPL Card / Certificate",
+        "description": "BPL ration card or certificate issued by designated Gram Panchayat / Municipal authority",
+        "purpose": "Proof of Below Poverty Line household status"
+      },
+      {
+        "name": "Bank / Post Office Passbook",
+        "description": "Active single bank or post office savings account passbook with IFSC/branch code",
+        "purpose": "Direct monthly pension credit"
+      }
+    ],
+    "optional": [
+      {
+        "name": "Domicile Certificate",
+        "purpose": "Proof of residence within State/UT"
+      }
+    ],
+    "source_pages": [65, 66]
+  },
+  {
+    "document_id": "DOC_NSAP_W_001",
+    "scheme_id": "SCH_NSAP_W",
+    "mandatory": [
+      {
+        "name": "Aadhaar Card",
+        "description": "Aadhaar number or enrollment slip for identity verification",
+        "purpose": "Identity and DBT Aadhaar-based disbursement"
+      },
+      {
+        "name": "Proof of Age (40+ years)",
+        "description": "Birth certificate, school certificate, EPIC, or medical officer age certificate",
+        "purpose": "Verification of age threshold (40+ years for IGNWPS)"
+      },
+      {
+        "name": "Widow Certificate / Death Certificate of Spouse",
+        "description": "Certificate confirming widow status issued by competent authority, or death certificate of spouse",
+        "purpose": "Proof of widow status"
+      },
+      {
+        "name": "BPL Card / Certificate",
+        "description": "BPL ration card or certificate issued by designated authority",
+        "purpose": "Proof of Below Poverty Line household status"
+      },
+      {
+        "name": "Bank / Post Office Passbook",
+        "description": "Active bank or post office savings account passbook with IFSC/branch code",
+        "purpose": "Direct monthly pension credit"
+      }
+    ],
+    "optional": [
+      {
+        "name": "Domicile Certificate",
+        "purpose": "Proof of residence within State/UT"
+      }
+    ],
+    "source_pages": [65, 66]
+  },
+  {
+    "document_id": "DOC_NSAP_D_001",
+    "scheme_id": "SCH_NSAP_D",
+    "mandatory": [
+      {
+        "name": "Aadhaar Card",
+        "description": "Aadhaar number or enrollment slip for identity verification",
+        "purpose": "Identity and DBT Aadhaar-based disbursement"
+      },
+      {
+        "name": "Proof of Age (18+ years)",
+        "description": "Birth certificate, school certificate, EPIC, or medical officer age certificate",
+        "purpose": "Verification of age threshold (18+ years for IGNDPS)"
+      },
+      {
+        "name": "Disability Certificate (80%+ disability)",
+        "description": "Disability certificate issued by competent medical authority certifying 80% or more disability",
+        "purpose": "Proof of severe/multiple disability"
+      },
+      {
+        "name": "BPL Card / Certificate",
+        "description": "BPL ration card or certificate issued by designated authority",
+        "purpose": "Proof of Below Poverty Line household status"
+      },
+      {
+        "name": "Bank / Post Office Passbook",
+        "description": "Active bank or post office savings account passbook with IFSC/branch code",
+        "purpose": "Direct monthly pension credit"
+      }
+    ],
+    "optional": [
+      {
+        "name": "Domicile Certificate",
+        "purpose": "Proof of residence within State/UT"
+      }
+    ],
+    "source_pages": [65, 66]
+  },
+  {
+    "document_id": "DOC_NSAP_FB_001",
+    "scheme_id": "SCH_NSAP_FB",
+    "mandatory": [
+      {
+        "name": "Aadhaar Card",
+        "description": "Aadhaar number of the claimant (surviving head of household)",
+        "purpose": "Identity and DBT Aadhaar-based disbursement"
+      },
+      {
+        "name": "Death Certificate of Breadwinner",
+        "description": "Death certificate of the deceased primary breadwinner",
+        "purpose": "Proof of death of breadwinner"
+      },
+      {
+        "name": "Proof of Age of Deceased (18-59 years)",
+        "description": "Age proof of the deceased breadwinner showing age between 18-59 at time of death",
+        "purpose": "Verification of age eligibility of deceased breadwinner"
+      },
+      {
+        "name": "BPL Card / Certificate",
+        "description": "BPL ration card or certificate issued by designated authority",
+        "purpose": "Proof of Below Poverty Line household status"
+      },
+      {
+        "name": "Bank / Post Office Passbook",
+        "description": "Active bank or post office account of the claimant",
+        "purpose": "One-time lump sum disbursement of Rs 20,000"
+      }
+    ],
+    "optional": [
+      {
+        "name": "FIR / Postmortem Report (if applicable)",
+        "purpose": "In case of unnatural death for additional verification"
+      }
+    ],
+    "source_pages": [65, 66]
+  },
+  {
+    "document_id": "DOC_NSAP_AP_001",
+    "scheme_id": "SCH_NSAP_AP",
+    "mandatory": [
+      {
+        "name": "Aadhaar Card",
+        "description": "Aadhaar number or enrollment slip for identity verification",
+        "purpose": "Identity verification"
+      },
+      {
+        "name": "Proof of Age (60+ years)",
+        "description": "Birth certificate, school certificate, EPIC, or medical officer age certificate",
+        "purpose": "Verification of age threshold (60+ years for Annapurna)"
+      },
+      {
+        "name": "BPL Card / Certificate",
+        "description": "BPL ration card or certificate issued by designated authority",
+        "purpose": "Proof of Below Poverty Line household status"
+      },
+      {
+        "name": "Declaration of Non-Receipt of IGNOAPS",
+        "description": "Self-declaration or verification that the applicant is not receiving pension under IGNOAPS",
+        "purpose": "Confirm non-enrollment in IGNOAPS old age pension"
+      }
+    ],
+    "optional": [
+      {
+        "name": "Domicile Certificate",
+        "purpose": "Proof of residence within State/UT"
+      }
+    ],
+    "source_pages": [65, 66]
   }
 ]

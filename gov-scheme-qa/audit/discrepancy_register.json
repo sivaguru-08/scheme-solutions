@@ -1,0 +1,65 @@
+[
+  {
+    "issue_id": "DISC_001",
+    "entity_id": "SCH_PMSBY",
+    "title": "PMSBY Premium Discrepancy (Historical Rs 12 vs Current Rs 20)",
+    "source_pages": [
+      4,
+      60,
+      61
+    ],
+    "description": "Earlier introductory guidelines referenced historical Rs. 12/annum premium, whereas detailed operational guidelines and revised notifications specify Rs. 20/annum.",
+    "severity": "HIGH",
+    "canonical_resolution": "Adopt authoritative current revised value of Rs. 20 per annum auto-debited annually by 31st May."
+  },
+  {
+    "issue_id": "DISC_002",
+    "entity_id": "SCH_APY",
+    "title": "APY Income Tax Payer Eligibility Amendment",
+    "source_pages": [
+      5
+    ],
+    "description": "Prior to 1st October 2022, income tax payers could join APY. Gazette notification dated 10-08-2022 amended rules disqualifying any citizen who is or has been an income tax payer from opening new accounts.",
+    "severity": "HIGH",
+    "canonical_resolution": "Condition modeled with strict temporal enforcement: for current applications, income tax payers are categorically excluded."
+  },
+  {
+    "issue_id": "DISC_003",
+    "entity_id": "SCH_MGNREGA",
+    "title": "MGNREGA 2005 vs VB-G RAM G Act 2025 Framework Reference",
+    "source_pages": [
+      14,
+      15,
+      30
+    ],
+    "description": "Document refers to MGNREGA 2005 operational mechanics while also cross-referencing Viksit Bharat \u2013 Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025.",
+    "severity": "MEDIUM",
+    "canonical_resolution": "Maintain distinct entity IDs (SCH_MGNREGA and SCH_VBG_RAMG) while sharing statutory 100-day entitlement and unemployment allowance rules."
+  },
+  {
+    "issue_id": "DISC_004",
+    "entity_id": "SCH_PMAYG",
+    "title": "SECC 2011 Deprivation vs Awaas+ Beneficiary Selection",
+    "source_pages": [
+      10,
+      201,
+      202
+    ],
+    "description": "Initial summary notes SECC 2011 deprivation scoring, whereas operational housing manual describes transition to Gram Sabha verified Awaas+ list to address left-out eligible households.",
+    "severity": "MEDIUM",
+    "canonical_resolution": "Standardize qualification rule around objective 13-point exclusion checklist (motorized vehicles, pucca house, mechanized agricultural equipment, regular salary) rather than obsolete static list."
+  },
+  {
+    "issue_id": "DISC_005",
+    "entity_id": "SCH_PMUY",
+    "title": "Ujjwala 1.0 SECC vs Ujjwala 2.0 Migrant Self-Declaration",
+    "source_pages": [
+      8,
+      136,
+      137
+    ],
+    "description": "Ujjwala 1.0 mandated ration card with local address; Ujjwala 2.0 allows migrant families to submit self-declaration as proof of address and family composition.",
+    "severity": "MEDIUM",
+    "canonical_resolution": "Model required documents with alternate paths: ration card OR self-declaration for migrant households."
+  }
+]
