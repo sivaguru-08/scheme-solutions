@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-cd "$SCRIPT_DIR/gov-scheme-qa"
-exec "$SCRIPT_DIR/gov-scheme-qa/.venv/bin/python" "$SCRIPT_DIR/gov-scheme-qa/app/cli.py" "$@"
+if [ -d "$SCRIPT_DIR/gov-scheme-qa" ]; then
+    TARGET_DIR="$SCRIPT_DIR/gov-scheme-qa"
+else
+    TARGET_DIR="$SCRIPT_DIR"
+fi
+cd "$TARGET_DIR"
+exec "$TARGET_DIR/.venv/bin/python" "$TARGET_DIR/app/cli.py" "$@"

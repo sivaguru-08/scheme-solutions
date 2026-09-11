@@ -107,26 +107,35 @@ gov-scheme-qa/
 
 ## 🚀 Quick Start
 
-### 1. Environment Setup
+### 1. Environment & Working Directory
+Ensure your terminal is in the project directory:
 ```bash
-python3 -m venv .venv
+cd /home/sivaguru/Documents/slm/gov-scheme-qa
 source .venv/bin/activate
-pip install -r requirements.txt
 ```
 
 ### 2. Run Interactive Terminal CLI
+You can launch the CLI using the helper script:
 ```bash
-python3 -m app.cli
+./run_cli.sh
+```
+Or directly with Python:
+```bash
+.venv/bin/python -m app.cli
 ```
 
 ### 3. Run FastAPI Web Application & UI
 ```bash
-uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+./run_server.sh
+# Or directly:
+.venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
 Open your browser at: `http://localhost:8000`
 
 ### 4. Run Automated Test Suite
 ```bash
+./run_tests.sh
+# Or directly:
 PYTHONPATH=. pytest tests/ -v
 ```
 
